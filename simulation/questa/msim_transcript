@@ -1,0 +1,1129 @@
+# Reading pref.tcl
+# //  Questa Intel Starter FPGA Edition-64
+# //  Version 2023.3 win64 Jul 17 2023
+# //
+# //  Copyright 1991-2023 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do scopeNoMPU_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Questa Intel Starter FPGA Edition-64 vmap 2023.3 Lib Mapping Utility 2023.07 Jul 17 2023
+# vmap work rtl_work 
+# Copying C:/intelFPGA/23.1std/questa_fse/win64/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Manuel\ Hernandez/Documents/GitHub/ChannelEmulation/0000204D_FFT/hdl {C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/0000204D_FFT/hdl/ID0000204D_FFT_core.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 18:02:05 on Mar 06,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/0000204D_FFT/hdl" C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/0000204D_FFT/hdl/ID0000204D_FFT_core.v 
+# -- Compiling module ID0000204D_FFT_core
+# 
+# Top level modules:
+# 	ID0000204D_FFT_core
+# End time: 18:02:06 on Mar 06,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Manuel\ Hernandez/Documents/GitHub/ChannelEmulation/0000204D_FFT/hdl {C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/0000204D_FFT/hdl/true_dual_port_ram_single_clock.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 18:02:06 on Mar 06,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/0000204D_FFT/hdl" C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/0000204D_FFT/hdl/true_dual_port_ram_single_clock.v 
+# -- Compiling module true_dual_port_ram_single_clock
+# 
+# Top level modules:
+# 	true_dual_port_ram_single_clock
+# End time: 18:02:06 on Mar 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Manuel\ Hernandez/Documents/GitHub/ChannelEmulation/modCuadrado/hdl {C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/modCuadrado/hdl/ID0000100C_modCuad_power2.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 18:02:06 on Mar 06,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/modCuadrado/hdl" C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/modCuadrado/hdl/ID0000100C_modCuad_power2.v 
+# -- Compiling module ID0000100C_modCuad_power2
+# 
+# Top level modules:
+# 	ID0000100C_modCuad_power2
+# End time: 18:02:06 on Mar 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Manuel\ Hernandez/Documents/GitHub/ChannelEmulation/modCuadrado/hdl {C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/modCuadrado/hdl/ID0000100C_modCuad_core.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 18:02:06 on Mar 06,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/modCuadrado/hdl" C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/modCuadrado/hdl/ID0000100C_modCuad_core.v 
+# -- Compiling module ID0000100C_modCuad_core
+# 
+# Top level modules:
+# 	ID0000100C_modCuad_core
+# End time: 18:02:06 on Mar 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Manuel\ Hernandez/Documents/GitHub/ChannelEmulation/modCuadrado/hdl {C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/modCuadrado/hdl/ID0000100C_aipModCuad_datapath.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 18:02:06 on Mar 06,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/modCuadrado/hdl" C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/modCuadrado/hdl/ID0000100C_aipModCuad_datapath.v 
+# -- Compiling module ID0000100C_modCuad_datapath
+# 
+# Top level modules:
+# 	ID0000100C_modCuad_datapath
+# End time: 18:02:06 on Mar 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Manuel\ Hernandez/Documents/GitHub/ChannelEmulation/modCuadrado/hdl {C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/modCuadrado/hdl/ID0000100C_aipModCuad_controlpath.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 18:02:06 on Mar 06,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/modCuadrado/hdl" C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/modCuadrado/hdl/ID0000100C_aipModCuad_controlpath.v 
+# -- Compiling module ID0000100C_modCuad_controlpath
+# 
+# Top level modules:
+# 	ID0000100C_modCuad_controlpath
+# End time: 18:02:06 on Mar 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Manuel\ Hernandez/Documents/GitHub/ChannelEmulation/decim2scope/hdl {C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/decim2scope/hdl/ID00001009_decim2scope_datapath.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 18:02:06 on Mar 06,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/decim2scope/hdl" C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/decim2scope/hdl/ID00001009_decim2scope_datapath.v 
+# -- Compiling module ID00001009_decim2scope_datapath
+# 
+# Top level modules:
+# 	ID00001009_decim2scope_datapath
+# End time: 18:02:06 on Mar 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Manuel\ Hernandez/Documents/GitHub/ChannelEmulation/decim2scope/hdl {C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/decim2scope/hdl/ID00001009_decim2scope_core.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 18:02:06 on Mar 06,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/decim2scope/hdl" C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/decim2scope/hdl/ID00001009_decim2scope_core.v 
+# -- Compiling module ID00001009_decim2scope_core
+# 
+# Top level modules:
+# 	ID00001009_decim2scope_core
+# End time: 18:02:06 on Mar 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Manuel\ Hernandez/Documents/GitHub/ChannelEmulation/decim2scope/hdl {C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/decim2scope/hdl/ID00001009_decim2scope_controlpath.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 18:02:07 on Mar 06,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/decim2scope/hdl" C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/decim2scope/hdl/ID00001009_decim2scope_controlpath.v 
+# -- Compiling module ID00001009_decim2scope_controlpath
+# 
+# Top level modules:
+# 	ID00001009_decim2scope_controlpath
+# End time: 18:02:07 on Mar 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Manuel\ Hernandez/Documents/GitHub/ChannelEmulation/intpolFrac/hdl {C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/intpolFrac/hdl/intpolFrac_datapath.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 18:02:07 on Mar 06,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/intpolFrac/hdl" C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/intpolFrac/hdl/intpolFrac_datapath.v 
+# -- Compiling module intpolFrac_datapath
+# 
+# Top level modules:
+# 	intpolFrac_datapath
+# End time: 18:02:07 on Mar 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Manuel\ Hernandez/Documents/GitHub/ChannelEmulation/intpolFrac/hdl {C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/intpolFrac/hdl/intpolFrac_core.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 18:02:07 on Mar 06,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/intpolFrac/hdl" C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/intpolFrac/hdl/intpolFrac_core.v 
+# -- Compiling module intpolFrac_core
+# 
+# Top level modules:
+# 	intpolFrac_core
+# End time: 18:02:07 on Mar 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Manuel\ Hernandez/Documents/GitHub/ChannelEmulation/intpolFrac/hdl {C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/intpolFrac/hdl/intpolFrac_controlpath.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 18:02:07 on Mar 06,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/intpolFrac/hdl" C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/intpolFrac/hdl/intpolFrac_controlpath.v 
+# -- Compiling module intpolFrac_controlpath
+# 
+# Top level modules:
+# 	intpolFrac_controlpath
+# End time: 18:02:07 on Mar 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Manuel\ Hernandez/Documents/GitHub/ChannelEmulation/intpolFrac/hdl/intpol {C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/intpolFrac/hdl/intpol/substract.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 18:02:07 on Mar 06,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/intpolFrac/hdl/intpol" C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/intpolFrac/hdl/intpol/substract.v 
+# -- Compiling module substract
+# 
+# Top level modules:
+# 	substract
+# End time: 18:02:07 on Mar 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Manuel\ Hernandez/Documents/GitHub/ChannelEmulation/intpolFrac/hdl/intpol {C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/intpolFrac/hdl/intpol/shifter_I_1.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 18:02:07 on Mar 06,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/intpolFrac/hdl/intpol" C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/intpolFrac/hdl/intpol/shifter_I_1.v 
+# -- Compiling module shifter_I_1
+# 
+# Top level modules:
+# 	shifter_I_1
+# End time: 18:02:07 on Mar 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Manuel\ Hernandez/Documents/GitHub/ChannelEmulation/intpolFrac/hdl/intpol {C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/intpolFrac/hdl/intpol/shifter_D_X_D3.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 18:02:07 on Mar 06,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/intpolFrac/hdl/intpol" C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/intpolFrac/hdl/intpol/shifter_D_X_D3.v 
+# -- Compiling module shifter_D_X_D3
+# 
+# Top level modules:
+# 	shifter_D_X_D3
+# End time: 18:02:07 on Mar 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Manuel\ Hernandez/Documents/GitHub/ChannelEmulation/intpolFrac/hdl/intpol {C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/intpolFrac/hdl/intpol/shifter_D_1.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 18:02:07 on Mar 06,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/intpolFrac/hdl/intpol" C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/intpolFrac/hdl/intpol/shifter_D_1.v 
+# -- Compiling module shifter_D_1
+# 
+# Top level modules:
+# 	shifter_D_1
+# End time: 18:02:07 on Mar 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Manuel\ Hernandez/Documents/GitHub/ChannelEmulation/intpolFrac/hdl/intpol {C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/intpolFrac/hdl/intpol/mux_p_xi_base_D3.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 18:02:07 on Mar 06,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/intpolFrac/hdl/intpol" C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/intpolFrac/hdl/intpol/mux_p_xi_base_D3.v 
+# -- Compiling module mux_p_xi_base_D3
+# 
+# Top level modules:
+# 	mux_p_xi_base_D3
+# End time: 18:02:08 on Mar 06,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Manuel\ Hernandez/Documents/GitHub/ChannelEmulation/intpolFrac/hdl/intpol {C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/intpolFrac/hdl/intpol/intpol2scope_input_register.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 18:02:08 on Mar 06,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/intpolFrac/hdl/intpol" C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/intpolFrac/hdl/intpol/intpol2scope_input_register.v 
+# -- Compiling module intpol2scope_input_register
+# 
+# Top level modules:
+# 	intpol2scope_input_register
+# End time: 18:02:08 on Mar 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Manuel\ Hernandez/Documents/GitHub/ChannelEmulation/intpolFrac/hdl/intpol {C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/intpolFrac/hdl/intpol/intpol2scope_fsm.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 18:02:08 on Mar 06,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/intpolFrac/hdl/intpol" C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/intpolFrac/hdl/intpol/intpol2scope_fsm.v 
+# -- Compiling module intpol2scope_fsm
+# 
+# Top level modules:
+# 	intpol2scope_fsm
+# End time: 18:02:08 on Mar 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Manuel\ Hernandez/Documents/GitHub/ChannelEmulation/intpolFrac/hdl/intpol {C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/intpolFrac/hdl/intpol/intpol2scope_core.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 18:02:08 on Mar 06,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/intpolFrac/hdl/intpol" C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/intpolFrac/hdl/intpol/intpol2scope_core.v 
+# -- Compiling module intpol2scope_core
+# 
+# Top level modules:
+# 	intpol2scope_core
+# End time: 18:02:08 on Mar 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Manuel\ Hernandez/Documents/GitHub/ChannelEmulation/intpolFrac/hdl/intpol {C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/intpolFrac/hdl/intpol/half_multiplier_D3.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 18:02:08 on Mar 06,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/intpolFrac/hdl/intpol" C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/intpolFrac/hdl/intpol/half_multiplier_D3.v 
+# -- Compiling module half_multiplier_D3
+# 
+# Top level modules:
+# 	half_multiplier_D3
+# End time: 18:02:08 on Mar 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Manuel\ Hernandez/Documents/GitHub/ChannelEmulation/intpolFrac/hdl/intpol {C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/intpolFrac/hdl/intpol/decoder_D3.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 18:02:08 on Mar 06,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/intpolFrac/hdl/intpol" C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/intpolFrac/hdl/intpol/decoder_D3.v 
+# -- Compiling module decoder_D3
+# 
+# Top level modules:
+# 	decoder_D3
+# End time: 18:02:08 on Mar 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Manuel\ Hernandez/Documents/GitHub/ChannelEmulation/intpolFrac/hdl/intpol {C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/intpolFrac/hdl/intpol/coeficient_math.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 18:02:08 on Mar 06,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/intpolFrac/hdl/intpol" C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/intpolFrac/hdl/intpol/coeficient_math.v 
+# -- Compiling module coeficient_math
+# 
+# Top level modules:
+# 	coeficient_math
+# End time: 18:02:08 on Mar 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Manuel\ Hernandez/Documents/GitHub/ChannelEmulation/intpolFrac/hdl/intpol {C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/intpolFrac/hdl/intpol/coefficient_handler.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 18:02:08 on Mar 06,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/intpolFrac/hdl/intpol" C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/intpolFrac/hdl/intpol/coefficient_handler.v 
+# -- Compiling module coefficient_handler
+# 
+# Top level modules:
+# 	coefficient_handler
+# End time: 18:02:08 on Mar 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Manuel\ Hernandez/Documents/GitHub/ChannelEmulation/intpolFrac/hdl/intpol {C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/intpolFrac/hdl/intpol/adder.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 18:02:08 on Mar 06,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/intpolFrac/hdl/intpol" C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/intpolFrac/hdl/intpol/adder.v 
+# -- Compiling module adder
+# 
+# Top level modules:
+# 	adder
+# End time: 18:02:08 on Mar 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Manuel\ Hernandez/Documents/GitHub/ChannelEmulation/intpolFrac/hdl/decim2frac {C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/intpolFrac/hdl/decim2frac/ID0000100F_decim2frac_datapath.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 18:02:09 on Mar 06,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/intpolFrac/hdl/decim2frac" C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/intpolFrac/hdl/decim2frac/ID0000100F_decim2frac_datapath.v 
+# -- Compiling module ID0000100F_decim2frac_datapath
+# 
+# Top level modules:
+# 	ID0000100F_decim2frac_datapath
+# End time: 18:02:09 on Mar 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Manuel\ Hernandez/Documents/GitHub/ChannelEmulation/intpolFrac/hdl/decim2frac {C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/intpolFrac/hdl/decim2frac/ID0000100F_decim2frac_core.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 18:02:09 on Mar 06,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/intpolFrac/hdl/decim2frac" C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/intpolFrac/hdl/decim2frac/ID0000100F_decim2frac_core.v 
+# -- Compiling module ID0000100F_decim2frac_core
+# 
+# Top level modules:
+# 	ID0000100F_decim2frac_core
+# End time: 18:02:09 on Mar 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Manuel\ Hernandez/Documents/GitHub/ChannelEmulation/intpolFrac/hdl/decim2frac {C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/intpolFrac/hdl/decim2frac/ID0000100F_decim2frac_controlpath.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 18:02:09 on Mar 06,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/intpolFrac/hdl/decim2frac" C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/intpolFrac/hdl/decim2frac/ID0000100F_decim2frac_controlpath.v 
+# -- Compiling module ID0000100F_decim2frac_controlpath
+# 
+# Top level modules:
+# 	ID0000100F_decim2frac_controlpath
+# End time: 18:02:09 on Mar 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Manuel\ Hernandez/Documents/GitHub/Booth {C:/Users/Manuel Hernandez/Documents/GitHub/Booth/booth_element.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 18:02:09 on Mar 06,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Manuel Hernandez/Documents/GitHub/Booth" C:/Users/Manuel Hernandez/Documents/GitHub/Booth/booth_element.v 
+# -- Compiling module booth_element
+# 
+# Top level modules:
+# 	booth_element
+# End time: 18:02:09 on Mar 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Manuel\ Hernandez/Documents/GitHub/Booth {C:/Users/Manuel Hernandez/Documents/GitHub/Booth/booth_datapath.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 18:02:09 on Mar 06,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Manuel Hernandez/Documents/GitHub/Booth" C:/Users/Manuel Hernandez/Documents/GitHub/Booth/booth_datapath.v 
+# -- Compiling module booth_datapath
+# 
+# Top level modules:
+# 	booth_datapath
+# End time: 18:02:09 on Mar 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Manuel\ Hernandez/Documents/GitHub/Booth {C:/Users/Manuel Hernandez/Documents/GitHub/Booth/booth_core.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 18:02:09 on Mar 06,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Manuel Hernandez/Documents/GitHub/Booth" C:/Users/Manuel Hernandez/Documents/GitHub/Booth/booth_core.v 
+# -- Compiling module booth_core
+# 
+# Top level modules:
+# 	booth_core
+# End time: 18:02:09 on Mar 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Manuel\ Hernandez/Documents/GitHub/Booth {C:/Users/Manuel Hernandez/Documents/GitHub/Booth/booth_controlpath.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 18:02:09 on Mar 06,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Manuel Hernandez/Documents/GitHub/Booth" C:/Users/Manuel Hernandez/Documents/GitHub/Booth/booth_controlpath.v 
+# -- Compiling module booth_controlpath
+# 
+# Top level modules:
+# 	booth_controlpath
+# End time: 18:02:09 on Mar 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Manuel\ Hernandez/Documents/GitHub/Divider_signed/top {C:/Users/Manuel Hernandez/Documents/GitHub/Divider_signed/top/dividerSig_core.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 18:02:09 on Mar 06,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Manuel Hernandez/Documents/GitHub/Divider_signed/top" C:/Users/Manuel Hernandez/Documents/GitHub/Divider_signed/top/dividerSig_core.v 
+# -- Compiling module dividerSig_core
+# 
+# Top level modules:
+# 	dividerSig_core
+# End time: 18:02:09 on Mar 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Manuel\ Hernandez/Documents/GitHub/Divider_signed/hdl {C:/Users/Manuel Hernandez/Documents/GitHub/Divider_signed/hdl/dividerSig_element.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 18:02:09 on Mar 06,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Manuel Hernandez/Documents/GitHub/Divider_signed/hdl" C:/Users/Manuel Hernandez/Documents/GitHub/Divider_signed/hdl/dividerSig_element.v 
+# -- Compiling module dividerSig_element
+# 
+# Top level modules:
+# 	dividerSig_element
+# End time: 18:02:10 on Mar 06,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Manuel\ Hernandez/Documents/GitHub/Divider_signed/hdl {C:/Users/Manuel Hernandez/Documents/GitHub/Divider_signed/hdl/dividerSig_datapath.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 18:02:10 on Mar 06,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Manuel Hernandez/Documents/GitHub/Divider_signed/hdl" C:/Users/Manuel Hernandez/Documents/GitHub/Divider_signed/hdl/dividerSig_datapath.v 
+# -- Compiling module dividerSig_datapath
+# 
+# Top level modules:
+# 	dividerSig_datapath
+# End time: 18:02:10 on Mar 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Manuel\ Hernandez/Documents/GitHub/Divider_signed/hdl {C:/Users/Manuel Hernandez/Documents/GitHub/Divider_signed/hdl/dividerSig_controlpath.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 18:02:10 on Mar 06,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Manuel Hernandez/Documents/GitHub/Divider_signed/hdl" C:/Users/Manuel Hernandez/Documents/GitHub/Divider_signed/hdl/dividerSig_controlpath.v 
+# -- Compiling module dividerSig_controlpath
+# 
+# Top level modules:
+# 	dividerSig_controlpath
+# End time: 18:02:10 on Mar 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Manuel\ Hernandez/Documents/GitHub/ChannelEmulation/00001008_Scope/hdl {C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/00001008_Scope/hdl/ID00001008_tx_video.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 18:02:10 on Mar 06,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/00001008_Scope/hdl" C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/00001008_Scope/hdl/ID00001008_tx_video.v 
+# -- Compiling module ID00001008_TxVideo
+# 
+# Top level modules:
+# 	ID00001008_TxVideo
+# End time: 18:02:10 on Mar 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Manuel\ Hernandez/Documents/GitHub/ChannelEmulation/00001008_Scope/hdl {C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/00001008_Scope/hdl/ID00001008_tx_control.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 18:02:10 on Mar 06,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/00001008_Scope/hdl" C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/00001008_Scope/hdl/ID00001008_tx_control.v 
+# -- Compiling module ID00001008_TxCntrl
+# 
+# Top level modules:
+# 	ID00001008_TxCntrl
+# End time: 18:02:10 on Mar 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Manuel\ Hernandez/Documents/GitHub/ChannelEmulation/00001008_Scope/hdl {C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/00001008_Scope/hdl/ID00001008_tx_config.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 18:02:10 on Mar 06,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/00001008_Scope/hdl" C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/00001008_Scope/hdl/ID00001008_tx_config.v 
+# -- Compiling module ID00001008_TxConfig
+# 
+# Top level modules:
+# 	ID00001008_TxConfig
+# End time: 18:02:10 on Mar 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Manuel\ Hernandez/Documents/GitHub/ChannelEmulation/00001008_Scope/hdl {C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/00001008_Scope/hdl/ID00001008_tx_command.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 18:02:10 on Mar 06,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/00001008_Scope/hdl" C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/00001008_Scope/hdl/ID00001008_tx_command.v 
+# -- Compiling module ID00001008_TxCmd
+# 
+# Top level modules:
+# 	ID00001008_TxCmd
+# End time: 18:02:10 on Mar 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Manuel\ Hernandez/Documents/GitHub/ChannelEmulation/00001008_Scope/hdl {C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/00001008_Scope/hdl/ID00001008_ILI9327Core.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 18:02:10 on Mar 06,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/00001008_Scope/hdl" C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/00001008_Scope/hdl/ID00001008_ILI9327Core.v 
+# -- Compiling module ID00001008_ILI9327Core
+# 
+# Top level modules:
+# 	ID00001008_ILI9327Core
+# End time: 18:02:10 on Mar 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Manuel\ Hernandez/Documents/GitHub/ChannelEmulation/scopeNoMPU/hdl {C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/scopeNoMPU/hdl/ID00001011_scopeNoMPU_datapath.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 18:02:10 on Mar 06,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/scopeNoMPU/hdl" C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/scopeNoMPU/hdl/ID00001011_scopeNoMPU_datapath.v 
+# -- Compiling module ID00001011_scopeNoMPU_datapath
+# 
+# Top level modules:
+# 	ID00001011_scopeNoMPU_datapath
+# End time: 18:02:11 on Mar 06,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Manuel\ Hernandez/Documents/GitHub/ChannelEmulation/scopeNoMPU/hdl {C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/scopeNoMPU/hdl/ID00001011_scopeNoMPU_core.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 18:02:11 on Mar 06,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/scopeNoMPU/hdl" C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/scopeNoMPU/hdl/ID00001011_scopeNoMPU_core.v 
+# -- Compiling module ID00001011_scopeNoMPU_core
+# 
+# Top level modules:
+# 	ID00001011_scopeNoMPU_core
+# End time: 18:02:11 on Mar 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Manuel\ Hernandez/Documents/GitHub/ChannelEmulation/scopeNoMPU/hdl {C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/scopeNoMPU/hdl/ID00001011_scopeNoMPU_controlpath.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 18:02:11 on Mar 06,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/scopeNoMPU/hdl" C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/scopeNoMPU/hdl/ID00001011_scopeNoMPU_controlpath.v 
+# -- Compiling module ID00001011_scopeNoMPU_controlpath
+# 
+# Top level modules:
+# 	ID00001011_scopeNoMPU_controlpath
+# End time: 18:02:11 on Mar 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Manuel\ Hernandez/Documents/GitHub/ChannelEmulation/scopeNoMPU/hdl {C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/scopeNoMPU/hdl/ID00001011_scopeNoMPU_aip.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 18:02:11 on Mar 06,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/scopeNoMPU/hdl" C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/scopeNoMPU/hdl/ID00001011_scopeNoMPU_aip.v 
+# -- Compiling module ID00001011_scopeNoMPU_aip
+# -- Compiling module ID00001011_scopeNoMPU_aipModules
+# -- Compiling module ID00001011_scopeNoMPU_aipCtrl
+# 
+# Top level modules:
+# 	ID00001011_scopeNoMPU_aip
+# End time: 18:02:11 on Mar 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Manuel\ Hernandez/Documents/GitHub/ChannelEmulation/scopeNoMPU/hdl {C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/scopeNoMPU/hdl/ID00001011_aipScopeNoMPU.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 18:02:11 on Mar 06,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/scopeNoMPU/hdl" C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/scopeNoMPU/hdl/ID00001011_aipScopeNoMPU.v 
+# -- Compiling module ID00001011_aipScopeNoMPU
+# 
+# Top level modules:
+# 	ID00001011_aipScopeNoMPU
+# End time: 18:02:11 on Mar 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Manuel\ Hernandez/Documents/GitHub/ChannelEmulation/scopeNoMPU/hdl/scr {C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/scopeNoMPU/hdl/scr/ipmScopeNoMPU.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 18:02:11 on Mar 06,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/scopeNoMPU/hdl/scr" C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/scopeNoMPU/hdl/scr/ipmScopeNoMPU.v 
+# -- Compiling module ipmScopeNoMPU
+# 
+# Top level modules:
+# 	ipmScopeNoMPU
+# End time: 18:02:11 on Mar 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Manuel\ Hernandez/Documents/GitHub/basicblocks/ipm {C:/Users/Manuel Hernandez/Documents/GitHub/basicblocks/ipm/ipm_register.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 18:02:11 on Mar 06,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Manuel Hernandez/Documents/GitHub/basicblocks/ipm" C:/Users/Manuel Hernandez/Documents/GitHub/basicblocks/ipm/ipm_register.v 
+# -- Compiling module ipm_register
+# 
+# Top level modules:
+# 	ipm_register
+# End time: 18:02:11 on Mar 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Manuel\ Hernandez/Documents/GitHub/basicblocks/ipm {C:/Users/Manuel Hernandez/Documents/GitHub/basicblocks/ipm/ipm.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 18:02:11 on Mar 06,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Manuel Hernandez/Documents/GitHub/basicblocks/ipm" C:/Users/Manuel Hernandez/Documents/GitHub/basicblocks/ipm/ipm.v 
+# -- Compiling module ipm
+# 
+# Top level modules:
+# 	ipm
+# End time: 18:02:11 on Mar 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Manuel\ Hernandez/Documents/GitHub/basicblocks/memories {C:/Users/Manuel Hernandez/Documents/GitHub/basicblocks/memories/simple_dual_port_ram_single_clk.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 18:02:11 on Mar 06,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Manuel Hernandez/Documents/GitHub/basicblocks/memories" C:/Users/Manuel Hernandez/Documents/GitHub/basicblocks/memories/simple_dual_port_ram_single_clk.v 
+# -- Compiling module simple_dual_port_ram_single_clk
+# 
+# Top level modules:
+# 	simple_dual_port_ram_single_clk
+# End time: 18:02:12 on Mar 06,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Manuel\ Hernandez/Documents/GitHub/basicblocks/aip {C:/Users/Manuel Hernandez/Documents/GitHub/basicblocks/aip/aipStatus.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 18:02:12 on Mar 06,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Manuel Hernandez/Documents/GitHub/basicblocks/aip" C:/Users/Manuel Hernandez/Documents/GitHub/basicblocks/aip/aipStatus.v 
+# -- Compiling module aipStatus
+# 
+# Top level modules:
+# 	aipStatus
+# End time: 18:02:12 on Mar 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Manuel\ Hernandez/Documents/GitHub/basicblocks/aip {C:/Users/Manuel Hernandez/Documents/GitHub/basicblocks/aip/aipParametricMux.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 18:02:12 on Mar 06,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Manuel Hernandez/Documents/GitHub/basicblocks/aip" C:/Users/Manuel Hernandez/Documents/GitHub/basicblocks/aip/aipParametricMux.v 
+# -- Compiling module aipParametricMux
+# 
+# Top level modules:
+# 	aipParametricMux
+# End time: 18:02:12 on Mar 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Manuel\ Hernandez/Documents/GitHub/basicblocks/aip {C:/Users/Manuel Hernandez/Documents/GitHub/basicblocks/aip/aipId.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 18:02:12 on Mar 06,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Manuel Hernandez/Documents/GitHub/basicblocks/aip" C:/Users/Manuel Hernandez/Documents/GitHub/basicblocks/aip/aipId.v 
+# -- Compiling module aipId
+# 
+# Top level modules:
+# 	aipId
+# End time: 18:02:12 on Mar 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Manuel\ Hernandez/Documents/GitHub/basicblocks/aip {C:/Users/Manuel Hernandez/Documents/GitHub/basicblocks/aip/aipConfigurationRegister.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 18:02:12 on Mar 06,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Manuel Hernandez/Documents/GitHub/basicblocks/aip" C:/Users/Manuel Hernandez/Documents/GitHub/basicblocks/aip/aipConfigurationRegister.v 
+# -- Compiling module aipConfigurationRegister
+# 
+# Top level modules:
+# 	aipConfigurationRegister
+# End time: 18:02:12 on Mar 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Manuel\ Hernandez/Documents/GitHub/ChannelEmulation/scopeNoMPU/hdl/scopeSignalMapper {C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/scopeNoMPU/hdl/scopeSignalMapper/ID00001012_scopeSignalMapper_core.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 18:02:12 on Mar 06,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/scopeNoMPU/hdl/scopeSignalMapper" C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/scopeNoMPU/hdl/scopeSignalMapper/ID00001012_scopeSignalMapper_core.v 
+# -- Compiling module ID00001012_scopeSignalMapper_core
+# 
+# Top level modules:
+# 	ID00001012_scopeSignalMapper_core
+# End time: 18:02:12 on Mar 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Manuel\ Hernandez/Documents/GitHub/ChannelEmulation/scopeNoMPU/hdl/scopeSignalMapper {C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/scopeNoMPU/hdl/scopeSignalMapper/ID00001012_scopeSignalMapper_datapath.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 18:02:12 on Mar 06,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/scopeNoMPU/hdl/scopeSignalMapper" C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/scopeNoMPU/hdl/scopeSignalMapper/ID00001012_scopeSignalMapper_datapath.v 
+# -- Compiling module ID00001012_scopeSignalMapper_datapath
+# 
+# Top level modules:
+# 	ID00001012_scopeSignalMapper_datapath
+# End time: 18:02:12 on Mar 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Manuel\ Hernandez/Documents/GitHub/ChannelEmulation/scopeNoMPU/hdl/scopeSignalMapper {C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/scopeNoMPU/hdl/scopeSignalMapper/ID00001012_scopeSignalMapper_controlpath.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 18:02:12 on Mar 06,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/scopeNoMPU/hdl/scopeSignalMapper" C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/scopeNoMPU/hdl/scopeSignalMapper/ID00001012_scopeSignalMapper_controlpath.v 
+# -- Compiling module ID00001012_scopeSignalMapper_controlpath
+# 
+# Top level modules:
+# 	ID00001012_scopeSignalMapper_controlpath
+# End time: 18:02:12 on Mar 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Manuel\ Hernandez/Documents/GitHub/ChannelEmulation/scopeNoMPU/hdl {C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/scopeNoMPU/hdl/maxFound.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 18:02:12 on Mar 06,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/scopeNoMPU/hdl" C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/scopeNoMPU/hdl/maxFound.v 
+# -- Compiling module maxFound
+# 
+# Top level modules:
+# 	maxFound
+# End time: 18:02:12 on Mar 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Manuel\ Hernandez/Documents/GitHub/ChannelEmulation/scopeNoMPU/hdl {C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/scopeNoMPU/hdl/scopeScaler.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 18:02:13 on Mar 06,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/scopeNoMPU/hdl" C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/scopeNoMPU/hdl/scopeScaler.v 
+# -- Compiling module scopeScaler
+# 
+# Top level modules:
+# 	scopeScaler
+# End time: 18:02:13 on Mar 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Manuel\ Hernandez/Documents/GitHub/ChannelEmulation/scopeNoMPU/hdl {C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/scopeNoMPU/hdl/mapper.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 18:02:13 on Mar 06,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/scopeNoMPU/hdl" C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/scopeNoMPU/hdl/mapper.v 
+# -- Compiling module mapper
+# 
+# Top level modules:
+# 	mapper
+# End time: 18:02:13 on Mar 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Manuel\ Hernandez/Documents/GitHub/ChannelEmulation/scopeNoMPU/hdl {C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/scopeNoMPU/hdl/regBitMem.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 18:02:13 on Mar 06,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/scopeNoMPU/hdl" C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/scopeNoMPU/hdl/regBitMem.v 
+# -- Compiling module regBitMem
+# 
+# Top level modules:
+# 	regBitMem
+# End time: 18:02:13 on Mar 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Manuel\ Hernandez/Documents/GitHub/ChannelEmulation/scopeNoMPU/hdl {C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/scopeNoMPU/hdl/fftshift.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 18:02:13 on Mar 06,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/scopeNoMPU/hdl" C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/scopeNoMPU/hdl/fftshift.v 
+# -- Compiling module fftshift
+# 
+# Top level modules:
+# 	fftshift
+# End time: 18:02:13 on Mar 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Manuel\ Hernandez/Documents/GitHub/ChannelEmulation/scopeNoMPU/hdl {C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/scopeNoMPU/hdl/average.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 18:02:13 on Mar 06,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/scopeNoMPU/hdl" C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/scopeNoMPU/hdl/average.v 
+# -- Compiling module average
+# 
+# Top level modules:
+# 	average
+# End time: 18:02:13 on Mar 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Manuel\ Hernandez/Documents/GitHub/ChannelEmulation/scopeNoMPU/hdl {C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/scopeNoMPU/hdl/backgroundMem.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 18:02:13 on Mar 06,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/scopeNoMPU/hdl" C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/scopeNoMPU/hdl/backgroundMem.v 
+# -- Compiling module backgroundMem
+# 
+# Top level modules:
+# 	backgroundMem
+# End time: 18:02:13 on Mar 06,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# do "C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/scopeNoMPU/simulation/questa/comp_sim.do"
+# vlib work
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# vmap work work
+# Questa Intel Starter FPGA Edition-64 vmap 2023.3 Lib Mapping Utility 2023.07 Jul 17 2023
+# vmap work work 
+# Modifying modelsim.ini
+# vlog -F scopeNoMPU.files 
+# Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+# Start time: 18:02:13 on Mar 06,2026
+# vlog -reportprogress 300 -F scopeNoMPU.files 
+# -- Compiling module AIP_scopeNoMPU_tb
+# -- Compiling module sub
+# -- Compiling module simple_dual_port_ram_single_clk_mine
+# -- Compiling module parametrized_regs_itcltd
+# -- Compiling module multiplier
+# -- Compiling module DC_FIFO_AF_AE
+# -- Compiling module adderMxV
+# -- Compiling module word_converter
+# -- Compiling module ID0000100F_FFTinMxV_vector_register
+# -- Compiling module ID0000100F_FFTinMxV_PEs
+# -- Compiling module ID0000100F_FFTinMxV_PE_0
+# -- Compiling module ID0000100F_FFTinMxV_PE
+# -- Compiling module ID0000100F_FFTinMxV_next_state_logic
+# -- Compiling module ID0000100F_FFTinMxV_datapath
+# -- Compiling module ID0000100F_FFTinMxV_core
+# -- Compiling module ID0000100F_FFTinMxV_controlpath
+# -- Compiling module ID0000100F_FFTinMxV_aip
+# -- Compiling module ID0000100F_FFTinMxV_aipModules
+# -- Compiling module ID0000100F_FFTinMxV_aipCtrl
+# -- Compiling module ID0000100F_aipFFTinMxV
+# -- Compiling module ID0000100C_modCuad_power2
+# -- Compiling module ID0000100C_modCuad_core
+# -- Compiling module ID0000100C_modCuad_datapath
+# -- Compiling module ID0000100C_modCuad_controlpath
+# -- Compiling module ID0000100C_modCuad_aip
+# -- Compiling module ID0000100C_modCuad_aipModules
+# -- Compiling module ID0000100C_modCuad_aipCtrl
+# -- Compiling module ID00001009_decim2scope_datapath
+# -- Compiling module ID00001009_decim2scope_core
+# -- Compiling module ID00001009_decim2scope_controlpath
+# -- Compiling module ID00001009_decim2scope_aip
+# -- Compiling module ID00001009_decim2scopeaipModules
+# -- Compiling module ID00001009_decim2scope_aipCtrl
+# -- Compiling module intpolFrac_datapath
+# -- Compiling module intpolFrac_core
+# -- Compiling module intpolFrac_controlpath
+# -- Compiling module ID0000100A_intpolFrac_aip
+# -- Compiling module ID0000100A_intpolFrac_aipModules
+# -- Compiling module ID0000100A_intpolFrac_aipCtrl
+# -- Compiling module substract
+# -- Compiling module shifter_I_1
+# -- Compiling module shifter_D_X_D3
+# -- Compiling module shifter_D_1
+# -- Compiling module mux_p_xi_base_D3
+# -- Compiling module intpol2scope_input_register
+# -- Compiling module intpol2scope_fsm
+# -- Compiling module intpol2scope_datapath
+# -- Compiling module intpol2scope_core
+# -- Compiling module intpol2scope_controlpath
+# -- Compiling module ID00001006_intpol2scope_aip
+# -- Compiling module ID00001006_intpol2scope_aipModules
+# -- Compiling module ID00001006_intpol2scope_aipCtrl
+# -- Compiling module half_multiplier_D3
+# -- Compiling module decoder_D3
+# -- Compiling module coeficient_math
+# -- Compiling module coefficient_handler
+# -- Compiling module aipIntpol2scope
+# -- Compiling module adder
+# -- Compiling module ID0000100F_decim2frac_datapath
+# -- Compiling module ID0000100F_decim2frac_core
+# -- Compiling module ID0000100F_decim2frac_controlpath
+# -- Compiling module ID0000100F_decim2frac_aip
+# -- Compiling module ID0000100F_decim2frac_aipModules
+# -- Compiling module ID0000100F_decim2frac_aipCtrl
+# -- Compiling module ID0000100F_aipDecim2frac
+# -- Compiling module booth_element
+# -- Compiling module booth_datapath
+# -- Compiling module booth_core
+# -- Compiling module booth_controlpath
+# -- Compiling module dividerSig_core
+# -- Compiling module dividerSig_element
+# -- Compiling module dividerSig_datapath
+# -- Compiling module dividerSig_controlpath
+# -- Compiling module ID00001008_TxVideo
+# -- Compiling module ID00001008_TxCntrl
+# -- Compiling module ID00001008_TxConfig
+# -- Compiling module ID00001008_TxCmd
+# -- Compiling module ID00001008_ILI9327Core
+# -- Compiling module ID00001008_aip
+# -- Compiling module ID00001008_aipCtrl
+# -- Compiling module ID00001011_scopeNoMPU_datapath
+# -- Compiling module ID00001011_scopeNoMPU_core
+# -- Compiling module ID00001011_scopeNoMPU_controlpath
+# -- Compiling module ID00001011_scopeNoMPU_aip
+# -- Compiling module ID00001011_scopeNoMPU_aipModules
+# -- Compiling module ID00001011_scopeNoMPU_aipCtrl
+# -- Compiling module ID00001011_aipScopeNoMPU
+# -- Compiling module ipmScopeNoMPU
+# -- Compiling module ipm_register
+# -- Compiling module ipm
+# -- Compiling module simple_dual_port_ram_single_clk
+# -- Compiling module aipStatus
+# -- Compiling module aipParametricMux
+# -- Compiling module aipId
+# -- Compiling module aipConfigurationRegister
+# -- Compiling module ID00001012_scopeSignalMapper_core
+# -- Compiling module ID00001012_scopeSignalMapper_datapath
+# -- Compiling module ID00001012_scopeSignalMapper_controlpath
+# -- Compiling module average
+# -- Compiling module maxFound
+# -- Compiling module scopeScaler
+# -- Compiling module mapper
+# -- Compiling module regBitMem
+# -- Compiling module DFTinMxVNoAIP
+# -- Compiling module backgroundMem
+# -- Compiling module fftshift
+# 
+# Top level modules:
+# 	AIP_scopeNoMPU_tb
+# 	DC_FIFO_AF_AE
+# 	ID0000100F_aipFFTinMxV
+# 	ID0000100C_modCuad_aip
+# 	ID00001009_decim2scope_aip
+# 	ID0000100A_intpolFrac_aip
+# 	intpol2scope_datapath
+# 	intpol2scope_controlpath
+# 	aipIntpol2scope
+# 	ID0000100F_aipDecim2frac
+# 	ID00001008_aip
+# 	ipmScopeNoMPU
+# 	DFTinMxVNoAIP
+# End time: 18:02:14 on Mar 06,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim -voptargs=+acc AIP_scopeNoMPU_tb
+# vsim -voptargs="+acc" AIP_scopeNoMPU_tb 
+# Start time: 18:02:14 on Mar 06,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vopt-143) Recognized 1 FSM in module "mapper(fast)".
+# ** Note: (vopt-143) Recognized 1 FSM in module "dividerSig_controlpath(fast__1)".
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading work.AIP_scopeNoMPU_tb(fast)
+# Loading work.ID00001011_aipScopeNoMPU(fast)
+# Loading work.ID00001011_scopeNoMPU_core(fast)
+# Loading work.ID00001011_scopeNoMPU_controlpath(fast)
+# Loading work.ID00001011_scopeNoMPU_datapath(fast)
+# Loading work.ID00001009_decim2scope_core(fast)
+# Loading work.ID00001009_decim2scope_controlpath(fast)
+# Loading work.ID00001009_decim2scope_datapath(fast)
+# Loading work.ID0000204D_FFT_core(fast)
+# Loading work.true_dual_port_ram_single_clock(fast)
+# Loading work.fftshift(fast)
+# Loading work.ID0000100C_modCuad_core(fast)
+# Loading work.ID0000100C_modCuad_controlpath(fast)
+# Loading work.ID0000100C_modCuad_datapath(fast)
+# Loading work.ID0000100C_modCuad_power2(fast)
+# Loading work.booth_core(fast)
+# Loading work.booth_datapath(fast)
+# Loading work.booth_element(fast)
+# Loading work.booth_controlpath(fast)
+# Loading work.intpolFrac_core(fast)
+# Loading work.intpolFrac_controlpath(fast)
+# Loading work.intpolFrac_datapath(fast)
+# Loading work.intpol2scope_core(fast)
+# Loading work.intpol2scope_input_register(fast)
+# Loading work.coeficient_math(fast)
+# Loading work.adder(fast)
+# Loading work.shifter_D_1(fast)
+# Loading work.shifter_I_1(fast)
+# Loading work.substract(fast)
+# Loading work.coefficient_handler(fast)
+# Loading work.half_multiplier_D3(fast)
+# Loading work.mux_p_xi_base_D3(fast)
+# Loading work.shifter_D_X_D3(fast)
+# Loading work.intpol2scope_fsm(fast)
+# Loading work.decoder_D3(fast)
+# Loading work.ID0000100F_decim2frac_core(fast)
+# Loading work.ID0000100F_decim2frac_controlpath(fast)
+# Loading work.ID0000100F_decim2frac_datapath(fast)
+# Loading work.ID00001012_scopeSignalMapper_core(fast)
+# Loading work.ID00001012_scopeSignalMapper_controlpath(fast)
+# Loading work.ID00001012_scopeSignalMapper_datapath(fast)
+# Loading work.maxFound(fast)
+# Loading work.scopeScaler(fast)
+# Loading work.dividerSig_core(fast)
+# Loading work.dividerSig_datapath(fast)
+# Loading work.dividerSig_element(fast)
+# Loading work.dividerSig_controlpath(fast)
+# Loading work.average(fast)
+# Loading work.dividerSig_core(fast__1)
+# Loading work.dividerSig_datapath(fast__1)
+# Loading work.dividerSig_element(fast__1)
+# Loading work.dividerSig_controlpath(fast__1)
+# Loading work.mapper(fast)
+# Loading work.regBitMem(fast)
+# Loading work.backgroundMem(fast)
+# Loading work.ID00001008_ILI9327Core(fast)
+# Loading work.ID00001008_TxCntrl(fast)
+# Loading work.ID00001008_TxVideo(fast)
+# Loading work.ID00001008_TxCmd(fast)
+# Loading work.ID00001008_TxConfig(fast)
+# Loading work.ID00001011_scopeNoMPU_aip(fast)
+# Loading work.ID00001011_scopeNoMPU_aipModules(fast)
+# Loading work.simple_dual_port_ram_single_clk(fast)
+# Loading work.aipConfigurationRegister(fast)
+# Loading work.ID00001011_scopeNoMPU_aipCtrl(fast)
+# Loading work.aipParametricMux(fast)
+# Loading work.aipId(fast)
+# Loading work.aipStatus(fast)
+# do wave.do
+# onerror {resume}
+# radix define States {
+#     "5'd0" "IDLE",
+#     "5'd1" "CONFIG",
+#     "5'd2" "READM0",
+#     "5'd3" "READM0_F",
+#     "5'd4" "WRITEM0_FB",
+#     "5'd5" "READM1",
+#     "5'd6" "READM1_F",
+#     "5'd7" "READM2",
+#     "5'd8" "READM2_F",
+#     "5'd9" "WRITEM2",
+#     "5'd10" "WRITEM2_F",
+#     "5'd11" "PROCESS",
+#     "5'd12" "PROCESS_F",
+#     "5'd13" "BYPASS",
+#     "5'd14" "BYPASS_F",
+#     "5'd15" "DONE",
+#     "5'd16" "DONE_F",
+#     "5'd17" "SHIFT",
+#     "5'd18" "RECATCH",
+#     "5'd19" "WAIT_M",
+#     "5'd20" "WAIT_F",
+#     "5'd21" "EMPTY",
+#     "5'd22" "WAIT_CONFIG",
+#     -default hexadecimal
+# }
+# quietly WaveActivateNextPane {} 0
+# add wave -noupdate /AIP_scopeNoMPU_tb/ID00001011/SCOPENOMPU_CORE/clk
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Manuel Hernandez  Hostname: DESKTOP-94QEOJB  ProcessID: 14060
+#           Attempting to use alternate WLF file "./wlft48zjbr".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft48zjbr
+# add wave -noupdate /AIP_scopeNoMPU_tb/ID00001011/SCOPENOMPU_CORE/rstn
+# add wave -noupdate -color Gold /AIP_scopeNoMPU_tb/ID00001011/SCOPENOMPU_CORE/start
+# add wave -noupdate -radix hexadecimal /AIP_scopeNoMPU_tb/ID00001011/datain
+# add wave -noupdate /AIP_scopeNoMPU_tb/ID00001011/SCOPENOMPU_CORE/SCOPENOMPU_CP/doneMapper
+# add wave -noupdate /AIP_scopeNoMPU_tb/ID00001011/SCOPENOMPU_CORE/SCOPENOMPU_CP/doneScope
+# add wave -noupdate /AIP_scopeNoMPU_tb/ID00001011/SCOPENOMPU_CORE/SCOPENOMPU_CP/startScope
+# add wave -noupdate /AIP_scopeNoMPU_tb/ID00001011/SCOPENOMPU_CORE/SCOPENOMPU_CP/startMapper
+# add wave -noupdate /AIP_scopeNoMPU_tb/ID00001011/SCOPENOMPU_CORE/SCOPENOMPU_CP/busy_flag
+# add wave -noupdate /AIP_scopeNoMPU_tb/ID00001011/SCOPENOMPU_CORE/SCOPENOMPU_CP/done_flag
+# add wave -noupdate -divider <NULL>
+# add wave -noupdate -color {Violet Red} /AIP_scopeNoMPU_tb/ID00001011/SCOPENOMPU_CORE/SCOPENOMPU_CP/state_next
+# add wave -noupdate -color {Violet Red} /AIP_scopeNoMPU_tb/ID00001011/SCOPENOMPU_CORE/SCOPENOMPU_CP/state_reg
+# add wave -noupdate -divider <NULL>
+# add wave -noupdate -radix hexadecimal /AIP_scopeNoMPU_tb/ID00001011/SCOPENOMPU_CORE/SCOPENOMPU_DP/data_MemInReal
+# add wave -noupdate -radix hexadecimal /AIP_scopeNoMPU_tb/ID00001011/SCOPENOMPU_CORE/SCOPENOMPU_DP/data_MemInImag
+# add wave -noupdate -radix hexadecimal /AIP_scopeNoMPU_tb/ID00001011/SCOPENOMPU_CORE/dataStreamReal_in
+# add wave -noupdate -radix hexadecimal /AIP_scopeNoMPU_tb/ID00001011/SCOPENOMPU_CORE/dataStreamImag_in
+# add wave -noupdate -divider DECIM
+# add wave -noupdate /AIP_scopeNoMPU_tb/ID00001011/SCOPENOMPU_CORE/startDecim
+# add wave -noupdate -radix hexadecimal /AIP_scopeNoMPU_tb/ID00001011/SCOPENOMPU_CORE/SCOPENOMPU_DP/data_MemInReal
+# add wave -noupdate -radix hexadecimal /AIP_scopeNoMPU_tb/ID00001011/SCOPENOMPU_CORE/SCOPENOMPU_DP/data_MemInImag
+# add wave -noupdate -radix unsigned /AIP_scopeNoMPU_tb/ID00001011/SCOPENOMPU_CORE/SCOPENOMPU_DP/read_addr_mem
+# add wave -noupdate -radix unsigned /AIP_scopeNoMPU_tb/ID00001011/SCOPENOMPU_CORE/SCOPENOMPU_DP/write_addr_DecimMem
+# add wave -noupdate /AIP_scopeNoMPU_tb/ID00001011/SCOPENOMPU_CORE/SCOPENOMPU_DP/write_en_DecimMem
+# add wave -noupdate /AIP_scopeNoMPU_tb/ID00001011/SCOPENOMPU_CORE/SCOPENOMPU_DP/dataDecimReal_out
+# add wave -noupdate /AIP_scopeNoMPU_tb/ID00001011/SCOPENOMPU_CORE/SCOPENOMPU_DP/dataDecimImag_out
+# add wave -noupdate /AIP_scopeNoMPU_tb/ID00001011/SCOPENOMPU_CORE/doneDecim
+# add wave -noupdate -divider FFT
+# add wave -noupdate /AIP_scopeNoMPU_tb/ID00001011/SCOPENOMPU_CORE/startFFT
+# add wave -noupdate /AIP_scopeNoMPU_tb/ID00001011/SCOPENOMPU_CORE/SCOPENOMPU_DP/data2FFT
+# add wave -noupdate -radix unsigned /AIP_scopeNoMPU_tb/ID00001011/SCOPENOMPU_CORE/SCOPENOMPU_DP/read_addr_FFTMem
+# add wave -noupdate -radix unsigned /AIP_scopeNoMPU_tb/ID00001011/SCOPENOMPU_CORE/SCOPENOMPU_DP/write_addr_FFTMem
+# add wave -noupdate /AIP_scopeNoMPU_tb/ID00001011/SCOPENOMPU_CORE/SCOPENOMPU_DP/write_en_FFTMem
+# add wave -noupdate /AIP_scopeNoMPU_tb/ID00001011/SCOPENOMPU_CORE/SCOPENOMPU_DP/dataFFTOut
+# add wave -noupdate /AIP_scopeNoMPU_tb/ID00001011/SCOPENOMPU_CORE/doneFFT
+# add wave -noupdate -divider ModCuad
+# add wave -noupdate /AIP_scopeNoMPU_tb/ID00001011/SCOPENOMPU_CORE/startModCuad
+# add wave -noupdate -radix decimal /AIP_scopeNoMPU_tb/ID00001011/SCOPENOMPU_CORE/SCOPENOMPU_DP/MODCUAD_CORE/data_MemInReal
+# add wave -noupdate -radix decimal /AIP_scopeNoMPU_tb/ID00001011/SCOPENOMPU_CORE/SCOPENOMPU_DP/MODCUAD_CORE/data_MemInImag
+# add wave -noupdate -radix unsigned /AIP_scopeNoMPU_tb/ID00001011/SCOPENOMPU_CORE/SCOPENOMPU_DP/read_addr_modCuadMem
+# add wave -noupdate -radix unsigned /AIP_scopeNoMPU_tb/ID00001011/SCOPENOMPU_CORE/SCOPENOMPU_DP/write_addr_modCuadMem
+# add wave -noupdate /AIP_scopeNoMPU_tb/ID00001011/SCOPENOMPU_CORE/SCOPENOMPU_DP/write_en_modCuadMem
+# add wave -noupdate -radix hexadecimal /AIP_scopeNoMPU_tb/ID00001011/SCOPENOMPU_CORE/SCOPENOMPU_DP/dataCuadOut
+# add wave -noupdate /AIP_scopeNoMPU_tb/ID00001011/SCOPENOMPU_CORE/doneModCuad
+# add wave -noupdate -divider {ModCuad - Inside}
+# add wave -noupdate /AIP_scopeNoMPU_tb/ID00001011/SCOPENOMPU_CORE/SCOPENOMPU_DP/MODCUAD_CORE/modCuad_DP/PW2_REAL/startBoot
+# add wave -noupdate -radix decimal /AIP_scopeNoMPU_tb/ID00001011/SCOPENOMPU_CORE/SCOPENOMPU_DP/MODCUAD_CORE/modCuad_DP/PW2_REAL/data_in
+# add wave -noupdate -radix decimal /AIP_scopeNoMPU_tb/ID00001011/SCOPENOMPU_CORE/SCOPENOMPU_DP/MODCUAD_CORE/modCuad_DP/PW2_REAL/data_in
+# add wave -noupdate /AIP_scopeNoMPU_tb/ID00001011/SCOPENOMPU_CORE/SCOPENOMPU_DP/MODCUAD_CORE/modCuad_DP/PW2_REAL/bootDone
+# add wave -noupdate -radix decimal /AIP_scopeNoMPU_tb/ID00001011/SCOPENOMPU_CORE/SCOPENOMPU_DP/MODCUAD_CORE/modCuad_DP/PW2_REAL/data_mult
+# add wave -noupdate -radix unsigned /AIP_scopeNoMPU_tb/ID00001011/SCOPENOMPU_CORE/SCOPENOMPU_DP/MODCUAD_CORE/modCuad_DP/PW2_REAL/data_out
+# add wave -noupdate -radix decimal /AIP_scopeNoMPU_tb/ID00001011/SCOPENOMPU_CORE/SCOPENOMPU_DP/MODCUAD_CORE/modCuad_DP/PW2_IMAG/data_in
+# add wave -noupdate -radix decimal /AIP_scopeNoMPU_tb/ID00001011/SCOPENOMPU_CORE/SCOPENOMPU_DP/MODCUAD_CORE/modCuad_DP/PW2_IMAG/data_in
+# add wave -noupdate -radix decimal /AIP_scopeNoMPU_tb/ID00001011/SCOPENOMPU_CORE/SCOPENOMPU_DP/MODCUAD_CORE/modCuad_DP/PW2_IMAG/data_mult
+# add wave -noupdate -radix unsigned /AIP_scopeNoMPU_tb/ID00001011/SCOPENOMPU_CORE/SCOPENOMPU_DP/MODCUAD_CORE/modCuad_DP/PW2_IMAG/data_out
+# add wave -noupdate -divider MTR
+# add wave -noupdate /AIP_scopeNoMPU_tb/ID00001011/SCOPENOMPU_CORE/startMultirate
+# add wave -noupdate /AIP_scopeNoMPU_tb/ID00001011/SCOPENOMPU_CORE/SCOPENOMPU_DP/data2Multirate
+# add wave -noupdate -radix unsigned /AIP_scopeNoMPU_tb/ID00001011/SCOPENOMPU_CORE/SCOPENOMPU_DP/read_addr_multirateMem
+# add wave -noupdate -radix unsigned /AIP_scopeNoMPU_tb/ID00001011/SCOPENOMPU_CORE/SCOPENOMPU_DP/write_addr_multirateMem
+# add wave -noupdate /AIP_scopeNoMPU_tb/ID00001011/SCOPENOMPU_CORE/SCOPENOMPU_DP/write_en_multirateMem
+# add wave -noupdate -radix decimal /AIP_scopeNoMPU_tb/ID00001011/SCOPENOMPU_CORE/SCOPENOMPU_DP/dataMultirateOut
+# add wave -noupdate /AIP_scopeNoMPU_tb/ID00001011/SCOPENOMPU_CORE/doneMultirate
+# add wave -noupdate -divider Mapper
+# add wave -noupdate /AIP_scopeNoMPU_tb/ID00001011/SCOPENOMPU_CORE/startMapper
+# add wave -noupdate -radix unsigned /AIP_scopeNoMPU_tb/ID00001011/SCOPENOMPU_CORE/SCOPENOMPU_DP/data2Mapper
+# add wave -noupdate -radix unsigned /AIP_scopeNoMPU_tb/ID00001011/SCOPENOMPU_CORE/SCOPENOMPU_DP/read_addr_mapperMem
+# add wave -noupdate -radix unsigned /AIP_scopeNoMPU_tb/ID00001011/SCOPENOMPU_CORE/SCOPENOMPU_DP/wr_addr_mapped_localMem
+# add wave -noupdate -radix unsigned /AIP_scopeNoMPU_tb/ID00001011/SCOPENOMPU_CORE/SCOPENOMPU_DP/wr_addr_mapped_localMem_reg
+# add wave -noupdate /AIP_scopeNoMPU_tb/ID00001011/SCOPENOMPU_CORE/SCOPENOMPU_DP/wr_en_mapped_localMem
+# add wave -noupdate /AIP_scopeNoMPU_tb/ID00001011/SCOPENOMPU_CORE/SCOPENOMPU_DP/dataBitMapped
+# add wave -noupdate /AIP_scopeNoMPU_tb/ID00001011/SCOPENOMPU_CORE/SCOPENOMPU_DP/wr_en_local_bit
+# add wave -noupdate -radix unsigned /AIP_scopeNoMPU_tb/ID00001011/SCOPENOMPU_CORE/SCOPENOMPU_DP/local_bit
+# add wave -noupdate /AIP_scopeNoMPU_tb/ID00001011/SCOPENOMPU_CORE/doneMapper
+# add wave -noupdate -divider RBM
+# add wave -noupdate /AIP_scopeNoMPU_tb/ID00001011/SCOPENOMPU_CORE/SCOPENOMPU_DP/RBM/wr_en
+# add wave -noupdate /AIP_scopeNoMPU_tb/ID00001011/SCOPENOMPU_CORE/SCOPENOMPU_DP/RBM/data_in
+# add wave -noupdate -radix unsigned /AIP_scopeNoMPU_tb/ID00001011/SCOPENOMPU_CORE/SCOPENOMPU_DP/RBM/addr_in
+# add wave -noupdate /AIP_scopeNoMPU_tb/ID00001011/SCOPENOMPU_CORE/SCOPENOMPU_DP/RBM/data_out
+# add wave -noupdate -divider {Mapper - Inside}
+# add wave -noupdate -radix unsigned /AIP_scopeNoMPU_tb/ID00001011/SCOPENOMPU_CORE/SCOPENOMPU_DP/MAPPERCORE/SCOPEMAPPER_DP/MAPPER/data_in
+# add wave -noupdate -radix unsigned /AIP_scopeNoMPU_tb/ID00001011/SCOPENOMPU_CORE/SCOPENOMPU_DP/MAPPERCORE/SCOPEMAPPER_DP/MAPPER/data2compare
+# add wave -noupdate -radix unsigned /AIP_scopeNoMPU_tb/ID00001011/SCOPENOMPU_CORE/SCOPENOMPU_DP/MAPPERCORE/SCOPEMAPPER_DP/MAPPER/cnt_line
+# add wave -noupdate /AIP_scopeNoMPU_tb/ID00001011/SCOPENOMPU_CORE/SCOPENOMPU_DP/MAPPERCORE/SCOPEMAPPER_DP/MAPPER/cnt_en
+# add wave -noupdate /AIP_scopeNoMPU_tb/ID00001011/SCOPENOMPU_CORE/SCOPENOMPU_DP/MAPPERCORE/SCOPEMAPPER_DP/MAPPER/cnt_on
+# add wave -noupdate /AIP_scopeNoMPU_tb/ID00001011/SCOPENOMPU_CORE/SCOPENOMPU_DP/MAPPERCORE/SCOPEMAPPER_DP/MAPPER/cnt_rst
+# add wave -noupdate -radix unsigned /AIP_scopeNoMPU_tb/ID00001011/SCOPENOMPU_CORE/SCOPENOMPU_DP/MAPPERCORE/SCOPEMAPPER_DP/MAPPER/data2compareRegionSup
+# add wave -noupdate -radix unsigned /AIP_scopeNoMPU_tb/ID00001011/SCOPENOMPU_CORE/SCOPENOMPU_DP/MAPPERCORE/SCOPEMAPPER_DP/MAPPER/data2compareRegionInf
+# add wave -noupdate -radix unsigned /AIP_scopeNoMPU_tb/ID00001011/SCOPENOMPU_CORE/SCOPENOMPU_DP/MAPPERCORE/local_bit
+# add wave -noupdate /AIP_scopeNoMPU_tb/ID00001011/SCOPENOMPU_CORE/SCOPENOMPU_DP/MAPPERCORE/wr_en_local_bit
+# add wave -noupdate -radix unsigned /AIP_scopeNoMPU_tb/ID00001011/SCOPENOMPU_CORE/SCOPENOMPU_DP/MAPPERCORE/SCOPEMAPPER_DP/MAPPER/row
+# add wave -noupdate -radix unsigned /AIP_scopeNoMPU_tb/ID00001011/SCOPENOMPU_CORE/SCOPENOMPU_DP/MAPPERCORE/SCOPEMAPPER_DP/MAPPER/col
+# add wave -noupdate /AIP_scopeNoMPU_tb/ID00001011/SCOPENOMPU_CORE/SCOPENOMPU_DP/MAPPERCORE/SCOPEMAPPER_DP/MAPPER/map_on
+# add wave -noupdate /AIP_scopeNoMPU_tb/ID00001011/SCOPENOMPU_CORE/SCOPENOMPU_DP/MAPPERCORE/SCOPEMAPPER_DP/MAPPER/data_out
+# add wave -noupdate /AIP_scopeNoMPU_tb/ID00001011/SCOPENOMPU_CORE/SCOPENOMPU_DP/MAPPERCORE/SCOPEMAPPER_DP/MAPPER/validVRegion
+# add wave -noupdate /AIP_scopeNoMPU_tb/ID00001011/SCOPENOMPU_CORE/SCOPENOMPU_DP/MAPPERCORE/SCOPEMAPPER_DP/MAPPER/validHRegion
+# add wave -noupdate /AIP_scopeNoMPU_tb/ID00001011/SCOPENOMPU_CORE/SCOPENOMPU_DP/MAPPERCORE/write_enable_mem
+# add wave -noupdate -radix unsigned /AIP_scopeNoMPU_tb/ID00001011/SCOPENOMPU_CORE/SCOPENOMPU_DP/MAPPERCORE/write_addr_mem
+# add wave -noupdate -divider SCOPE
+# add wave -noupdate /AIP_scopeNoMPU_tb/ID00001011/SCOPENOMPU_CORE/startScope
+# add wave -noupdate /AIP_scopeNoMPU_tb/ID00001011/SCOPENOMPU_CORE/SCOPENOMPU_DP/data2Scope
+# add wave -noupdate -radix unsigned /AIP_scopeNoMPU_tb/ID00001011/SCOPENOMPU_CORE/SCOPENOMPU_DP/rd_addr_mapped_localMem
+# add wave -noupdate /AIP_scopeNoMPU_tb/ID00001011/SCOPENOMPU_CORE/doneScope
+# add wave -noupdate -radix hexadecimal /AIP_scopeNoMPU_tb/ID00001011/SCOPENOMPU_CORE/SCOPENOMPU_DP/SCOPECORE/ctrlReg
+# TreeUpdate [SetDefaultTree]
+# WaveRestoreCursors {{Cursor 2} {62200000 ps} 0} {{Cursor 2} {1048580000 ps} 0}
+# quietly wave cursor active 2
+# configure wave -namecolwidth 229
+# configure wave -valuecolwidth 84
+# configure wave -justifyvalue left
+# configure wave -signalnamewidth 0
+# configure wave -snapdistance 10
+# configure wave -datasetprefix 0
+# configure wave -rowmargin 4
+# configure wave -childrowmargin 2
+# configure wave -gridoffset 0
+# configure wave -gridperiod 1
+# configure wave -griddelta 40
+# configure wave -timeline 0
+# configure wave -timelineunits ps
+# update
+# WaveRestoreZoom {1049740376 ps} {1050569216 ps}
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading work.AIP_scopeNoMPU_tb(fast)
+# Loading work.ID00001011_aipScopeNoMPU(fast)
+# Loading work.ID00001011_scopeNoMPU_core(fast)
+# Loading work.ID00001011_scopeNoMPU_controlpath(fast)
+# Loading work.ID00001011_scopeNoMPU_datapath(fast)
+# Loading work.ID00001009_decim2scope_core(fast)
+# Loading work.ID00001009_decim2scope_controlpath(fast)
+# Loading work.ID00001009_decim2scope_datapath(fast)
+# Loading work.ID0000204D_FFT_core(fast)
+# Loading work.true_dual_port_ram_single_clock(fast)
+# Loading work.fftshift(fast)
+# Loading work.ID0000100C_modCuad_core(fast)
+# Loading work.ID0000100C_modCuad_controlpath(fast)
+# Loading work.ID0000100C_modCuad_datapath(fast)
+# Loading work.ID0000100C_modCuad_power2(fast)
+# Loading work.booth_core(fast)
+# Loading work.booth_datapath(fast)
+# Loading work.booth_element(fast)
+# Loading work.booth_controlpath(fast)
+# Loading work.intpolFrac_core(fast)
+# Loading work.intpolFrac_controlpath(fast)
+# Loading work.intpolFrac_datapath(fast)
+# Loading work.intpol2scope_core(fast)
+# Loading work.intpol2scope_input_register(fast)
+# Loading work.coeficient_math(fast)
+# Loading work.adder(fast)
+# Loading work.shifter_D_1(fast)
+# Loading work.shifter_I_1(fast)
+# Loading work.substract(fast)
+# Loading work.coefficient_handler(fast)
+# Loading work.half_multiplier_D3(fast)
+# Loading work.mux_p_xi_base_D3(fast)
+# Loading work.shifter_D_X_D3(fast)
+# Loading work.intpol2scope_fsm(fast)
+# Loading work.decoder_D3(fast)
+# Loading work.ID0000100F_decim2frac_core(fast)
+# Loading work.ID0000100F_decim2frac_controlpath(fast)
+# Loading work.ID0000100F_decim2frac_datapath(fast)
+# Loading work.ID00001012_scopeSignalMapper_core(fast)
+# Loading work.ID00001012_scopeSignalMapper_controlpath(fast)
+# Loading work.ID00001012_scopeSignalMapper_datapath(fast)
+# Loading work.maxFound(fast)
+# Loading work.scopeScaler(fast)
+# Loading work.dividerSig_core(fast)
+# Loading work.dividerSig_datapath(fast)
+# Loading work.dividerSig_element(fast)
+# Loading work.dividerSig_controlpath(fast)
+# Loading work.average(fast)
+# Loading work.dividerSig_core(fast__1)
+# Loading work.dividerSig_datapath(fast__1)
+# Loading work.dividerSig_element(fast__1)
+# Loading work.dividerSig_controlpath(fast__1)
+# Loading work.mapper(fast)
+# Loading work.regBitMem(fast)
+# Loading work.backgroundMem(fast)
+# Loading work.ID00001008_ILI9327Core(fast)
+# Loading work.ID00001008_TxCntrl(fast)
+# Loading work.ID00001008_TxVideo(fast)
+# Loading work.ID00001008_TxCmd(fast)
+# Loading work.ID00001008_TxConfig(fast)
+# Loading work.ID00001011_scopeNoMPU_aip(fast)
+# Loading work.ID00001011_scopeNoMPU_aipModules(fast)
+# Loading work.simple_dual_port_ram_single_clk(fast)
+# Loading work.aipConfigurationRegister(fast)
+# Loading work.ID00001011_scopeNoMPU_aipCtrl(fast)
+# Loading work.aipParametricMux(fast)
+# Loading work.aipId(fast)
+# Loading work.aipStatus(fast)
+# run -all
+#                    0 << Load input mem data>>
+#                    0 << Load input mem data>>
+#  100000 Read ID 00001011
+#  160000 Read STATUS 00000000
+#                  280 << Start Simulation >>
+# 21140000 Sending start
+# 28614180000 Done flag detected!
+# 28614240000 Read STATUS 00010101
+# 28614420000 Read STATUS 00010100
+#             28614840 << End Simulation >>
+# ** Note: $stop    : ../AIP_scopeNoMPU_tb.v(249)
+#    Time: 28614840 ns  Iteration: 0  Instance: /AIP_scopeNoMPU_tb
+# Break in Module AIP_scopeNoMPU_tb at ../AIP_scopeNoMPU_tb.v line 249
+# End time: 18:58:38 on Mar 06,2026, Elapsed time: 0:56:24
+# Errors: 0, Warnings: 1

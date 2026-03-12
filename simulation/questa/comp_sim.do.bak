@@ -1,0 +1,9 @@
+vlib work
+vmap work work
+vlog -F multirate.files 
+vsim AIP_intPol2_tb
+do wave-fast_test.do
+view structure
+view signals
+restart -f
+run -all

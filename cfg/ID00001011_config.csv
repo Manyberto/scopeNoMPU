@@ -1,0 +1,10 @@
+type,alphaID,numID,size,mode,description
+IPID,scopeNoMPU,0x00001011,,,FFT IP
+CFG,MMEMRE,0b00000,8192,W,Real Signal Memory
+CFG,MMEMIM,0b00010,8192,W,Imaginary Signal Memory
+CFG,AMEMRE,0b00001,1,W,Set Write Address Pointer of MMEMRE
+CFG,AMEMIM,0b00011,1,W,Set Write Address Pointer of MMEMIM
+CFG,CCONFIG,0b00100,4,W,Configuration Register
+CFG,ACONFIG,0b00101,1,W,Set Write Address of CCONFIGFFT
+CFG,STATUS,0b11110,1,B,IP status register
+CFG,IPID,0b11111,1,R,IP ID

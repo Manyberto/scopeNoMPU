@@ -1,0 +1,267 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 2024  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and any partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel FPGA IP License Agreement, or other applicable license
+# agreement, including, without limitation, that your use is for
+# the sole purpose of programming logic devices manufactured by
+# Intel and sold by Intel or its authorized distributors.  Please
+# refer to the applicable agreement for further details, at
+# https://fpgasoftware.intel.com/eula.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus Prime
+# Version 23.1std.1 Build 993 05/14/2024 SC Lite Edition
+# Date created = 18:38:14  February 05, 2026
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		modCuad_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Intel recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus Prime software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone IV E"
+set_global_assignment -name DEVICE EP4CE115F29C7
+set_global_assignment -name TOP_LEVEL_ENTITY ipmScopeNoMPU
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 23.1STD.1
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "18:38:14  FEBRUARY 05, 2026"
+set_global_assignment -name LAST_QUARTUS_VERSION "23.1std.1 Lite Edition"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
+set_global_assignment -name NOMINAL_CORE_SUPPLY_VOLTAGE 1.2V
+set_global_assignment -name EDA_SIMULATION_TOOL "Questa Intel FPGA (Verilog)"
+set_global_assignment -name EDA_TIME_SCALE "1 ps" -section_id eda_simulation
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_timing
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_symbol
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_signal_integrity
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_boundary_scan
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name EDA_TEST_BENCH_ENABLE_STATUS COMMAND_MACRO_MODE -section_id eda_simulation
+set_global_assignment -name EDA_NATIVELINK_SIMULATION_TEST_BENCH fdsgf -section_id eda_simulation
+set_global_assignment -name EDA_SIMULATION_RUN_SCRIPT simulation/questa/comp_sim.do -section_id eda_simulation
+set_location_assignment PIN_AH23 -to BL
+set_location_assignment PIN_AF20 -to SCL
+set_location_assignment PIN_AG23 -to SDA
+set_location_assignment PIN_AC19 -to addressMCU[0]
+set_location_assignment PIN_AD19 -to addressMCU[1]
+set_location_assignment PIN_AF24 -to addressMCU[2]
+set_location_assignment PIN_AF25 -to addressMCU[3]
+set_location_assignment PIN_Y2 -to clk
+set_location_assignment PIN_AF16 -to dataMCU[0]
+set_location_assignment PIN_AF15 -to dataMCU[1]
+set_location_assignment PIN_AE21 -to dataMCU[2]
+set_location_assignment PIN_AC22 -to dataMCU[3]
+set_location_assignment PIN_AF21 -to dataMCU[4]
+set_location_assignment PIN_AD22 -to dataMCU[5]
+set_location_assignment PIN_AD25 -to dataMCU[6]
+set_location_assignment PIN_AE25 -to dataMCU[7]
+set_location_assignment PIN_AH25 -to intMCU
+set_location_assignment PIN_AF26 -to nCS
+set_location_assignment PIN_AE20 -to nRST
+set_location_assignment PIN_AE22 -to rdMCU
+set_location_assignment PIN_AG25 -to rstMCU
+set_location_assignment PIN_M23 -to rstn
+set_location_assignment PIN_AF22 -to wrMCU
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to BL
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to SCL
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to SDA
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to addressMCU[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to addressMCU[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to addressMCU[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to addressMCU[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to clk
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to dataMCU[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to dataMCU[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to dataMCU[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to dataMCU[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to dataMCU[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to dataMCU[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to dataMCU[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to dataMCU[7]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to intMCU
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to nCS
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to nRST
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to rdMCU
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to rstMCU
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to rstn
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to wrMCU
+set_global_assignment -name ENABLE_SIGNALTAP ON
+set_global_assignment -name USE_SIGNALTAP_FILE output_files/stp1.stp
+set_global_assignment -name VERILOG_FILE ../../DFTinMxV/hdl/sub.v
+set_global_assignment -name VERILOG_FILE ../../DFTinMxV/hdl/simple_dual_port_ram_single_clk_mine.v
+set_global_assignment -name VERILOG_FILE ../../DFTinMxV/hdl/parametrized_regs_itcltd.v
+set_global_assignment -name VERILOG_FILE ../../DFTinMxV/hdl/multiplier.v
+set_global_assignment -name VERILOG_FILE ../../DFTinMxV/hdl/DC_FIFO_AF_AE.v
+set_global_assignment -name VERILOG_FILE ../../DFTinMxV/hdl/adderMxV.v
+set_global_assignment -name VERILOG_FILE ../../DFTinMxV/hdl/CP/word_converter.v
+set_global_assignment -name VERILOG_FILE ../../DFTinMxV/hdl/CP/ID0000100F_FFTinMxV_vector_register.v
+set_global_assignment -name VERILOG_FILE ../../DFTinMxV/hdl/CP/ID0000100F_FFTinMxV_PEs.v
+set_global_assignment -name VERILOG_FILE ../../DFTinMxV/hdl/CP/ID0000100F_FFTinMxV_PE_0.v
+set_global_assignment -name VERILOG_FILE ../../DFTinMxV/hdl/CP/ID0000100F_FFTinMxV_PE.v
+set_global_assignment -name VERILOG_FILE ../../DFTinMxV/hdl/CP/ID0000100F_FFTinMxV_next_state_logic.v
+set_global_assignment -name VERILOG_FILE ../../DFTinMxV/hdl/CP/ID0000100F_FFTinMxV_datapath.v
+set_global_assignment -name VERILOG_FILE ../../DFTinMxV/hdl/CP/ID0000100F_FFTinMxV_core.v
+set_global_assignment -name VERILOG_FILE ../../DFTinMxV/hdl/CP/ID0000100F_FFTinMxV_controlpath.v
+set_global_assignment -name VERILOG_FILE ../../DFTinMxV/hdl/CP/ID0000100F_FFTinMxV_aip.v
+set_global_assignment -name VERILOG_FILE ../../DFTinMxV/hdl/CP/ID0000100F_aipFFTinMxV.v
+set_global_assignment -name VERILOG_FILE ../modCuadrado/hdl/ID0000100C_modCuad_power2.v
+set_global_assignment -name VERILOG_FILE ../modCuadrado/hdl/ID0000100C_modCuad_core.v
+set_global_assignment -name VERILOG_FILE ../modCuadrado/hdl/ID0000100C_aipModCuad_datapath.v
+set_global_assignment -name VERILOG_FILE ../modCuadrado/hdl/ID0000100C_aipModCuad_controlpath.v
+set_global_assignment -name VERILOG_FILE ../modCuadrado/hdl/ID0000100C_aipModCuad_aip.v
+set_global_assignment -name VERILOG_FILE ../decim2scope/hdl/ID00001009_decim2scope_datapath.v
+set_global_assignment -name VERILOG_FILE ../decim2scope/hdl/ID00001009_decim2scope_core.v
+set_global_assignment -name VERILOG_FILE ../decim2scope/hdl/ID00001009_decim2scope_controlpath.v
+set_global_assignment -name VERILOG_FILE ../decim2scope/hdl/ID00001009_decim2scope_aip.v
+set_global_assignment -name VERILOG_FILE ../intpolFrac/hdl/intpolFrac_datapath.v
+set_global_assignment -name VERILOG_FILE ../intpolFrac/hdl/intpolFrac_core.v
+set_global_assignment -name VERILOG_FILE ../intpolFrac/hdl/intpolFrac_controlpath.v
+set_global_assignment -name VERILOG_FILE ../intpolFrac/hdl/ID0000100A_intpolFrac_aip.v
+set_global_assignment -name VERILOG_FILE ../intpolFrac/hdl/intpol/substract.v
+set_global_assignment -name VERILOG_FILE ../intpolFrac/hdl/intpol/shifter_I_1.v
+set_global_assignment -name VERILOG_FILE ../intpolFrac/hdl/intpol/shifter_D_X_D3.v
+set_global_assignment -name VERILOG_FILE ../intpolFrac/hdl/intpol/shifter_D_1.v
+set_global_assignment -name VERILOG_FILE ../intpolFrac/hdl/intpol/mux_p_xi_base_D3.v
+set_global_assignment -name VERILOG_FILE ../intpolFrac/hdl/intpol/intpol2scope_input_register.v
+set_global_assignment -name VERILOG_FILE ../intpolFrac/hdl/intpol/intpol2scope_fsm.v
+set_global_assignment -name VERILOG_FILE ../intpolFrac/hdl/intpol/intpol2scope_datapath.v
+set_global_assignment -name VERILOG_FILE ../intpolFrac/hdl/intpol/intpol2scope_core.v
+set_global_assignment -name VERILOG_FILE ../intpolFrac/hdl/intpol/intpol2scope_controlpath.v
+set_global_assignment -name VERILOG_FILE ../intpolFrac/hdl/intpol/ID00001006_intpol2scope_aip.v
+set_global_assignment -name VERILOG_FILE ../intpolFrac/hdl/intpol/half_multiplier_D3.v
+set_global_assignment -name VERILOG_FILE ../intpolFrac/hdl/intpol/decoder_D3.v
+set_global_assignment -name VERILOG_FILE ../intpolFrac/hdl/intpol/coeficient_math.v
+set_global_assignment -name VERILOG_FILE ../intpolFrac/hdl/intpol/coefficient_handler.v
+set_global_assignment -name VERILOG_FILE ../intpolFrac/hdl/intpol/aipIntpol2scope.v
+set_global_assignment -name VERILOG_FILE ../intpolFrac/hdl/intpol/adder.v
+set_global_assignment -name VERILOG_FILE ../intpolFrac/hdl/decim2frac/ID0000100F_decim2frac_datapath.v
+set_global_assignment -name VERILOG_FILE ../intpolFrac/hdl/decim2frac/ID0000100F_decim2frac_core.v
+set_global_assignment -name VERILOG_FILE ../intpolFrac/hdl/decim2frac/ID0000100F_decim2frac_controlpath.v
+set_global_assignment -name VERILOG_FILE ../intpolFrac/hdl/decim2frac/ID0000100F_decim2frac_aip.v
+set_global_assignment -name VERILOG_FILE ../intpolFrac/hdl/decim2frac/ID0000100F_aipDecim2frac.v
+set_global_assignment -name VERILOG_FILE ../../Booth/booth_element.v
+set_global_assignment -name VERILOG_FILE ../../Booth/booth_datapath.v
+set_global_assignment -name VERILOG_FILE ../../Booth/booth_core.v
+set_global_assignment -name VERILOG_FILE ../../Booth/booth_controlpath.v
+set_global_assignment -name VERILOG_FILE ../../Divider_signed/top/dividerSig_core.v
+set_global_assignment -name VERILOG_FILE ../../Divider_signed/hdl/dividerSig_element.v
+set_global_assignment -name VERILOG_FILE ../../Divider_signed/hdl/dividerSig_datapath.v
+set_global_assignment -name VERILOG_FILE ../../Divider_signed/hdl/dividerSig_controlpath.v
+set_global_assignment -name VERILOG_FILE ../00001008_Scope/hdl/ID00001008_tx_video.v
+set_global_assignment -name VERILOG_FILE ../00001008_Scope/hdl/ID00001008_tx_control.v
+set_global_assignment -name VERILOG_FILE ../00001008_Scope/hdl/ID00001008_tx_config.v
+set_global_assignment -name VERILOG_FILE ../00001008_Scope/hdl/ID00001008_tx_command.v
+set_global_assignment -name VERILOG_FILE ../00001008_Scope/hdl/ID00001008_ILI9327Core.v
+set_global_assignment -name VERILOG_FILE ../00001008_Scope/hdl/ID00001008_aip.v
+set_global_assignment -name VERILOG_FILE hdl/ID00001011_scopeNoMPU_datapath.v
+set_global_assignment -name VERILOG_FILE hdl/ID00001011_scopeNoMPU_core.v
+set_global_assignment -name VERILOG_FILE hdl/ID00001011_scopeNoMPU_controlpath.v
+set_global_assignment -name VERILOG_FILE hdl/ID00001011_scopeNoMPU_aip.v
+set_global_assignment -name VERILOG_FILE hdl/ID00001011_aipScopeNoMPU.v
+set_global_assignment -name VERILOG_FILE hdl/scr/ipmScopeNoMPU.v
+set_global_assignment -name VERILOG_FILE ../../basicblocks/ipm/ipm_register.v
+set_global_assignment -name VERILOG_FILE ../../basicblocks/ipm/ipm.v
+set_global_assignment -name VERILOG_FILE ../../basicblocks/memories/simple_dual_port_ram_single_clk.v
+set_global_assignment -name VERILOG_FILE ../../basicblocks/aip/aipStatus.v
+set_global_assignment -name VERILOG_FILE ../../basicblocks/aip/aipParametricMux.v
+set_global_assignment -name VERILOG_FILE ../../basicblocks/aip/aipId.v
+set_global_assignment -name VERILOG_FILE ../../basicblocks/aip/aipConfigurationRegister.v
+set_global_assignment -name VERILOG_FILE hdl/scopeSignalMapper/ID00001012_scopeSignalMapper_core.v
+set_global_assignment -name VERILOG_FILE hdl/scopeSignalMapper/ID00001012_scopeSignalMapper_datapath.v
+set_global_assignment -name VERILOG_FILE hdl/scopeSignalMapper/ID00001012_scopeSignalMapper_controlpath.v
+set_global_assignment -name VERILOG_FILE hdl/maxFound.v
+set_global_assignment -name VERILOG_FILE hdl/scopeScaler.v
+set_global_assignment -name VERILOG_FILE hdl/mapper.v
+set_global_assignment -name SIGNALTAP_FILE output_files/stp1.stp
+set_global_assignment -name VERILOG_FILE hdl/regBitMem.v
+set_global_assignment -name VERILOG_FILE hdl/DFTinMxVNoAIP.v
+set_location_assignment PIN_AB28 -to dataStream[0]
+set_location_assignment PIN_AC28 -to dataStream[1]
+set_location_assignment PIN_AC27 -to dataStream[2]
+set_location_assignment PIN_AD27 -to dataStream[3]
+set_location_assignment PIN_AB27 -to dataStream[4]
+set_location_assignment PIN_AC26 -to dataStream[5]
+set_location_assignment PIN_AD26 -to dataStream[6]
+set_location_assignment PIN_AB26 -to dataStream[7]
+set_location_assignment PIN_AC25 -to dataStream[8]
+set_location_assignment PIN_AB25 -to dataStream[9]
+set_location_assignment PIN_AC24 -to dataStream[10]
+set_location_assignment PIN_AB24 -to dataStream[11]
+set_location_assignment PIN_AB23 -to dataStream[12]
+set_location_assignment PIN_AA24 -to dataStream[13]
+set_location_assignment PIN_AA23 -to dataStream[14]
+set_location_assignment PIN_AA22 -to dataStream[15]
+set_location_assignment PIN_Y24 -to dataStream[16]
+set_location_assignment PIN_Y23 -to dataStream[17]
+set_location_assignment PIN_M21 -to dataStream[18]
+set_location_assignment PIN_N21 -to dataStream[19]
+set_location_assignment PIN_R24 -to dataStream[20]
+set_location_assignment PIN_AB22 -to dataStream[21]
+set_location_assignment PIN_AC15 -to dataStream[22]
+set_location_assignment PIN_AB21 -to dataStream[23]
+set_location_assignment PIN_Y17 -to dataStream[24]
+set_location_assignment PIN_AC21 -to dataStream[25]
+set_location_assignment PIN_Y16 -to dataStream[26]
+set_location_assignment PIN_AD21 -to dataStream[27]
+set_location_assignment PIN_AE16 -to dataStream[28]
+set_location_assignment PIN_AD15 -to dataStream[29]
+set_location_assignment PIN_AE15 -to dataStream[30]
+set_location_assignment PIN_AG26 -to dataStream[31]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to dataStream[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to dataStream[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to dataStream[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to dataStream[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to dataStream[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to dataStream[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to dataStream[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to dataStream[7]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to dataStream[8]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to dataStream[9]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to dataStream[10]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to dataStream[11]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to dataStream[12]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to dataStream[13]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to dataStream[14]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to dataStream[15]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to dataStream[16]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to dataStream[17]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to dataStream[18]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to dataStream[19]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to dataStream[20]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to dataStream[21]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to dataStream[22]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to dataStream[23]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to dataStream[24]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to dataStream[25]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to dataStream[26]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to dataStream[27]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to dataStream[28]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to dataStream[29]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to dataStream[30]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to dataStream[31]
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+set_global_assignment -name SLD_FILE db/stp1_auto_stripped.stp
