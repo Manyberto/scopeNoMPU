@@ -109,7 +109,7 @@ set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to wrMCU
 set_global_assignment -name ENABLE_SIGNALTAP ON
 set_global_assignment -name USE_SIGNALTAP_FILE output_files/stp1.stp
 set_location_assignment PIN_AH26 -to dataStream[0]
-set_location_assignment PIN_AC28 -to dataStream[1]
+set_location_assignment PIN_J10 -to dataStream[1]
 set_location_assignment PIN_AC27 -to dataStream[2]
 set_location_assignment PIN_AD27 -to dataStream[3]
 set_location_assignment PIN_AB27 -to dataStream[4]
@@ -184,7 +184,7 @@ set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_RO
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_location_assignment PIN_AB28 -to scopeFreeze
 set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to scopeFreeze
-set_location_assignment PIN_J10 -to valid_data
+set_location_assignment PIN_AC28 -to valid_data
 set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to valid_data
 set_location_assignment PIN_M23 -to zoomButton
 set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to zoomButton
@@ -260,4 +260,3 @@ set_global_assignment -name VERILOG_FILE hdl/Divider_signed/dividerSig_element.v
 set_global_assignment -name VERILOG_FILE hdl/Divider_signed/dividerSig_datapath.v
 set_global_assignment -name VERILOG_FILE hdl/Divider_signed/dividerSig_controlpath.v
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
-set_global_assignment -name SLD_FILE db/stp1_auto_stripped.stp

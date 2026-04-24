@@ -1,0 +1,233 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "intMCU",
+					"strict" : false
+				},
+				{
+					"name" : "nRST",
+					"strict" : false
+				},
+				{
+					"name" : "SDA",
+					"strict" : false
+				},
+				{
+					"name" : "SCL",
+					"strict" : false
+				},
+				{
+					"name" : "nCS",
+					"strict" : false
+				},
+				{
+					"name" : "dataMCU[0]",
+					"strict" : false
+				},
+				{
+					"name" : "dataMCU[1]",
+					"strict" : false
+				},
+				{
+					"name" : "dataMCU[2]",
+					"strict" : false
+				},
+				{
+					"name" : "dataMCU[3]",
+					"strict" : false
+				},
+				{
+					"name" : "dataMCU[4]",
+					"strict" : false
+				},
+				{
+					"name" : "dataMCU[5]",
+					"strict" : false
+				},
+				{
+					"name" : "dataMCU[6]",
+					"strict" : false
+				},
+				{
+					"name" : "dataMCU[7]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "rstn",
+					"strict" : false
+				},
+				{
+					"name" : "scopeFreeze",
+					"strict" : false
+				},
+				{
+					"name" : "rstMCU",
+					"strict" : false
+				},
+				{
+					"name" : "wrMCU",
+					"strict" : false
+				},
+				{
+					"name" : "addressMCU[1]",
+					"strict" : false
+				},
+				{
+					"name" : "addressMCU[0]",
+					"strict" : false
+				},
+				{
+					"name" : "addressMCU[2]",
+					"strict" : false
+				},
+				{
+					"name" : "addressMCU[3]",
+					"strict" : false
+				},
+				{
+					"name" : "rdMCU",
+					"strict" : false
+				},
+				{
+					"name" : "zoomButton",
+					"strict" : false
+				},
+				{
+					"name" : "dataStream[15]",
+					"strict" : false
+				},
+				{
+					"name" : "dataStream[14]",
+					"strict" : false
+				},
+				{
+					"name" : "dataStream[13]",
+					"strict" : false
+				},
+				{
+					"name" : "dataStream[12]",
+					"strict" : false
+				},
+				{
+					"name" : "dataStream[11]",
+					"strict" : false
+				},
+				{
+					"name" : "dataStream[10]",
+					"strict" : false
+				},
+				{
+					"name" : "dataStream[9]",
+					"strict" : false
+				},
+				{
+					"name" : "dataStream[8]",
+					"strict" : false
+				},
+				{
+					"name" : "dataStream[7]",
+					"strict" : false
+				},
+				{
+					"name" : "dataStream[6]",
+					"strict" : false
+				},
+				{
+					"name" : "dataStream[5]",
+					"strict" : false
+				},
+				{
+					"name" : "dataStream[4]",
+					"strict" : false
+				},
+				{
+					"name" : "dataStream[3]",
+					"strict" : false
+				},
+				{
+					"name" : "dataStream[2]",
+					"strict" : false
+				},
+				{
+					"name" : "dataStream[1]",
+					"strict" : false
+				},
+				{
+					"name" : "dataStream[0]",
+					"strict" : false
+				},
+				{
+					"name" : "dataStream[31]",
+					"strict" : false
+				},
+				{
+					"name" : "dataStream[30]",
+					"strict" : false
+				},
+				{
+					"name" : "dataStream[29]",
+					"strict" : false
+				},
+				{
+					"name" : "dataStream[28]",
+					"strict" : false
+				},
+				{
+					"name" : "dataStream[27]",
+					"strict" : false
+				},
+				{
+					"name" : "dataStream[26]",
+					"strict" : false
+				},
+				{
+					"name" : "dataStream[25]",
+					"strict" : false
+				},
+				{
+					"name" : "dataStream[24]",
+					"strict" : false
+				},
+				{
+					"name" : "dataStream[23]",
+					"strict" : false
+				},
+				{
+					"name" : "dataStream[22]",
+					"strict" : false
+				},
+				{
+					"name" : "dataStream[21]",
+					"strict" : false
+				},
+				{
+					"name" : "dataStream[20]",
+					"strict" : false
+				},
+				{
+					"name" : "dataStream[19]",
+					"strict" : false
+				},
+				{
+					"name" : "dataStream[18]",
+					"strict" : false
+				},
+				{
+					"name" : "dataStream[17]",
+					"strict" : false
+				},
+				{
+					"name" : "dataStream[16]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

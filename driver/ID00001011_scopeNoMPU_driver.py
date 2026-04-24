@@ -166,12 +166,12 @@ if __name__=="__main__":
     ## Parámetros configurables:
     fs = 2000           # Frecuencia de muestreo de la señal a analizar
     fs_axisMax = 250    # Valor máximo deseado del eje frecuencial
-    avg = 10            # Número de realizaciones (iteraciones) a promediar. val min = 2
-    opMode = 0          # 0 = datos en mem in. 1 = datos por streaming
-    dotUpperWidth = 14  # Ancho del marcador en la grafica superior. val min = 0. Even numbers
+    avg = 2            # Número de realizaciones (iteraciones) a promediar. val min = 2
+    opMode = 1          # 0 = datos en mem in. 1 = datos por streaming
+    dotUpperWidth = 4  # Ancho del marcador en la grafica superior. val min = 0. Even numbers
     dotLowerWidth = 4   # Ancho del marcador en la grafica inferior. val min = 0. Even numbers
 
-    lcd.loadMeminIntoLCD(txtPathMemReal, txtPathMemImag)
+    #lcd.loadMeminIntoLCD(txtPathMemReal, txtPathMemImag)
 
     lcd.setConfigReg(fs, fs_axisMax, avg, opMode, dotUpperWidth, dotLowerWidth)
     lcd.startIP()

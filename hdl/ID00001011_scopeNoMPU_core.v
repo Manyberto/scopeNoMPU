@@ -79,6 +79,7 @@ ID00001011_scopeNoMPU_controlpath #(
 SCOPENOMPU_CP(
 		.clk							(clk),
 		.rstn                   (rstn),
+		.mode							(config_regDecim[CONFIG_REG_WIDTH-1]),
 		.start						(start),
 		.scopeFreeze				(scopeFreeze),
 		.avg							(avg),

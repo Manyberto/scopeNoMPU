@@ -7,6 +7,7 @@ parameter	AVG_WIDTH  = 'd16
 (
 input		wire								clk,
 input		wire								rstn,
+input		wire								mode,
 input		wire								start,
 input		wire								scopeFreeze,
 input		wire[AVG_WIDTH-1:0]			avg,
@@ -29,6 +30,7 @@ output	reg								done_flag
 );
 
 localparam		CLK_REF			= 15000000;
+localparam		TIME_LIMIT		= 10000000;
 
 localparam 		IDLE 				= 4'd0;
 localparam		RESET_SCOPE		= 4'd1;
@@ -63,6 +65,10 @@ reg						set_scopeConfig;
 reg[23:0]				cntTime;
 reg						cnt_on;
 reg						cnt_rst;
+
+reg[24:0]				cntNoFFT;
+reg						cntNoFFT_on;
+reg						cntNoFFT_rst;
 		
 reg[AVG_WIDTH-1:0]	cntAvg;
 reg						cntAvg_on;
@@ -82,6 +88,7 @@ always@(posedge clk, negedge rstn)begin
 		state_reg			<= 4'd0;
 		restart				<=	1'd0;
 		cntTime				<= 24'd0;
+		cntNoFFT				<= 25'd0;
 		cntAvg				<= {AVG_WIDTH{1'd0}};
 		config_regScope 	<= 32'd0;
 		avgRound1Cmp      <= 1'd0;
@@ -93,6 +100,7 @@ always@(posedge clk, negedge rstn)begin
 		restart				<= start;
 		config_regScope 	<= config_regScope;
 		cntTime				<= cntTime;
+		cntNoFFT				<= cntNoFFT;
 		cntAvg				<= cntAvg;
 		avgRound1Cmp		<= avgRound1Cmp;
 		
@@ -130,6 +138,16 @@ always@(posedge clk, negedge rstn)begin
 			end
 		end
 		
+		if(cntNoFFT_rst == 1'd1)begin
+			cntNoFFT <= 25'd0;
+		end
+		
+		else begin 
+			if(cntNoFFT_on == 1'd1)begin
+				cntNoFFT <= cntNoFFT + 1'd1;
+			end
+		end
+		
 		
 	end
 
@@ -150,9 +168,12 @@ always@(*)begin
 	set_scopeConfig	= 1'd0;	
 	
 	cnt_on				= 1'd0;
+	cnt_rst				= 1'd0;
+	cntNoFFT_on			= 1'd0;
+	cntNoFFT_rst		= 1'd0;
 	cntAvg_on			= 1'd0;
 	cntAvg_rst			= 1'd0;
-	cnt_rst				= 1'd0;
+	
 		
 	done_flag			= 1'd0;
 
@@ -163,6 +184,7 @@ always@(*)begin
 								if(start == 1'd1 || restart == 1'd1)begin
 									cnt_rst = 1'd1;
 									cntAvg_rst = 1'd1;
+									cntNoFFT_rst = 1'd1;
 //									startDecim = 1'd1;
 //									state_next = DECIM_BUSY;
 									state_next = RESET_SCOPE;
@@ -254,10 +276,13 @@ always@(*)begin
 								end
 								
 								else begin
-									if(doneFFT == 1'd1)begin
+									if(doneFFT == 1'd1 | cntNoFFT == TIME_LIMIT)begin
 										startModCuad= 1'd1;
 										state_next = MODCUAD_BUSY;
-									end	
+									end
+									else begin
+										cntNoFFT_on = 1'd1;
+									end
 								end
 
 							end
@@ -300,16 +325,22 @@ always@(*)begin
 								
 								else begin
 									if(doneMapper == 1'd1)begin
-										if(cntAvg < avg_min)begin
+										if(mode == 1'd1 & cntAvg < avg_min)begin
 											cntAvg_on = 1'd1;
 											startDecim = 1'd1;
 											state_next = DECIM_BUSY;
 										end
 										else begin
 											cntAvg_rst = 1'd1;
-											config_regScopeW = {8'h00, WHITE, BLACK, 16'h002c};//32'h0017002c;
+											cntNoFFT_rst = 1'd1;
 											set_scopeConfig = 1'd1;
 											state_next = WRITE_SCOPE;
+											if(cntNoFFT == TIME_LIMIT)begin
+												config_regScopeW = {8'h00, RED, BLACK, 16'h002c};
+											end 
+											else begin
+												config_regScopeW = {8'h00, WHITE, BLACK, 16'h002c};//32'h0017002c;
+											end
 										end
 									end	
 								end
@@ -366,12 +397,19 @@ always@(*)begin
 								else begin
 									done_flag = 1'd1;
 									startDecim = 1'd1;
-									state_next = DECIM_BUSY;
+									if(mode == 1'd1)begin
+										state_next = DECIM_BUSY;
+									end
+									else begin
+										state_next = IDLE;
+									end
 								end	
 							end	
 		
 		default		:	begin
 								cnt_rst = 1'd1;
+								cntAvg_rst = 1'd1;
+								cntNoFFT_rst = 1'd1;
 								state_next = RESET_SCOPE;
 								set_scopeConfig = 1'd1;
 								config_regScopeW = 32'h000000ff;

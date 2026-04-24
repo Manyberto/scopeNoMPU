@@ -1,0 +1,157 @@
+
+State Machine - |ipmScopeNoMPU|ID00001011_aipScopeNoMPU:ID00001011|ID00001011_scopeNoMPU_core:SCOPENOMPU_CORE|ID00001011_scopeNoMPU_datapath:SCOPENOMPU_DP|ID00001008_ILI9327Core:SCOPECORE|ID00001008_TxConfig:TxConfig|currState
+Name currState.CONFIG_END currState.GAMMA3_FUNCT_CONTROL_PAR1 currState.GAMMA3_FUNCTION_CONTROL currState.WAIT_STATE2 currState.TX_SOME_COMMANDS currState.WAIT_STATE1 currState.EXIT_SLEEP currState.SET_RST2 currState.RST_DELAY2 currState.CLR_RST currState.RST_DELAY1 currState.SET_RST1 currState.WAIT_FOR_CONFIG 
+currState.WAIT_FOR_CONFIG 0 0 0 0 0 0 0 0 0 0 0 0 0 
+currState.SET_RST1 0 0 0 0 0 0 0 0 0 0 0 1 1 
+currState.RST_DELAY1 0 0 0 0 0 0 0 0 0 0 1 0 1 
+currState.CLR_RST 0 0 0 0 0 0 0 0 0 1 0 0 1 
+currState.RST_DELAY2 0 0 0 0 0 0 0 0 1 0 0 0 1 
+currState.SET_RST2 0 0 0 0 0 0 0 1 0 0 0 0 1 
+currState.EXIT_SLEEP 0 0 0 0 0 0 1 0 0 0 0 0 1 
+currState.WAIT_STATE1 0 0 0 0 0 1 0 0 0 0 0 0 1 
+currState.TX_SOME_COMMANDS 0 0 0 0 1 0 0 0 0 0 0 0 1 
+currState.WAIT_STATE2 0 0 0 1 0 0 0 0 0 0 0 0 1 
+currState.GAMMA3_FUNCTION_CONTROL 0 0 1 0 0 0 0 0 0 0 0 0 1 
+currState.GAMMA3_FUNCT_CONTROL_PAR1 0 1 0 0 0 0 0 0 0 0 0 0 1 
+currState.CONFIG_END 1 0 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |ipmScopeNoMPU|ID00001011_aipScopeNoMPU:ID00001011|ID00001011_scopeNoMPU_core:SCOPENOMPU_CORE|ID00001011_scopeNoMPU_datapath:SCOPENOMPU_DP|ID00001008_ILI9327Core:SCOPECORE|ID00001008_TxCmd:TxCmd|currStCmd
+Name currStCmd.END_TX_PARAMETER currStCmd.PARAM_ADDR_INC currStCmd.TX_PARAM_BYTE4 currStCmd.TX_PARAM_BYTE3 currStCmd.TX_PARAM_BYTE2 currStCmd.TX_PARAM_BYTE1 currStCmd.TX_COMMAND currStCmd.WAIT_COMMAND 
+currStCmd.WAIT_COMMAND 0 0 0 0 0 0 0 0 
+currStCmd.TX_COMMAND 0 0 0 0 0 0 1 1 
+currStCmd.TX_PARAM_BYTE1 0 0 0 0 0 1 0 1 
+currStCmd.TX_PARAM_BYTE2 0 0 0 0 1 0 0 1 
+currStCmd.TX_PARAM_BYTE3 0 0 0 1 0 0 0 1 
+currStCmd.TX_PARAM_BYTE4 0 0 1 0 0 0 0 1 
+currStCmd.PARAM_ADDR_INC 0 1 0 0 0 0 0 1 
+currStCmd.END_TX_PARAMETER 1 0 0 0 0 0 0 1 
+
+State Machine - |ipmScopeNoMPU|ID00001011_aipScopeNoMPU:ID00001011|ID00001011_scopeNoMPU_core:SCOPENOMPU_CORE|ID00001011_scopeNoMPU_datapath:SCOPENOMPU_DP|ID00001008_ILI9327Core:SCOPECORE|ID00001008_TxVideo:TxVideo|currStFrame
+Name currStFrame.READ_MEM currStFrame.TX_SEND_BYTE_16 currStFrame.TX_SEND_BYTE_15 currStFrame.TX_SEND_BYTE_14 currStFrame.TX_SEND_BYTE_13 currStFrame.TX_SEND_BYTE_12 currStFrame.TX_SEND_BYTE_11 currStFrame.TX_SEND_BYTE_10 currStFrame.TX_SEND_BYTE_9 currStFrame.TX_SEND_BYTE_8 currStFrame.TX_SEND_BYTE_7 currStFrame.TX_SEND_BYTE_6 currStFrame.TX_SEND_BYTE_5 currStFrame.TX_SEND_BYTE_4 currStFrame.TX_SEND_BYTE_3 currStFrame.TX_SEND_BYTE_2 currStFrame.TX_SEND_BYTE_1 currStFrame.TX_WR_MEM_CMD currStFrame.WAIT_FOR_VIDEO 
+currStFrame.WAIT_FOR_VIDEO 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+currStFrame.TX_WR_MEM_CMD 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+currStFrame.TX_SEND_BYTE_1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+currStFrame.TX_SEND_BYTE_2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+currStFrame.TX_SEND_BYTE_3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+currStFrame.TX_SEND_BYTE_4 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+currStFrame.TX_SEND_BYTE_5 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+currStFrame.TX_SEND_BYTE_6 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+currStFrame.TX_SEND_BYTE_7 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+currStFrame.TX_SEND_BYTE_8 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+currStFrame.TX_SEND_BYTE_9 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+currStFrame.TX_SEND_BYTE_10 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+currStFrame.TX_SEND_BYTE_11 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+currStFrame.TX_SEND_BYTE_12 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+currStFrame.TX_SEND_BYTE_13 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+currStFrame.TX_SEND_BYTE_14 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+currStFrame.TX_SEND_BYTE_15 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+currStFrame.TX_SEND_BYTE_16 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+currStFrame.READ_MEM 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |ipmScopeNoMPU|ID00001011_aipScopeNoMPU:ID00001011|ID00001011_scopeNoMPU_core:SCOPENOMPU_CORE|ID00001011_scopeNoMPU_datapath:SCOPENOMPU_DP|ID00001012_scopeSignalMapper_core:MAPPERCORE|ID00001012_scopeSignalMapper_datapath:SCOPEMAPPER_DP|average:AVGR|dividerSig_core:DVD|dividerSig_controlpath:DCP|state_reg
+Name state_reg.00 state_reg.DONE state_reg.COUNT 
+state_reg.00 0 0 0 
+state_reg.COUNT 1 0 1 
+state_reg.DONE 1 1 0 
+
+State Machine - |ipmScopeNoMPU|ID00001011_aipScopeNoMPU:ID00001011|ID00001011_scopeNoMPU_core:SCOPENOMPU_CORE|ID00001011_scopeNoMPU_datapath:SCOPENOMPU_DP|ID00001012_scopeSignalMapper_core:MAPPERCORE|ID00001012_scopeSignalMapper_datapath:SCOPEMAPPER_DP|scopeScaler:SCALER|dividerSig_core:DVD|dividerSig_controlpath:DCP|state_reg
+Name state_reg.00 state_reg.DONE state_reg.COUNT 
+state_reg.00 0 0 0 
+state_reg.COUNT 1 0 1 
+state_reg.DONE 1 1 0 
+
+State Machine - |ipmScopeNoMPU|ID00001011_aipScopeNoMPU:ID00001011|ID00001011_scopeNoMPU_core:SCOPENOMPU_CORE|ID00001011_scopeNoMPU_datapath:SCOPENOMPU_DP|ID00001012_scopeSignalMapper_core:MAPPERCORE|ID00001012_scopeSignalMapper_datapath:SCOPEMAPPER_DP|scopeScaler:SCALER|booth_core:B1|booth_controlpath:BCP|state_reg
+Name state_reg.00 state_reg.DONE state_reg.COUNT 
+state_reg.00 0 0 0 
+state_reg.COUNT 1 0 1 
+state_reg.DONE 1 1 0 
+
+State Machine - |ipmScopeNoMPU|ID00001011_aipScopeNoMPU:ID00001011|ID00001011_scopeNoMPU_core:SCOPENOMPU_CORE|ID00001011_scopeNoMPU_datapath:SCOPENOMPU_DP|ID00001012_scopeSignalMapper_core:MAPPERCORE|ID00001012_scopeSignalMapper_controlpath:SCOPEMAPPER_CP|state_reg
+Name state_reg.ROW_CHANGE state_reg.COLS_ROVE state_reg.RESTART_AVG state_reg.AVERAGE state_reg.RESTART_SCA state_reg.NORMALIZING state_reg.MAX_SEARCH state_reg.IDLE state_reg.DONE 
+state_reg.IDLE 0 0 0 0 0 0 0 0 0 
+state_reg.MAX_SEARCH 0 0 0 0 0 0 1 1 0 
+state_reg.NORMALIZING 0 0 0 0 0 1 0 1 0 
+state_reg.RESTART_SCA 0 0 0 0 1 0 0 1 0 
+state_reg.AVERAGE 0 0 0 1 0 0 0 1 0 
+state_reg.RESTART_AVG 0 0 1 0 0 0 0 1 0 
+state_reg.COLS_ROVE 0 1 0 0 0 0 0 1 0 
+state_reg.ROW_CHANGE 1 0 0 0 0 0 0 1 0 
+state_reg.DONE 0 0 0 0 0 0 0 1 1 
+
+State Machine - |ipmScopeNoMPU|ID00001011_aipScopeNoMPU:ID00001011|ID00001011_scopeNoMPU_core:SCOPENOMPU_CORE|ID00001011_scopeNoMPU_datapath:SCOPENOMPU_DP|intpolFrac_core:INTPOLFRAC_CORE|intpolFrac_datapath:INTFRAC_DP|ID0000100F_decim2frac_core:DECIM_CORE|ID0000100F_decim2frac_controlpath:DCM_CP|state_reg
+Name state_reg.DECIM_DATA state_reg.IDLE state_reg.DONE 
+state_reg.IDLE 0 0 0 
+state_reg.DECIM_DATA 1 1 0 
+state_reg.DONE 0 1 1 
+
+State Machine - |ipmScopeNoMPU|ID00001011_aipScopeNoMPU:ID00001011|ID00001011_scopeNoMPU_core:SCOPENOMPU_CORE|ID00001011_scopeNoMPU_datapath:SCOPENOMPU_DP|intpolFrac_core:INTPOLFRAC_CORE|intpolFrac_datapath:INTFRAC_DP|intpol2scope_core:INTPOL_CORE|intpol2scope_fsm:FSM1|state_reg
+Name state_reg.COPY_LAST state_reg.WAIT_CONFIG state_reg.SHIFT state_reg.DONE state_reg.BYPASS state_reg.PROCESS state_reg.WRITEM2 state_reg.READM2 state_reg.READM1 state_reg.READM0 state_reg.CONFIG state_reg.IDLE 
+state_reg.IDLE 0 0 0 0 0 0 0 0 0 0 0 0 
+state_reg.CONFIG 0 0 0 0 0 0 0 0 0 0 1 1 
+state_reg.READM0 0 0 0 0 0 0 0 0 0 1 0 1 
+state_reg.READM1 0 0 0 0 0 0 0 0 1 0 0 1 
+state_reg.READM2 0 0 0 0 0 0 0 1 0 0 0 1 
+state_reg.WRITEM2 0 0 0 0 0 0 1 0 0 0 0 1 
+state_reg.PROCESS 0 0 0 0 0 1 0 0 0 0 0 1 
+state_reg.BYPASS 0 0 0 0 1 0 0 0 0 0 0 1 
+state_reg.DONE 0 0 0 1 0 0 0 0 0 0 0 1 
+state_reg.SHIFT 0 0 1 0 0 0 0 0 0 0 0 1 
+state_reg.WAIT_CONFIG 0 1 0 0 0 0 0 0 0 0 0 1 
+state_reg.COPY_LAST 1 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |ipmScopeNoMPU|ID00001011_aipScopeNoMPU:ID00001011|ID00001011_scopeNoMPU_core:SCOPENOMPU_CORE|ID00001011_scopeNoMPU_datapath:SCOPENOMPU_DP|intpolFrac_core:INTPOLFRAC_CORE|intpolFrac_controlpath:INTFRAC_CP|state_reg
+Name state_reg.DONE state_reg.DECIM_START state_reg.INTPOL_BUSY state_reg.IDLE 
+state_reg.IDLE 0 0 0 0 
+state_reg.INTPOL_BUSY 0 0 1 1 
+state_reg.DECIM_START 0 1 0 1 
+state_reg.DONE 1 0 0 1 
+
+State Machine - |ipmScopeNoMPU|ID00001011_aipScopeNoMPU:ID00001011|ID00001011_scopeNoMPU_core:SCOPENOMPU_CORE|ID00001011_scopeNoMPU_datapath:SCOPENOMPU_DP|ID0000100C_modCuad_core:MODCUAD_CORE|ID0000100C_modCuad_datapath:modCuad_DP|ID0000100C_modCuad_power2:PW2_IMAG|booth_core:DUT|booth_controlpath:BCP|state_reg
+Name state_reg.00 state_reg.DONE state_reg.COUNT 
+state_reg.00 0 0 0 
+state_reg.COUNT 1 0 1 
+state_reg.DONE 1 1 0 
+
+State Machine - |ipmScopeNoMPU|ID00001011_aipScopeNoMPU:ID00001011|ID00001011_scopeNoMPU_core:SCOPENOMPU_CORE|ID00001011_scopeNoMPU_datapath:SCOPENOMPU_DP|ID0000100C_modCuad_core:MODCUAD_CORE|ID0000100C_modCuad_datapath:modCuad_DP|ID0000100C_modCuad_power2:PW2_REAL|booth_core:DUT|booth_controlpath:BCP|state_reg
+Name state_reg.00 state_reg.DONE state_reg.COUNT 
+state_reg.00 0 0 0 
+state_reg.COUNT 1 0 1 
+state_reg.DONE 1 1 0 
+
+State Machine - |ipmScopeNoMPU|ID00001011_aipScopeNoMPU:ID00001011|ID00001011_scopeNoMPU_core:SCOPENOMPU_CORE|ID00001011_scopeNoMPU_datapath:SCOPENOMPU_DP|ID0000100C_modCuad_core:MODCUAD_CORE|ID0000100C_modCuad_controlpath:modCuad_CP|state_reg
+Name state_reg.DONE state_reg.NEW_DATA state_reg.WAIT_POW state_reg.IDLE 
+state_reg.IDLE 0 0 0 0 
+state_reg.WAIT_POW 0 0 1 1 
+state_reg.NEW_DATA 0 1 0 1 
+state_reg.DONE 1 0 0 1 
+
+State Machine - |ipmScopeNoMPU|ID00001011_aipScopeNoMPU:ID00001011|ID00001011_scopeNoMPU_core:SCOPENOMPU_CORE|ID00001011_scopeNoMPU_datapath:SCOPENOMPU_DP|ID00001009_decim2scope_core:ID00001009_DECIM_CORE|ID00001009_decim2scope_controlpath:ID00001009_DCM_CP|state_reg
+Name state_reg.DONE state_reg.DECIM_DATA state_reg.SAVE_DATA state_reg.IDLE 
+state_reg.IDLE 0 0 0 0 
+state_reg.SAVE_DATA 0 0 1 1 
+state_reg.DECIM_DATA 0 1 0 1 
+state_reg.DONE 1 0 0 1 
+
+State Machine - |ipmScopeNoMPU|ID00001011_aipScopeNoMPU:ID00001011|ID00001011_scopeNoMPU_core:SCOPENOMPU_CORE|ID00001011_scopeNoMPU_datapath:SCOPENOMPU_DP|toogleButtonControl:ZMBUTTON|state_reg
+Name state_reg.RST state_reg.WAIT_DBC state_reg.WAIT_TOGGLE state_reg.IDLE 
+state_reg.IDLE 0 0 0 0 
+state_reg.WAIT_TOGGLE 0 0 1 1 
+state_reg.WAIT_DBC 0 1 0 1 
+state_reg.RST 1 0 0 1 
+
+State Machine - |ipmScopeNoMPU|ID00001011_aipScopeNoMPU:ID00001011|ID00001011_scopeNoMPU_core:SCOPENOMPU_CORE|ID00001011_scopeNoMPU_controlpath:SCOPENOMPU_CP|state_reg
+Name state_reg.DONE state_reg.WAITWR_DONE state_reg.WRITE_SCOPE state_reg.HOLD_ON state_reg.MAPPER_BUSY state_reg.MULTIR_BUSY state_reg.MODCUAD_BUSY state_reg.FFT_BUSY state_reg.DECIM_BUSY state_reg.WAITINV_DONE state_reg.INVMODE_SCOPE state_reg.WAITRST_DONE state_reg.RESET_SCOPE state_reg.IDLE 
+state_reg.IDLE 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+state_reg.RESET_SCOPE 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+state_reg.WAITRST_DONE 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+state_reg.INVMODE_SCOPE 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+state_reg.WAITINV_DONE 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+state_reg.DECIM_BUSY 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+state_reg.FFT_BUSY 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+state_reg.MODCUAD_BUSY 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+state_reg.MULTIR_BUSY 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+state_reg.MAPPER_BUSY 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+state_reg.HOLD_ON 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+state_reg.WRITE_SCOPE 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+state_reg.WAITWR_DONE 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+state_reg.DONE 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
