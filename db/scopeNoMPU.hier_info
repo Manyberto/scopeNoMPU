@@ -14,10 +14,10 @@ dataMCU[4] <> ipm:IPM.ipmMCUDataInout
 dataMCU[5] <> ipm:IPM.ipmMCUDataInout
 dataMCU[6] <> ipm:IPM.ipmMCUDataInout
 dataMCU[7] <> ipm:IPM.ipmMCUDataInout
-intMCU << ipm:IPM.ipmMCUINTOut
+intMCU <= ipm:IPM.ipmMCUINTOut
 clk => clk.IN2
 rstn => rstn.IN1
-valid_data => ~NO_FANOUT~
+valid_data => valid_data.IN1
 dataStream[0] => dataStream[0].IN1
 dataStream[1] => dataStream[1].IN1
 dataStream[2] => dataStream[2].IN1
@@ -52,12 +52,12 @@ dataStream[30] => dataStream[30].IN1
 dataStream[31] => dataStream[31].IN1
 scopeFreeze => scopeFreeze.IN1
 zoomButton => _.IN1
-busy << ID00001011_aipScopeNoMPU:ID00001011.busy
-nRST << ID00001011_aipScopeNoMPU:ID00001011.nRST
-SDA << ID00001011_aipScopeNoMPU:ID00001011.SDA
-SCL << ID00001011_aipScopeNoMPU:ID00001011.SCL
-nCS << ID00001011_aipScopeNoMPU:ID00001011.nCS
-BL << ID00001011_aipScopeNoMPU:ID00001011.BL
+busy <= ID00001011_aipScopeNoMPU:ID00001011.busy
+nRST <= ID00001011_aipScopeNoMPU:ID00001011.nRST
+SDA <= ID00001011_aipScopeNoMPU:ID00001011.SDA
+SCL <= ID00001011_aipScopeNoMPU:ID00001011.SCL
+nCS <= ID00001011_aipScopeNoMPU:ID00001011.nCS
+BL <= ID00001011_aipScopeNoMPU:ID00001011.BL
 
 
 |ipmScopeNoMPU|ipm:IPM

@@ -100,6 +100,10 @@
 					"strict" : false
 				},
 				{
+					"name" : "valid_data",
+					"strict" : false
+				},
+				{
 					"name" : "zoomButton",
 					"strict" : false
 				},

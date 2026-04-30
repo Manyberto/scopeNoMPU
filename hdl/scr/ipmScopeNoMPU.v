@@ -79,7 +79,7 @@ ipm IPM (
 ID00001011_aipScopeNoMPU ID00001011(
 		.clk						(clk),			 // Señal de reloj	
 		.rstn						(rstn),            // Reset en bajo	
-		.valid_data				(1'd1),
+		.valid_data				(valid_data),
 		.dataStream				(dataStream),
 		.zoomButton				(~zoomButton),
 		.scopeFreeze			(scopeFreeze),
