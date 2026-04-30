@@ -19,6 +19,7 @@ input		wire[DATAPATH_WIDTH-1:0]		dataStreamReal_in,
 input		wire[DATAPATH_WIDTH-1:0]		dataStreamImag_in,
 output	wire[MEM_IFC_MAX_WIDTH-1:0]	read_addr_mem,       // Dirección de lectura para la memoria de la interfaz aip.
 input		wire[CONFIG_REG_WIDTH*4-1:0]	config_reg,			   // Registro de configuración entrante desde la interfaz aip.
+output 	wire									busy,					// Reset to display
 output 	wire									nRST,					// Reset to display
 output 	wire									SDA,					// Serial data to/from the display.
 output 	wire									SCL,					// Clock to the display.
@@ -59,8 +60,8 @@ wire[CONFIG_REG_WIDTH-1:0]		config_regDecim;
 							
 
 wire									done_flag;
-wire									busy_flag;
-assign status_reg = {6'd0, busy_flag, done_flag};
+//wire									busy_flag;
+assign status_reg = {6'd0, busy, done_flag};
 
 assign config_lowerDotWidth = config_reg[19:16];  
 assign config_upperDotWidth = config_reg[23:20];  
@@ -97,7 +98,7 @@ SCOPENOMPU_CP(
 		.startMapper				(startMapper),
 		.startScope					(startScope),
 		.avgRound1Cmp				(avgRound1Cmp),
-		.busy_flag					(busy_flag),
+		.busy_flag					(busy),
 		.done_flag					(done_flag)
 );
 

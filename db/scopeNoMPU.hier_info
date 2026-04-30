@@ -52,6 +52,7 @@ dataStream[30] => dataStream[30].IN1
 dataStream[31] => dataStream[31].IN1
 scopeFreeze => scopeFreeze.IN1
 zoomButton => _.IN1
+busy << ID00001011_aipScopeNoMPU:ID00001011.busy
 nRST << ID00001011_aipScopeNoMPU:ID00001011.nRST
 SDA << ID00001011_aipScopeNoMPU:ID00001011.SDA
 SCL << ID00001011_aipScopeNoMPU:ID00001011.SCL
@@ -589,6 +590,7 @@ dataStream[30] => dataStreamReal_in[14].IN1
 dataStream[31] => dataStreamReal_in[15].IN1
 scopeFreeze => scopeFreeze.IN1
 zoomButton => zoomButton.IN1
+busy <= ID00001011_scopeNoMPU_core:SCOPENOMPU_CORE.busy
 nRST <= ID00001011_scopeNoMPU_core:SCOPENOMPU_CORE.nRST
 SDA <= ID00001011_scopeNoMPU_core:SCOPENOMPU_CORE.SDA
 SCL <= ID00001011_scopeNoMPU_core:SCOPENOMPU_CORE.SCL
@@ -843,6 +845,7 @@ config_reg[124] => config_regIntpolFrac[60].IN1
 config_reg[125] => config_regIntpolFrac[61].IN1
 config_reg[126] => config_regIntpolFrac[62].IN1
 config_reg[127] => config_regIntpolFrac[63].IN1
+busy <= ID00001011_scopeNoMPU_controlpath:SCOPENOMPU_CP.busy_flag
 nRST <= ID00001011_scopeNoMPU_datapath:SCOPENOMPU_DP.nRST
 SDA <= ID00001011_scopeNoMPU_datapath:SCOPENOMPU_DP.SDA
 SCL <= ID00001011_scopeNoMPU_datapath:SCOPENOMPU_DP.SCL

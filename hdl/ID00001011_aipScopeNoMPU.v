@@ -14,6 +14,7 @@ input		wire						valid_data,			// Reset en bajo
 input		wire[31:0]				dataStream,
 input		wire						scopeFreeze,
 input		wire						zoomButton,
+output 	wire						busy,					// Reset to display
 output 	wire						nRST,					// Reset to display
 output 	wire						SDA,					// Serial data to/from the display.
 output 	wire						SCL,					// Clock to the display.
@@ -78,6 +79,7 @@ SCOPENOMPU_CORE (
 	.dataStreamImag_in		(dataStreamImag_in),
 	.read_addr_mem       	(read_addr_mem),
 	.config_reg			      (config_reg),
+	.busy							(busy),		
 	.nRST							(nRST),		
 	.SDA	               	(SDA),	
 	.SCL	               	(SCL),	

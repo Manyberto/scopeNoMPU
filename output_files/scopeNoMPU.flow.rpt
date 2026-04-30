@@ -1,5 +1,5 @@
 Flow report for scopeNoMPU
-Fri Apr 24 16:13:36 2026
+Thu Apr 30 15:14:22 2026
 Quartus Prime Version 23.1std.1 Build 993 05/14/2024 SC Lite Edition
 
 
@@ -41,18 +41,18 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------------+
 ; Flow Summary                                                                        ;
 +------------------------------------+------------------------------------------------+
-; Flow Status                        ; Successful - Fri Apr 24 16:13:36 2026          ;
+; Flow Status                        ; Successful - Thu Apr 30 15:14:22 2026          ;
 ; Quartus Prime Version              ; 23.1std.1 Build 993 05/14/2024 SC Lite Edition ;
 ; Revision Name                      ; scopeNoMPU                                     ;
 ; Top-level Entity Name              ; ipmScopeNoMPU                                  ;
 ; Family                             ; Cyclone IV E                                   ;
 ; Device                             ; EP4CE115F29C7                                  ;
 ; Timing Models                      ; Final                                          ;
-; Total logic elements               ; 3,973 / 114,480 ( 3 % )                        ;
-;     Total combinational functions  ; 3,763 / 114,480 ( 3 % )                        ;
+; Total logic elements               ; 3,978 / 114,480 ( 3 % )                        ;
+;     Total combinational functions  ; 3,762 / 114,480 ( 3 % )                        ;
 ;     Dedicated logic registers      ; 1,512 / 114,480 ( 1 % )                        ;
 ; Total registers                    ; 1512                                           ;
-; Total pins                         ; 58 / 529 ( 11 % )                              ;
+; Total pins                         ; 59 / 529 ( 11 % )                              ;
 ; Total virtual pins                 ; 0                                              ;
 ; Total memory bits                  ; 789,180 / 3,981,312 ( 20 % )                   ;
 ; Embedded Multiplier 9-bit elements ; 8 / 532 ( 2 % )                                ;
@@ -65,7 +65,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 04/24/2026 16:12:25 ;
+; Start date & time ; 04/30/2026 15:13:11 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; scopeNoMPU          ;
 +-------------------+---------------------+
@@ -76,7 +76,7 @@ https://fpgasoftware.intel.com/eula.
 +--------------------------------------+----------------------------------------+---------------+---------------+-----------------------------------+
 ; Assignment Name                      ; Value                                  ; Default Value ; Entity Name   ; Section Id                        ;
 +--------------------------------------+----------------------------------------+---------------+---------------+-----------------------------------+
-; COMPILER_SIGNATURE_ID                ; 91759506944.177706874500784            ; --            ; --            ; --                                ;
+; COMPILER_SIGNATURE_ID                ; 91759506944.177758359125232            ; --            ; --            ; --                                ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                                    ; --            ; --            ; eda_board_design_timing           ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                                    ; --            ; --            ; eda_board_design_boundary_scan    ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                                    ; --            ; --            ; eda_board_design_signal_integrity ;
@@ -111,12 +111,12 @@ https://fpgasoftware.intel.com/eula.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:21     ; 1.0                     ; 4895 MB             ; 00:00:29                           ;
-; Fitter               ; 00:00:33     ; 1.1                     ; 5982 MB             ; 00:00:58                           ;
-; Assembler            ; 00:00:05     ; 1.0                     ; 5003 MB             ; 00:00:04                           ;
+; Analysis & Synthesis ; 00:00:21     ; 1.0                     ; 4896 MB             ; 00:00:28                           ;
+; Fitter               ; 00:00:34     ; 1.1                     ; 5982 MB             ; 00:00:59                           ;
+; Assembler            ; 00:00:04     ; 1.0                     ; 5003 MB             ; 00:00:04                           ;
 ; Timing Analyzer      ; 00:00:04     ; 2.1                     ; 4971 MB             ; 00:00:05                           ;
-; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4705 MB             ; 00:00:01                           ;
-; Total                ; 00:01:04     ; --                      ; --                  ; 00:01:37                           ;
+; EDA Netlist Writer   ; 00:00:02     ; 1.0                     ; 4705 MB             ; 00:00:01                           ;
+; Total                ; 00:01:05     ; --                      ; --                  ; 00:01:37                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

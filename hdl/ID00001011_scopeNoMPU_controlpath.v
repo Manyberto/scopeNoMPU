@@ -78,7 +78,10 @@ wire[AVG_WIDTH-1:0]	avg_min;
 
 reg[CONFIG_REG_WIDTH-1:0]	config_regScopeW;
 
-assign busy_flag = (state_reg == IDLE || state_reg == DONE) ? 1'd0 : 1'd1; 
+assign busy_flag = (state_reg == IDLE || state_reg == RESET_SCOPE ||
+						  state_reg == DONE || state_reg == WAITRST_DONE ||
+						  state_reg == INVMODE_SCOPE ||
+						  state_reg == DECIM_BUSY || state_reg == WAITINV_DONE) ? 1'd0 : 1'd1; 
 
 assign avg_min = (avgRound1Cmp == 1'd1) ? avg - 2'd2 : avg - 1'd1;
 

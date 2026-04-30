@@ -8,6 +8,10 @@
 					"strict" : false
 				},
 				{
+					"name" : "busy",
+					"strict" : false
+				},
+				{
 					"name" : "nRST",
 					"strict" : false
 				},
