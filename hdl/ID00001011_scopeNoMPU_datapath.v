@@ -160,6 +160,8 @@ assign sizeInputDecim 		= SIZE2DECIMINIT[12:0];
 assign selBckGrndOrigin		= config_regDecimExt[NUMBCKGRND_WIDTH-1 -:NUMBCKGRND_WIDTH];
 assign stepOrigin				= config_regDecimExt[2*NUMBCKGRND_WIDTH-1 -:NUMBCKGRND_WIDTH];
 
+assign selBckGrnd = { {NUMBCKGRND_WIDTH-1{1'd0}}, 1'd1};
+
 assign inputDecimFactorZoom = inputDecimFactor << selBckGrnd;
 assign sizeInputDecimZoom = sizeInputDecim << selBckGrnd;
 
@@ -181,7 +183,7 @@ assign doneMultirate = status_regMultirate[0];
 assign addBckGrnd = selBckGrnd + stepOrigin;
 assign adjBckGrnd = addBckGrnd-NUMBCKGRND[NUMBCKGRND_WIDTH-1:0];
 
-assign addressBckGrnd = (addBckGrnd >= NUMBCKGRND[NUMBCKGRND_WIDTH-1:0]) ? adjBckGrnd[NUMBCKGRND_WIDTH-1:0] : addBckGrnd[NUMBCKGRND_WIDTH-1:0];
+assign addressBckGrnd = { {NUMBCKGRND_WIDTH-3{1'd0}}, 3'd4};//(addBckGrnd >= NUMBCKGRND[NUMBCKGRND_WIDTH-1:0]) ? adjBckGrnd[NUMBCKGRND_WIDTH-1:0] : addBckGrnd[NUMBCKGRND_WIDTH-1:0];
 
 assign data2ScopeBckGrnd = data2Scope | scopeBckGrnd_mux;
 
@@ -197,7 +199,7 @@ ZMBUTTON(
 	.start				(start),
 	.button				(zoomButton),
 	.load					(selBckGrndOrigin),
-	.selOut				(selBckGrnd)
+	.selOut				()//selBckGrnd
 );
 
 // DECIMADOR de ENTRADA -----------------------------------------
