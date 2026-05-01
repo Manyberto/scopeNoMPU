@@ -104,10 +104,6 @@
 					"strict" : false
 				},
 				{
-					"name" : "zoomButton",
-					"strict" : false
-				},
-				{
 					"name" : "dataStream[15]",
 					"strict" : false
 				},
