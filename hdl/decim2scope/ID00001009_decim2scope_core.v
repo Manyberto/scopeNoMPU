@@ -39,8 +39,8 @@ wire								op_mode;
 
 assign status_reg = {6'd0, busy_flag, done_flag};
 
-assign decim_factor 	= { {ADDR_WIDTH-4{1'd0}}, 4'd8};//config_reg[ADDR_WIDTH-1 -: ADDR_WIDTH];
-assign size2decim 	= { {ADDR_WIDTH-11{1'd0}}, 11'd1024}; //{config_reg[ADDR_WIDTH*2-1 -: ADDR_WIDTH];
+assign decim_factor 	= { {ADDR_WIDTH-4{1'd0}}, 4'd2};//config_reg[ADDR_WIDTH-1 -: ADDR_WIDTH];
+assign size2decim 	= { {ADDR_WIDTH-11{1'd0}}, 11'd256}; //{config_reg[ADDR_WIDTH*2-1 -: ADDR_WIDTH];
 assign op_mode			= config_reg[CONFIG_REG_WIDTH-1];
 // -------------------------------------------------------
 
