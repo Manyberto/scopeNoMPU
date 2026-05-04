@@ -183,7 +183,7 @@ assign doneMultirate = status_regMultirate[0];
 assign addBckGrnd = selBckGrnd + stepOrigin;
 assign adjBckGrnd = addBckGrnd-NUMBCKGRND[NUMBCKGRND_WIDTH-1:0];
 
-assign addressBckGrnd = { {NUMBCKGRND_WIDTH-3{1'd0}}, 3'd4};//(addBckGrnd >= NUMBCKGRND[NUMBCKGRND_WIDTH-1:0]) ? adjBckGrnd[NUMBCKGRND_WIDTH-1:0] : addBckGrnd[NUMBCKGRND_WIDTH-1:0];
+assign addressBckGrnd = { {NUMBCKGRND_WIDTH-3{1'd0}}, 3'd3};//(addBckGrnd >= NUMBCKGRND[NUMBCKGRND_WIDTH-1:0]) ? adjBckGrnd[NUMBCKGRND_WIDTH-1:0] : addBckGrnd[NUMBCKGRND_WIDTH-1:0];
 
 assign data2ScopeBckGrnd = data2Scope | scopeBckGrnd_mux;
 

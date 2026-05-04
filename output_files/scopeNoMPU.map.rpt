@@ -1,5 +1,5 @@
 Analysis & Elaboration report for scopeNoMPU
-Thu Apr 30 19:39:57 2026
+Mon May  4 13:53:07 2026
 Quartus Prime Version 23.1std.1 Build 993 05/14/2024 SC Lite Edition
 
 
@@ -169,7 +169,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------------+
 ; Analysis & Elaboration Summary                                                      ;
 +------------------------------------+------------------------------------------------+
-; Analysis & Elaboration Status      ; Successful - Thu Apr 30 19:39:57 2026          ;
+; Analysis & Elaboration Status      ; Successful - Mon May  4 13:53:07 2026          ;
 ; Quartus Prime Version              ; 23.1std.1 Build 993 05/14/2024 SC Lite Edition ;
 ; Revision Name                      ; scopeNoMPU                                     ;
 ; Top-level Entity Name              ; ipmScopeNoMPU                                  ;
@@ -1495,17 +1495,6 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 +------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 ; Port Connectivity Checks: "ID00001011_aipScopeNoMPU:ID00001011|ID00001011_scopeNoMPU_core:SCOPENOMPU_CORE|ID00001011_scopeNoMPU_datapath:SCOPENOMPU_DP|backgroundValuesMem:BCKBANK[4].BCKGRND" ;
-+---------+-------+----------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port    ; Type  ; Severity ; Details                                                                                                                                                           ;
-+---------+-------+----------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; wr_en   ; Input ; Info     ; Stuck at GND                                                                                                                                                      ;
-; wr_addr ; Input ; Info     ; Stuck at GND                                                                                                                                                      ;
-; data_in ; Input ; Info     ; Stuck at GND                                                                                                                                                      ;
-+---------+-------+----------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-
-
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "ID00001011_aipScopeNoMPU:ID00001011|ID00001011_scopeNoMPU_core:SCOPENOMPU_CORE|ID00001011_scopeNoMPU_datapath:SCOPENOMPU_DP|backgroundValuesMem:BCKBANK[3].BCKGRND" ;
 +----------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
 ; Port     ; Type   ; Severity ; Details                                                                                                                                                         ;
 +----------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -1514,6 +1503,17 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; data_in  ; Input  ; Info     ; Stuck at GND                                                                                                                                                    ;
 ; data_out ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed.                                                                             ;
 +----------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ID00001011_aipScopeNoMPU:ID00001011|ID00001011_scopeNoMPU_core:SCOPENOMPU_CORE|ID00001011_scopeNoMPU_datapath:SCOPENOMPU_DP|backgroundValuesMem:BCKBANK[3].BCKGRND" ;
++---------+-------+----------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port    ; Type  ; Severity ; Details                                                                                                                                                           ;
++---------+-------+----------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; wr_en   ; Input ; Info     ; Stuck at GND                                                                                                                                                      ;
+; wr_addr ; Input ; Info     ; Stuck at GND                                                                                                                                                      ;
+; data_in ; Input ; Info     ; Stuck at GND                                                                                                                                                      ;
++---------+-------+----------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
 +------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -1762,12 +1762,12 @@ Note: In order to hide this table in the UI and the text report file, please set
 +---------------------+-------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 ; Port                ; Type  ; Severity ; Details                                                                                                                                                                                                               ;
 +---------------------+-------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; size2decim[12..10]  ; Input ; Info     ; Stuck at GND                                                                                                                                                                                                          ;
-; size2decim[8..0]    ; Input ; Info     ; Stuck at GND                                                                                                                                                                                                          ;
-; size2decim[9]       ; Input ; Info     ; Stuck at VCC                                                                                                                                                                                                          ;
-; decim_factor[12..3] ; Input ; Info     ; Stuck at GND                                                                                                                                                                                                          ;
-; decim_factor[1..0]  ; Input ; Info     ; Stuck at GND                                                                                                                                                                                                          ;
-; decim_factor[2]     ; Input ; Info     ; Stuck at VCC                                                                                                                                                                                                          ;
+; size2decim[12..11]  ; Input ; Info     ; Stuck at GND                                                                                                                                                                                                          ;
+; size2decim[9..0]    ; Input ; Info     ; Stuck at GND                                                                                                                                                                                                          ;
+; size2decim[10]      ; Input ; Info     ; Stuck at VCC                                                                                                                                                                                                          ;
+; decim_factor[12..4] ; Input ; Info     ; Stuck at GND                                                                                                                                                                                                          ;
+; decim_factor[2..0]  ; Input ; Info     ; Stuck at GND                                                                                                                                                                                                          ;
+; decim_factor[3]     ; Input ; Info     ; Stuck at VCC                                                                                                                                                                                                          ;
 +---------------------+-------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
@@ -1798,7 +1798,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Elaboration
     Info: Version 23.1std.1 Build 993 05/14/2024 SC Lite Edition
-    Info: Processing started: Thu Apr 30 19:39:48 2026
+    Info: Processing started: Mon May  4 13:52:56 2026
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off scopeNoMPU -c scopeNoMPU --analysis_and_elaboration
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 6 of the 6 processors detected
@@ -2070,8 +2070,8 @@ Info (12128): Elaborating entity "aipStatus" for hierarchy "ID00001011_aipScopeN
 Info (144001): Generated suppressed messages file C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/scopeNoMPU/output_files/scopeNoMPU.map.smsg
 Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 45 warnings
     Info: Peak virtual memory: 4788 megabytes
-    Info: Processing ended: Thu Apr 30 19:39:57 2026
-    Info: Elapsed time: 00:00:09
+    Info: Processing ended: Mon May  4 13:53:07 2026
+    Info: Elapsed time: 00:00:11
     Info: Total CPU time (on all processors): 00:00:17
 
 
