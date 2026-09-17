@@ -132,6 +132,44 @@ state_reg.SAVE_DATA 0 0 1 1
 state_reg.DECIM_DATA 0 1 0 1 
 state_reg.DONE 1 0 0 1 
 
+State Machine - |ipmScopeNoMPU|ID00001011_aipScopeNoMPU:ID00001011|ID00001011_scopeNoMPU_core:SCOPENOMPU_CORE|ID00001011_scopeNoMPU_datapath:SCOPENOMPU_DP|ID0000100D_collector2scope_core:ID0000100D_COLLECTOR_CORE|ID0000100D_collector2scope_datapath:ID0000100D_DP|intpol2scope_core:COLLECT_INTPOL_CORE1|intpol2scope_fsm:FSM1|state_reg
+Name state_reg.COPY_LAST state_reg.WAIT_CONFIG state_reg.SHIFT state_reg.DONE state_reg.BYPASS state_reg.PROCESS state_reg.WRITEM2 state_reg.READM2 state_reg.READM1 state_reg.READM0 state_reg.CONFIG state_reg.IDLE 
+state_reg.IDLE 0 0 0 0 0 0 0 0 0 0 0 0 
+state_reg.CONFIG 0 0 0 0 0 0 0 0 0 0 1 1 
+state_reg.READM0 0 0 0 0 0 0 0 0 0 1 0 1 
+state_reg.READM1 0 0 0 0 0 0 0 0 1 0 0 1 
+state_reg.READM2 0 0 0 0 0 0 0 1 0 0 0 1 
+state_reg.WRITEM2 0 0 0 0 0 0 1 0 0 0 0 1 
+state_reg.PROCESS 0 0 0 0 0 1 0 0 0 0 0 1 
+state_reg.BYPASS 0 0 0 0 1 0 0 0 0 0 0 1 
+state_reg.DONE 0 0 0 1 0 0 0 0 0 0 0 1 
+state_reg.SHIFT 0 0 1 0 0 0 0 0 0 0 0 1 
+state_reg.WAIT_CONFIG 0 1 0 0 0 0 0 0 0 0 0 1 
+state_reg.COPY_LAST 1 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |ipmScopeNoMPU|ID00001011_aipScopeNoMPU:ID00001011|ID00001011_scopeNoMPU_core:SCOPENOMPU_CORE|ID00001011_scopeNoMPU_datapath:SCOPENOMPU_DP|ID0000100D_collector2scope_core:ID0000100D_COLLECTOR_CORE|ID0000100D_collector2scope_datapath:ID0000100D_DP|intpol2scope_core:COLLECT_INTPOL_CORE0|intpol2scope_fsm:FSM1|state_reg
+Name state_reg.COPY_LAST state_reg.WAIT_CONFIG state_reg.SHIFT state_reg.DONE state_reg.BYPASS state_reg.PROCESS state_reg.WRITEM2 state_reg.READM2 state_reg.READM1 state_reg.READM0 state_reg.CONFIG state_reg.IDLE 
+state_reg.IDLE 0 0 0 0 0 0 0 0 0 0 0 0 
+state_reg.CONFIG 0 0 0 0 0 0 0 0 0 0 1 1 
+state_reg.READM0 0 0 0 0 0 0 0 0 0 1 0 1 
+state_reg.READM1 0 0 0 0 0 0 0 0 1 0 0 1 
+state_reg.READM2 0 0 0 0 0 0 0 1 0 0 0 1 
+state_reg.WRITEM2 0 0 0 0 0 0 1 0 0 0 0 1 
+state_reg.PROCESS 0 0 0 0 0 1 0 0 0 0 0 1 
+state_reg.BYPASS 0 0 0 0 1 0 0 0 0 0 0 1 
+state_reg.DONE 0 0 0 1 0 0 0 0 0 0 0 1 
+state_reg.SHIFT 0 0 1 0 0 0 0 0 0 0 0 1 
+state_reg.WAIT_CONFIG 0 1 0 0 0 0 0 0 0 0 0 1 
+state_reg.COPY_LAST 1 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |ipmScopeNoMPU|ID00001011_aipScopeNoMPU:ID00001011|ID00001011_scopeNoMPU_core:SCOPENOMPU_CORE|ID00001011_scopeNoMPU_datapath:SCOPENOMPU_DP|ID0000100D_collector2scope_core:ID0000100D_COLLECTOR_CORE|ID0000100D_collector2scope_controlpath:ID0000100D_CP|state_reg
+Name state_reg.INTERP state_reg.COLLECT state_reg.SYNC state_reg.IDLE state_reg.DONE 
+state_reg.IDLE 0 0 0 0 0 
+state_reg.SYNC 0 0 1 1 0 
+state_reg.COLLECT 0 1 0 1 0 
+state_reg.INTERP 1 0 0 1 0 
+state_reg.DONE 0 0 0 1 1 
+
 State Machine - |ipmScopeNoMPU|ID00001011_aipScopeNoMPU:ID00001011|ID00001011_scopeNoMPU_core:SCOPENOMPU_CORE|ID00001011_scopeNoMPU_datapath:SCOPENOMPU_DP|toogleButtonControl:ZMBUTTON|state_reg
 Name state_reg.RST state_reg.WAIT_DBC state_reg.WAIT_TOGGLE state_reg.IDLE 
 state_reg.IDLE 0 0 0 0 
@@ -140,18 +178,19 @@ state_reg.WAIT_DBC 0 1 0 1
 state_reg.RST 1 0 0 1 
 
 State Machine - |ipmScopeNoMPU|ID00001011_aipScopeNoMPU:ID00001011|ID00001011_scopeNoMPU_core:SCOPENOMPU_CORE|ID00001011_scopeNoMPU_controlpath:SCOPENOMPU_CP|state_reg
-Name state_reg.DONE state_reg.WAITWR_DONE state_reg.WRITE_SCOPE state_reg.HOLD_ON state_reg.MAPPER_BUSY state_reg.MULTIR_BUSY state_reg.MODCUAD_BUSY state_reg.FFT_BUSY state_reg.DECIM_BUSY state_reg.WAITINV_DONE state_reg.INVMODE_SCOPE state_reg.WAITRST_DONE state_reg.RESET_SCOPE state_reg.IDLE 
-state_reg.IDLE 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
-state_reg.RESET_SCOPE 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
-state_reg.WAITRST_DONE 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
-state_reg.INVMODE_SCOPE 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
-state_reg.WAITINV_DONE 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
-state_reg.DECIM_BUSY 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
-state_reg.FFT_BUSY 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
-state_reg.MODCUAD_BUSY 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
-state_reg.MULTIR_BUSY 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
-state_reg.MAPPER_BUSY 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
-state_reg.HOLD_ON 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
-state_reg.WRITE_SCOPE 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
-state_reg.WAITWR_DONE 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
-state_reg.DONE 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+Name state_reg.COLLECT_BUSY state_reg.DONE state_reg.WAITWR_DONE state_reg.WRITE_SCOPE state_reg.HOLD_ON state_reg.MAPPER_BUSY state_reg.MULTIR_BUSY state_reg.MODCUAD_BUSY state_reg.FFT_BUSY state_reg.DECIM_BUSY state_reg.WAITINV_DONE state_reg.INVMODE_SCOPE state_reg.WAITRST_DONE state_reg.RESET_SCOPE state_reg.IDLE 
+state_reg.IDLE 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+state_reg.RESET_SCOPE 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+state_reg.WAITRST_DONE 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+state_reg.INVMODE_SCOPE 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+state_reg.WAITINV_DONE 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+state_reg.DECIM_BUSY 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+state_reg.FFT_BUSY 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+state_reg.MODCUAD_BUSY 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+state_reg.MULTIR_BUSY 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+state_reg.MAPPER_BUSY 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+state_reg.HOLD_ON 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+state_reg.WRITE_SCOPE 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+state_reg.WAITWR_DONE 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+state_reg.DONE 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state_reg.COLLECT_BUSY 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 

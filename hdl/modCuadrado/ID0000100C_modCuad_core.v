@@ -13,8 +13,8 @@ input		wire											clk,						// Señal de reloj
 input		wire											rstn,						// Reset en bajo
 input		wire											start,
 input		wire[4*CONFIG_REG_WIDTH-1:0]			config_reg,
-input		wire signed[DATA_WIDTH_IFC-1:0]		data_MemInReal,			// Datos de la memoria de entrada de la interfaz
-input		wire signed[DATA_WIDTH_IFC-1:0]		data_MemInImag,			// Datos de la memoria de entrada de la interfaz
+input		wire signed[DATAPATH_WIDTH-1:0]		data_MemInReal,			// Datos de la memoria de entrada de la interfaz
+input		wire signed[DATAPATH_WIDTH-1:0]		data_MemInImag,			// Datos de la memoria de entrada de la interfaz
 output	wire[MEM_IFC_MAX_WIDTH-1:0]			read_addr_mem,       // Dirección de lectura para la memoria de la interfaz aip.
 output	wire[MEM_IFC_MAX_WIDTH-1:0]			write_addr_mem,      // Dirección de escritura para la memoria de la interfaz aip.
 output	wire											write_enable_mem,    // Señal de habilitación de escritura para la memoria de la interfaz aip.

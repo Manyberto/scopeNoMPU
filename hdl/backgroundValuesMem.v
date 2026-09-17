@@ -27,7 +27,7 @@ end
 
 initial begin
 	
-	$readmemh({"C:/Users/Manuel Hernandez/Documents/GitHub/ChannelEmulation/scopeNoMPU/driver/bckGrndMEM_", num2Ascii(ID), ".txt"}, romBckGrnd);
+	$readmemh({"C:/Users/manue/Documents/GitHub/scopeNoMPU/driver/bckGrndMEM_", num2Ascii(ID), ".txt"}, romBckGrnd);
 	
 end
 

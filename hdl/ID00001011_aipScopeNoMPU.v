@@ -10,7 +10,8 @@ output 	wire[31:0]				dataout,				// Señales para conexión con el bloque ipm.
 // ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 input		wire						clk,					// Señal de reloj	
 input		wire						rstn,					// Reset en bajo
-input		wire						valid_data,			// Reset en bajo
+input		wire						sync,					// Conectar el done del MxVst
+input		wire						valid_data,			// 
 input		wire[31:0]				dataStream,
 input		wire						scopeFreeze,
 input		wire						zoomButton,
@@ -70,6 +71,7 @@ SCOPENOMPU_CORE (
 	.clk							(clk),
 	.rstn                	(rstn),
 	.start               	(startIPcore),	
+	.sync	               	(sync),	
 	.zoomButton            	(zoomButton),	
 	.valid_data             (valid_data),	
 	.scopeFreeze				(scopeFreeze),

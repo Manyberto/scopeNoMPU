@@ -10,6 +10,7 @@ output 								intMCU,
 // ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 input		wire						clk,					// Señal de reloj	
 input		wire						rstn,					// Reset en bajo
+input		wire						sync,					// Reset en bajo
 input		wire						valid_data,			// Reset en bajo
 input		wire[31:0]				dataStream,
 input		wire						scopeFreeze,
@@ -79,6 +80,7 @@ ipm IPM (
 ID00001011_aipScopeNoMPU ID00001011(
 		.clk						(clk),			 // Señal de reloj	
 		.rstn						(rstn),            // Reset en bajo	
+		.sync						(sync),
 		.valid_data				(valid_data),
 		.dataStream				(dataStream),
 		.zoomButton				(~zoomButton),

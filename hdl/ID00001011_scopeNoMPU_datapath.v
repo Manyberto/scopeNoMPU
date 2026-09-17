@@ -12,10 +12,13 @@ parameter	DATAPATH_WIDTH		= 'd16
 input		wire									clk,
 input		wire									rstn,
 input		wire									start,
+input		wire									sync,
+input		wire									time_frec_mode,
 input		wire									zoomButton,
 input		wire									avgRound1Cmp,
 input		wire									valid_data,
 input		wire									startDecim,
+input		wire									startColl,
 input		wire									startFFT,
 input		wire									startModCuad,
 input		wire									startMultirate,
@@ -33,6 +36,7 @@ input		wire[DATAPATH_WIDTH-1:0]		dataStreamReal_in,
 input		wire[DATAPATH_WIDTH-1:0]		dataStreamImag_in,
 output	wire[MEM_IFC_MAX_WIDTH-1:0]	read_addr_mem,
 output	wire									doneDecim,
+output	wire									doneColl,
 output	wire									doneFFT,
 output	wire									doneModCuad,
 output	wire									doneMultirate,
@@ -86,8 +90,10 @@ wire[NUMBCKGRND_WIDTH-1:0]				addressBckGrnd;
 
 wire signed[DATAPATH_WIDTH-1:0]		dataDecimRealNorm;
 wire signed[DATAPATH_WIDTH-1:0]		dataDecimReal_out;
+wire signed[DATAPATH_WIDTH-1:0]		dataCollReal_out;
 wire signed[DATAPATH_WIDTH-1:0]		dataDecimImagNorm;
 wire signed[DATAPATH_WIDTH-1:0]		dataDecimImag_out;
+wire signed[DATAPATH_WIDTH-1:0]		dataCollImag_out;
 wire[2*DATAPATH_WIDTH-1:0]				dataFFTOut;
 wire[DATA_WIDTH_IFC-1:0]				dataFFTOutReal;
 wire[DATA_WIDTH_IFC-1:0]				dataFFTOutImag;
@@ -97,12 +103,15 @@ wire[DATAPATH_WIDTH-1:0]				dataMultirateSavedMux;
 
 reg[2*DATAPATH_WIDTH-1:0]		dataDecim[0:127];
 reg[2*DATAPATH_WIDTH-1:0]		dataFFTSaved[0:127];
+reg[2*DATAPATH_WIDTH-1:0]		dataColl[0:127];
 reg[DATAPATH_WIDTH+QM-1:0]		dataCuadSaved[0:127];
 reg[DATAPATH_WIDTH-1:0]			dataMultirateSaved[0:371];
 reg[DATA_WIDTH_IFC-1:0]			dataMapped_localMem[0:2999];
 
 reg[2*DATAPATH_WIDTH-1:0]		data2FFT;
-reg[2*DATAPATH_WIDTH-1:0]		data2ModCuad;
+wire[2*DATAPATH_WIDTH-1:0]		data2ModCuad;
+reg[2*DATAPATH_WIDTH-1:0]		data2ModCuad_mux0;
+reg[2*DATAPATH_WIDTH-1:0]		data2ModCuad_mux1;
 reg[DATAPATH_WIDTH+QM-1:0]		data2Multirate;
 
 wire[4:0]							local_bit;
@@ -145,7 +154,9 @@ wire[MEM_IFC_MAX_WIDTH-1:0]	write_addr_multirateMem;
 wire									write_en_multirateMem;
 
 wire[MEM_IFC_MAX_WIDTH-1:0]	write_addr_DecimMem;
+wire[MEM_IFC_MAX_WIDTH-1:0]	write_addr_CollMem;
 wire									write_en_DecimMem;
+wire									write_en_CollMem;
 
 wire[12:0]							inputDecimFactor;
 wire[12:0]							inputDecimFactorZoom;
@@ -183,7 +194,7 @@ assign doneMultirate = status_regMultirate[0];
 assign addBckGrnd = selBckGrnd + stepOrigin;
 assign adjBckGrnd = addBckGrnd-NUMBCKGRND[NUMBCKGRND_WIDTH-1:0];
 
-assign addressBckGrnd = { {NUMBCKGRND_WIDTH-3{1'd0}}, 3'd3};//(addBckGrnd >= NUMBCKGRND[NUMBCKGRND_WIDTH-1:0]) ? adjBckGrnd[NUMBCKGRND_WIDTH-1:0] : addBckGrnd[NUMBCKGRND_WIDTH-1:0];
+assign addressBckGrnd = (time_frec_mode == 1'd0) ? { {NUMBCKGRND_WIDTH-3{1'd0}}, 3'd3} : { {NUMBCKGRND_WIDTH-3{1'd0}}, 3'd4};//(addBckGrnd >= NUMBCKGRND[NUMBCKGRND_WIDTH-1:0]) ? adjBckGrnd[NUMBCKGRND_WIDTH-1:0] : addBckGrnd[NUMBCKGRND_WIDTH-1:0];
 
 assign data2ScopeBckGrnd = data2Scope | scopeBckGrnd_mux;
 
@@ -201,6 +212,43 @@ ZMBUTTON(
 	.load					(selBckGrndOrigin),
 	.selOut				()//selBckGrnd
 );
+
+// Colector de ENTRADA -----------------------------------------
+
+ID0000100D_collector2scope_core	#(
+	.MEM_IFC_MAX_WIDTH		(MEM_IFC_MAX_WIDTH),
+	.ADDR_WIDTH					(ADDR_WIDTH),
+	.DATAPATH_WIDTH			(DATAPATH_WIDTH)
+)
+ID0000100D_COLLECTOR_CORE (		
+	.clk							(clk),
+	.rstn                	(rstn),
+	.start               	(startColl),	
+	.sync               		(sync),	
+	.valid_data            	(valid_data),		
+	.data_in						(dataStreamReal_in),	
+	.data_in1					(dataStreamImag_in),
+	.write_addr_mem      	(write_addr_CollMem),
+	.write_enable_mem       (write_en_CollMem),
+	.data_out  		         (dataCollReal_out),
+	.data_out1 		         (dataCollImag_out),
+	.done							(doneColl)
+);
+
+// Memoria intermedia entre Colector de entrad y el multirate -------
+
+always@(posedge clk)begin
+	
+	if(write_en_CollMem == 1'd1)begin
+		dataColl[write_addr_CollMem] <= {dataCollReal_out, dataCollImag_out};
+	end
+	
+	data2ModCuad_mux1 <= dataColl[read_addr_modCuadMem];
+	
+end
+
+assign data2ModCuad = (time_frec_mode == 1'd0) ? data2ModCuad_mux0 : data2ModCuad_mux1;
+
 
 // DECIMADOR de ENTRADA -----------------------------------------
 
@@ -312,7 +360,7 @@ always@(posedge clk)begin
 		dataFFTSaved[write_addr_FFTMem] <= dataFFTOut;
 	end
 	
-	data2ModCuad <= dataFFTSaved[read_addr_fftShift];
+	data2ModCuad_mux0 <= dataFFTSaved[read_addr_fftShift];
 	
 end
 
@@ -342,8 +390,8 @@ MODCUAD_CORE (
 	.clk							(clk),
 	.rstn                	(rstn),
 	.start               	(startModCuad),	
-	.data_MemInReal			({ {16{1'd0}}, data2ModCuad[31:16]}),	
-	.data_MemInImag			({ {16{1'd0}}, data2ModCuad[15:0]}),	
+	.data_MemInReal			(data2ModCuad[31:16]),	
+	.data_MemInImag			(data2ModCuad[15:0]),	
 	.read_addr_mem       	(read_addr_modCuadMem),
 	.write_addr_mem      	(write_addr_modCuadMem),
 	.write_enable_mem       (write_en_modCuadMem),

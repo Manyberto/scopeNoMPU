@@ -10,6 +10,7 @@ parameter	DATAPATH_WIDTH		= 'd17
 input		wire									clk,						// Señal de reloj	
 input		wire									rstn,						// Reset en bajo
 input		wire									start,
+input		wire									sync,
 input		wire									zoomButton,
 input		wire									valid_data,
 input		wire									scopeFreeze,
@@ -37,6 +38,7 @@ localparam	AVG_WIDTH			= 'd16;
 wire									avgRound1Cmp;
 
 wire									startDecim;
+wire									startColl;
 wire									startFFT;
 wire									startModCuad;
 wire									startMultirate;
@@ -44,6 +46,7 @@ wire									startMapper;
 wire									startScope;
 
 wire									doneDecim;
+wire									doneColl;
 wire									doneFFT;
 wire									doneModCuad;
 wire									doneMultirate;
@@ -60,6 +63,8 @@ wire[CONFIG_REG_WIDTH-1:0]		config_regDecim;
 							
 
 wire									done_flag;
+wire									time_frec_mode;
+wire									mode;
 //wire									busy_flag;
 assign status_reg = {6'd0, busy, done_flag};
 
@@ -69,6 +74,8 @@ assign avg						= config_reg[AVG_WIDTH-1:0];
 
 assign config_regDecim = config_reg[2*CONFIG_REG_WIDTH-1 -:CONFIG_REG_WIDTH];
 assign config_regIntpolFrac = config_reg[4*CONFIG_REG_WIDTH-1 -: 2*CONFIG_REG_WIDTH];
+assign mode = config_regDecim[CONFIG_REG_WIDTH-1];
+assign time_frec_mode = config_regDecim[CONFIG_REG_WIDTH-2];
 
 // ---------------------------------------------------------------
 
@@ -80,11 +87,13 @@ ID00001011_scopeNoMPU_controlpath #(
 SCOPENOMPU_CP(
 		.clk							(clk),
 		.rstn                   (rstn),
-		.mode							(config_regDecim[CONFIG_REG_WIDTH-1]),
+		.mode							(mode),
+		.time_frec_mode			(time_frec_mode),
 		.start						(start),
 		.scopeFreeze				(scopeFreeze),
 		.avg							(avg),
 		.doneDecim					(doneDecim),
+		.doneColl					(doneColl),
 		.doneFFT						(doneFFT),
 		.doneModCuad				(doneModCuad),
 		.doneMultirate				(doneMultirate),
@@ -92,6 +101,7 @@ SCOPENOMPU_CP(
 		.doneScope					(doneScope),
 		.config_regScope			(config_regScope),
 		.startDecim					(startDecim),
+		.startColl					(startColl),
 		.startFFT					(startFFT),
 		.startModCuad				(startModCuad),
 		.startMultirate			(startMultirate),
@@ -115,12 +125,15 @@ SCOPENOMPU_DP(
 		.clk							(clk),
 		.rstn                   (rstn),
 		.start                  (start),
+		.sync	                  (sync),
+		.time_frec_mode         (time_frec_mode),
 		.zoomButton             (zoomButton),
 		.avgRound1Cmp           (avgRound1Cmp),
 		.config_upperDotWidth	(config_upperDotWidth),
 		.config_lowerDotWidth	(config_lowerDotWidth),
 		.valid_data					(valid_data),
 		.startDecim					(startDecim),
+		.startColl					(startColl),
 		.startFFT					(startFFT),
 		.startModCuad				(startModCuad),
 		.startMultirate			(startMultirate),
@@ -136,6 +149,7 @@ SCOPENOMPU_DP(
 		.dataStreamImag_in		(dataStreamImag_in),
 		.read_addr_mem				(read_addr_mem),
 		.doneDecim					(doneDecim),
+		.doneColl					(doneColl),
 		.doneFFT						(doneFFT),
 		.doneModCuad				(doneModCuad),
 		.doneMultirate				(doneMultirate),

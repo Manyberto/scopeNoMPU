@@ -9,9 +9,11 @@ input		wire								clk,
 input		wire								rstn,
 input		wire								mode,
 input		wire								start,
+input		wire								time_frec_mode,
 input		wire								scopeFreeze,
 input		wire[AVG_WIDTH-1:0]			avg,
 input		wire								doneDecim,
+input		wire								doneColl,
 input		wire								doneFFT,
 input		wire								doneModCuad,
 input		wire								doneMultirate,
@@ -19,6 +21,7 @@ input		wire								doneMapper,
 input		wire								doneScope,
 output	reg[CONFIG_REG_WIDTH-1:0]	config_regScope,
 output	reg								startDecim,
+output	reg								startColl,
 output	reg								startFFT,
 output	reg								startModCuad,
 output	reg								startMultirate,
@@ -46,6 +49,7 @@ localparam		HOLD_ON			= 4'd10;
 localparam		WRITE_SCOPE		= 4'd11;
 localparam		WAITWR_DONE 	= 4'd12;
 localparam		DONE				= 4'd13; 
+localparam		COLLECT_BUSY	= 4'd14;
 
 localparam		BLACK				= 4'h0;
 localparam		BLUE				= 4'h1;
@@ -157,6 +161,7 @@ always@(*)begin
 
 	state_next 			= state_reg;
 	
+	startColl			= 1'd0;
 	startDecim			= 1'd0;
 	startFFT				= 1'd0;
 	startModCuad		= 1'd0;
@@ -247,12 +252,34 @@ always@(*)begin
 									
 									else begin
 										if(doneScope == 1'd1)begin
-											startDecim = 1'd1;
-											state_next = DECIM_BUSY;
+											if(time_frec_mode == 1'd0)begin
+												startDecim = 1'd1;
+												state_next = DECIM_BUSY;
+											end
+											else begin
+												startColl = 1'd1;
+												state_next = COLLECT_BUSY;
+											end
 										end
 									end
 									
-								end						
+								end
+		
+		COLLECT_BUSY	: 	begin
+		
+								if(start == 1'd1)begin
+									state_next = IDLE;
+								end
+								
+								else begin
+									if(doneColl == 1'd1)begin
+										startMultirate = 1'd1;
+										state_next = MULTIR_BUSY;
+									end	
+								end
+
+							end	
+		
 		
 		DECIM_BUSY	: 	begin
 		

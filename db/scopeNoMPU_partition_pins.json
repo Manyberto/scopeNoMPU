@@ -104,6 +104,10 @@
 					"strict" : false
 				},
 				{
+					"name" : "sync",
+					"strict" : false
+				},
+				{
 					"name" : "dataStream[15]",
 					"strict" : false
 				},

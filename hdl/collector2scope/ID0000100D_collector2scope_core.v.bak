@@ -1,0 +1,19 @@
+
+module ID0000100D_collector2scope_core #(
+parameter	MEM_IFC_MAX_WIDTH	= 'd16,
+parameter	ADDR_WIDTH			= 'd16,
+parameter	DATAPATH_WIDTH		= 'd16
+)
+(
+input		wire									clk,						// Señal de reloj	
+input		wire									rstn,						// Reset en bajo
+input		wire									start,
+input		wire									valid_data,
+input		wire[DATAPATH_WIDTH-1:0]		data_in,					// Datos para almacenar en la memoria de datos de entrada
+input		wire[DATAPATH_WIDTH-1:0]		data_in1,					// Datos para almacenar en la memoria de datos de entrada
+output	wire[MEM_IFC_MAX_WIDTH-1:0]	write_addr_mem,      // Dirección de escritura para la memoria de la interfaz aip.
+output	wire									write_enable_mem,    // Señal de habilitación de escritura para la memoria de la interfaz aip.
+output 	wire[DATAPATH_WIDTH-1:0]		data_out,          	// Datos de salida
+output 	wire[DATAPATH_WIDTH-1:0]		data_out1,          	// Datos de salida
+output	wire									done
+);
