@@ -1,10 +1,10 @@
-Analysis & Synthesis Status : Successful - Wed Sep 16 20:08:53 2026
+Analysis & Synthesis Status : Successful - Fri Sep 18 13:17:55 2026
 Quartus Prime Version : 25.1std.0 Build 1129 10/21/2025 SC Lite Edition
 Revision Name : scopeNoMPU
 Top-level Entity Name : ipmScopeNoMPU
 Family : Cyclone IV E
-Total logic elements : 5,176
-    Total combinational functions : 4,687
+Total logic elements : 5,180
+    Total combinational functions : 4,691
     Dedicated logic registers : 2,022
 Total registers : 2022
 Total pins : 60

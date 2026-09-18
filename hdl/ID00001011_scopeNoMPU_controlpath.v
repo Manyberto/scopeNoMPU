@@ -273,8 +273,8 @@ always@(*)begin
 								
 								else begin
 									if(doneColl == 1'd1)begin
-										startMultirate = 1'd1;
-										state_next = MULTIR_BUSY;
+										startModCuad= 1'd1;
+										state_next = MODCUAD_BUSY;
 									end	
 								end
 
