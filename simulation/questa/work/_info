@@ -1,0 +1,2017 @@
+m255
+K4
+z2
+Z0 !s12c _opt
+Z1 !s99 nomlopt
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z2 dC:/Users/manue/Documents/GitHub/scopeNoMPU/simulation/questa
+T_opt
+!i145 1
+!i144 0
+!s110 1789775690
+V`LM>1bo6d9`?F7a6?R;FS3
+04 17 4 work AIP_scopeNoMPU_tb fast 0
+=1-e44ae05e93ae-6aadcf4a-71-3fb0
+R1
+!s12f OEM100
+!s12b OEM100
+!s124 OEM10U141 
+!s135 nogc
+o-quiet -auto_acc_if_foreign -work work +acc
+tCvgOpt 0 defaultOptions 1107585188
+n@_opt
+OL;O;2025.2;82
+vadder
+Z3 2../AIP_scopeNoMPU_tb.v|../../hdl/0000204D_FFT/true_dual_port_ram_single_clock.v|../../hdl/decim2scope/ID00001009_decim2scope_datapath.v|../../hdl/decim2scope/ID00001009_decim2scope_core.v|../../hdl/decim2scope/ID00001009_decim2scope_controlpath.v|../../hdl/00001008_Scope/ID00001008_tx_video.v|../../hdl/00001008_Scope/ID00001008_tx_control.v|../../hdl/00001008_Scope/ID00001008_tx_config.v|../../hdl/00001008_Scope/ID00001008_tx_command.v|../../hdl/00001008_Scope/ID00001008_ILI9327Core.v|../../hdl/0000204D_FFT/ID0000204D_FFT_core.v|../../hdl/backgroundValuesMem.v|../../hdl/ID00001011_scopeNoMPU_datapath.v|../../hdl/ID00001011_scopeNoMPU_core.v|../../hdl/ID00001011_scopeNoMPU_controlpath.v|../../hdl/ID00001011_scopeNoMPU_aip.v|../../hdl/ID00001011_aipScopeNoMPU.v|../../hdl/scr/ipmScopeNoMPU.v|../../../basicblocks/ipm/ipm_register.v|../../../basicblocks/ipm/ipm.v|../../../basicblocks/memories/simple_dual_port_ram_single_clk.v|../../../basicblocks/aip/aipStatus.v|../../../basicblocks/aip/aipParametricMux.v|../../../basicblocks/aip/aipId.v|../../../basicblocks/aip/aipConfigurationRegister.v|../../hdl/scopeSignalMapper/ID00001012_scopeSignalMapper_core.v|../../hdl/scopeSignalMapper/ID00001012_scopeSignalMapper_datapath.v|../../hdl/scopeSignalMapper/ID00001012_scopeSignalMapper_controlpath.v|../../hdl/maxFound.v|../../hdl/scopeScaler.v|../../hdl/mapper.v|../../hdl/regBitMem.v|../../hdl/DFTinMxVNoAIP.v|../../hdl/fftshift.v|../../hdl/dotShapping.v|../../hdl/average.v|../../hdl/toogleButtonControl.v|../../hdl/backgroundMem.v|../../hdl/intpolFrac/intpol/substract.v|../../hdl/intpolFrac/intpol/shifter_I_1.v|../../hdl/intpolFrac/intpol/shifter_D_X_D3.v|../../hdl/intpolFrac/intpol/shifter_D_1.v|../../hdl/intpolFrac/intpol/mux_p_xi_base_D3.v|../../hdl/intpolFrac/intpol/intpol2scope_input_register.v|../../hdl/intpolFrac/intpol/intpol2scope_fsm.v|../../hdl/intpolFrac/intpol/intpol2scope_datapath.v|../../hdl/intpolFrac/intpol/intpol2scope_core.v|../../hdl/intpolFrac/intpol/intpol2scope_controlpath.v|../../hdl/intpolFrac/intpol/half_multiplier_D3.v|../../hdl/intpolFrac/intpol/decoder_D3.v|../../hdl/intpolFrac/intpol/coeficient_math.v|../../hdl/intpolFrac/intpol/coefficient_handler.v|../../hdl/intpolFrac/intpol/aipIntpol2scope.v|../../hdl/intpolFrac/intpol/adder.v|../../hdl/intpolFrac/decim2frac/ID0000100F_decim2frac_datapath.v|../../hdl/intpolFrac/decim2frac/ID0000100F_decim2frac_core.v|../../hdl/intpolFrac/decim2frac/ID0000100F_decim2frac_controlpath.v|../../hdl/intpolFrac/intpolFrac_datapath.v|../../hdl/intpolFrac/intpolFrac_core.v|../../hdl/intpolFrac/intpolFrac_controlpath.v|../../hdl/modCuadrado/ID0000100C_modCuad_power2.v|../../hdl/modCuadrado/ID0000100C_modCuad_core.v|../../hdl/modCuadrado/ID0000100C_aipModCuad_datapath.v|../../hdl/modCuadrado/ID0000100C_aipModCuad_controlpath.v|../../hdl/Booth/booth_element.v|../../hdl/Booth/booth_datapath.v|../../hdl/Booth/booth_core.v|../../hdl/Booth/booth_controlpath.v|../../hdl/Divider_signed/dividerSig_core.v|../../hdl/Divider_signed/dividerSig_element.v|../../hdl/Divider_signed/dividerSig_datapath.v|../../hdl/Divider_signed/dividerSig_controlpath.v|../../hdl/collector2scope/ID0000100D_collector2scope_core.v|../../hdl/collector2scope/ID0000100D_collector2scope_controlpath.v|../../hdl/collector2scope/ID0000100D_collector2scope_datapath.v
+Z4 !s110 1789775688
+!i10b 1
+!s100 PbW]a<Vma>Yc^[f6mDZPl1
+Ibi4X1NN4mO]<m3WCbfnFo3
+R2
+Z5 w1789774661
+8../../hdl/intpolFrac/intpol/adder.v
+F../../hdl/intpolFrac/intpol/adder.v
+Z6 8../AIP_scopeNoMPU_tb.v
+Z7 F../AIP_scopeNoMPU_tb.v
+!i122 7
+Z8 L0 2 12
+Z9 VDg1SIo80bB@j0V0VzS_@n1
+Z10 OL;L;2025.2;82
+r1
+!s85 0
+31
+Z11 !s108 1789775688.000000
+Z12 !s107 ../../hdl/collector2scope/ID0000100D_collector2scope_datapath.v|../../hdl/collector2scope/ID0000100D_collector2scope_controlpath.v|../../hdl/collector2scope/ID0000100D_collector2scope_core.v|../../hdl/Divider_signed/dividerSig_controlpath.v|../../hdl/Divider_signed/dividerSig_datapath.v|../../hdl/Divider_signed/dividerSig_element.v|../../hdl/Divider_signed/dividerSig_core.v|../../hdl/Booth/booth_controlpath.v|../../hdl/Booth/booth_core.v|../../hdl/Booth/booth_datapath.v|../../hdl/Booth/booth_element.v|../../hdl/modCuadrado/ID0000100C_aipModCuad_controlpath.v|../../hdl/modCuadrado/ID0000100C_aipModCuad_datapath.v|../../hdl/modCuadrado/ID0000100C_modCuad_core.v|../../hdl/modCuadrado/ID0000100C_modCuad_power2.v|../../hdl/intpolFrac/intpolFrac_controlpath.v|../../hdl/intpolFrac/intpolFrac_core.v|../../hdl/intpolFrac/intpolFrac_datapath.v|../../hdl/intpolFrac/decim2frac/ID0000100F_decim2frac_controlpath.v|../../hdl/intpolFrac/decim2frac/ID0000100F_decim2frac_core.v|../../hdl/intpolFrac/decim2frac/ID0000100F_decim2frac_datapath.v|../../hdl/intpolFrac/intpol/adder.v|../../hdl/intpolFrac/intpol/aipIntpol2scope.v|../../hdl/intpolFrac/intpol/coefficient_handler.v|../../hdl/intpolFrac/intpol/coeficient_math.v|../../hdl/intpolFrac/intpol/decoder_D3.v|../../hdl/intpolFrac/intpol/half_multiplier_D3.v|../../hdl/intpolFrac/intpol/intpol2scope_controlpath.v|../../hdl/intpolFrac/intpol/intpol2scope_core.v|../../hdl/intpolFrac/intpol/intpol2scope_datapath.v|../../hdl/intpolFrac/intpol/intpol2scope_fsm.v|../../hdl/intpolFrac/intpol/intpol2scope_input_register.v|../../hdl/intpolFrac/intpol/mux_p_xi_base_D3.v|../../hdl/intpolFrac/intpol/shifter_D_1.v|../../hdl/intpolFrac/intpol/shifter_D_X_D3.v|../../hdl/intpolFrac/intpol/shifter_I_1.v|../../hdl/intpolFrac/intpol/substract.v|../../hdl/backgroundMem.v|../../hdl/toogleButtonControl.v|../../hdl/average.v|../../hdl/dotShapping.v|../../hdl/fftshift.v|../../hdl/DFTinMxVNoAIP.v|../../hdl/regBitMem.v|../../hdl/mapper.v|../../hdl/scopeScaler.v|../../hdl/maxFound.v|../../hdl/scopeSignalMapper/ID00001012_scopeSignalMapper_controlpath.v|../../hdl/scopeSignalMapper/ID00001012_scopeSignalMapper_datapath.v|../../hdl/scopeSignalMapper/ID00001012_scopeSignalMapper_core.v|../../../basicblocks/aip/aipConfigurationRegister.v|../../../basicblocks/aip/aipId.v|../../../basicblocks/aip/aipParametricMux.v|../../../basicblocks/aip/aipStatus.v|../../../basicblocks/memories/simple_dual_port_ram_single_clk.v|../../../basicblocks/ipm/ipm.v|../../../basicblocks/ipm/ipm_register.v|../../hdl/scr/ipmScopeNoMPU.v|../../hdl/ID00001011_aipScopeNoMPU.v|../../hdl/ID00001011_scopeNoMPU_aip.v|../../hdl/ID00001011_scopeNoMPU_controlpath.v|../../hdl/ID00001011_scopeNoMPU_core.v|../../hdl/ID00001011_scopeNoMPU_datapath.v|../../hdl/backgroundValuesMem.v|../../hdl/0000204D_FFT/ID0000204D_FFT_core.v|../../hdl/00001008_Scope/ID00001008_ILI9327Core.v|../../hdl/00001008_Scope/ID00001008_tx_command.v|../../hdl/00001008_Scope/ID00001008_tx_config.v|../../hdl/00001008_Scope/ID00001008_tx_control.v|../../hdl/00001008_Scope/ID00001008_tx_video.v|../../hdl/decim2scope/ID00001009_decim2scope_controlpath.v|../../hdl/decim2scope/ID00001009_decim2scope_core.v|../../hdl/decim2scope/ID00001009_decim2scope_datapath.v|../../hdl/0000204D_FFT/true_dual_port_ram_single_clock.v|../AIP_scopeNoMPU_tb.v|
+Z13 !s90 -reportprogress|300|-F|scopeNoMPU.files|
+!i113 0
+Z14 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z15 tCvgOpt 0 defaultOptions 1085333592
+vAIP_scopeNoMPU_tb
+R3
+R4
+!i10b 1
+!s100 W`IR4c`fXP`Z`JA7zQfC21
+IWzzfM?f^6z7hdi<Y@79AP2
+R2
+R5
+R6
+R7
+!i122 7
+L0 3 478
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+n@a@i@p_scope@no@m@p@u_tb
+vaipConfigurationRegister
+R3
+R4
+!i10b 1
+!s100 Bj3WYPBNVR3A8S>zcGglf2
+I@N9KaLON`QTSRLf<h`YGT1
+R2
+R5
+8../../../basicblocks/aip/aipConfigurationRegister.v
+F../../../basicblocks/aip/aipConfigurationRegister.v
+R6
+R7
+!i122 7
+L0 2 54
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+naip@configuration@register
+vaipId
+R3
+R4
+!i10b 1
+!s100 cMa<PZVKHbX9[;JAf^4VX0
+IIa`d5<Sab;zn=^eT0<jHY1
+R2
+R5
+8../../../basicblocks/aip/aipId.v
+F../../../basicblocks/aip/aipId.v
+R6
+R7
+!i122 7
+L0 2 17
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+naip@id
+vaipIntpol2scope
+R3
+R4
+!i10b 1
+!s100 aPF:jH_UQh<<TT3z`5EP70
+I=BIg8F;l[4NJFb4>z1f7]0
+R2
+R5
+8../../hdl/intpolFrac/intpol/aipIntpol2scope.v
+F../../hdl/intpolFrac/intpol/aipIntpol2scope.v
+R6
+R7
+!i122 7
+L0 2 106
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+naip@intpol2scope
+vaipParametricMux
+R3
+R4
+!i10b 1
+!s100 ^i`IdWR5J@QNkI=KbHVh_0
+IC8TSgcOi0JDJeMdMc@FI^1
+R2
+R5
+8../../../basicblocks/aip/aipParametricMux.v
+F../../../basicblocks/aip/aipParametricMux.v
+R6
+R7
+!i122 7
+L0 2 27
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+naip@parametric@mux
+vaipStatus
+R3
+R4
+!i10b 1
+!s100 [<W:mekY=7YLB:QKdgmjc0
+I7N[Fc9GBNglT1Ke:4^HH01
+R2
+R5
+8../../../basicblocks/aip/aipStatus.v
+F../../../basicblocks/aip/aipStatus.v
+R6
+R7
+!i122 7
+L0 17 69
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+naip@status
+vaverage
+R3
+R4
+!i10b 1
+!s100 KOdSF]fcWk8[CkVLnJ?a32
+IM`^1KmPGA:ZikNRS`I@I33
+R2
+R5
+8../../hdl/average.v
+F../../hdl/average.v
+R6
+R7
+!i122 7
+Z16 L0 2 38
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+vbackgroundMem
+R3
+R4
+!i10b 1
+!s100 zjK;?>K^DI<i=gUQ;[e8L0
+Id7n60DKCFmL<]e=Oc_L8k2
+R2
+R5
+8../../hdl/backgroundMem.v
+F../../hdl/backgroundMem.v
+R6
+R7
+!i122 7
+Z17 L0 2 34
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+nbackground@mem
+vbackgroundValuesMem
+R3
+R4
+!i10b 1
+!s100 @HTRVg>iEB12UZTH?04]n1
+IUL>ofWn6;?lPNj`[=g62F0
+R2
+R5
+8../../hdl/backgroundValuesMem.v
+F../../hdl/backgroundValuesMem.v
+R6
+R7
+!i122 7
+Z18 L0 2 60
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+nbackground@values@mem
+vbooth_controlpath
+R3
+R4
+!i10b 1
+!s100 [cjFdO0diG]>B8`JWnVGY0
+I[6n?o>XM>5l]<3?4>aYcf1
+R2
+R5
+8../../hdl/Booth/booth_controlpath.v
+F../../hdl/Booth/booth_controlpath.v
+R6
+R7
+!i122 7
+Z19 L0 2 121
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+vbooth_core
+R3
+R4
+!i10b 1
+!s100 jod`CA49<gVA]6XW]dl[>2
+IQXYZzBIWB>SVJ;;;1TA9i3
+R2
+R5
+8../../hdl/Booth/booth_core.v
+F../../hdl/Booth/booth_core.v
+R6
+R7
+!i122 7
+L0 2 53
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+vbooth_datapath
+R3
+R4
+!i10b 1
+!s100 GELDXJ6D3k2YFOAYDz>4A3
+I:7A[PNaj[9dQiVI13dnVA3
+R2
+R5
+8../../hdl/Booth/booth_datapath.v
+F../../hdl/Booth/booth_datapath.v
+R6
+R7
+!i122 7
+Z20 L0 2 80
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+vbooth_element
+R3
+R4
+!i10b 1
+!s100 Xi]S6]?AdKWCV1E7eJH062
+IC9RW;lX:O_HdPO:_b4BcM1
+R2
+R5
+8../../hdl/Booth/booth_element.v
+F../../hdl/Booth/booth_element.v
+R6
+R7
+!i122 7
+L0 2 30
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+vcoefficient_handler
+R3
+R4
+!i10b 1
+!s100 zaM=TD<z2D`a<Q5ACNoB13
+I2j823YT3;nfJXSz3PY5i^0
+R2
+R5
+8../../hdl/intpolFrac/intpol/coefficient_handler.v
+F../../hdl/intpolFrac/intpol/coefficient_handler.v
+R6
+R7
+!i122 7
+L0 2 48
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+vcoeficient_math
+R3
+R4
+!i10b 1
+!s100 mQ1IS8bEUW^RIgEgGWm4J0
+I>FJ7b?=Fo@ALYhDEb>fPm1
+R2
+R5
+8../../hdl/intpolFrac/intpol/coeficient_math.v
+F../../hdl/intpolFrac/intpol/coeficient_math.v
+R6
+R7
+!i122 7
+Z21 L0 2 104
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+vdecoder_D3
+R3
+R4
+!i10b 1
+!s100 g6cj=Z1>8<eaZcQ[U[FQO2
+IX9JYS7bT^m04ALUi]cfzz0
+R2
+R5
+8../../hdl/intpolFrac/intpol/decoder_D3.v
+F../../hdl/intpolFrac/intpol/decoder_D3.v
+R6
+R7
+!i122 7
+L0 2 92
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+ndecoder_@d3
+vDFTinMxVNoAIP
+R3
+R4
+!i10b 1
+!s100 2Gfdd=R[lTCeUaD3d0?511
+Icd]VCfnI`1JT@koCc^jAF2
+R2
+R5
+8../../hdl/DFTinMxVNoAIP.v
+F../../hdl/DFTinMxVNoAIP.v
+R6
+R7
+!i122 7
+Z22 L0 2 147
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+n@d@f@tin@mx@v@no@a@i@p
+vdividerSig_controlpath
+R3
+R4
+!i10b 1
+!s100 OgjF>i<zkg5S<G>:6i2>k2
+II]RPNQCCAGRT9fn?8;MSl3
+R2
+R5
+8../../hdl/Divider_signed/dividerSig_controlpath.v
+F../../hdl/Divider_signed/dividerSig_controlpath.v
+R6
+R7
+!i122 7
+R19
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+ndivider@sig_controlpath
+vdividerSig_core
+R3
+R4
+!i10b 1
+!s100 kVi:DN:8JHHcE;9X4>YW;3
+IheVV?OXfeZJb:J1ZMoLnC0
+R2
+R5
+8../../hdl/Divider_signed/dividerSig_core.v
+F../../hdl/Divider_signed/dividerSig_core.v
+R6
+R7
+!i122 7
+R18
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+ndivider@sig_core
+vdividerSig_datapath
+R3
+R4
+!i10b 1
+!s100 5c0MJ8R;0L]SFS;Rfo1SJ0
+I;P@N<3WE_eE41HK8A?P@P0
+R2
+R5
+8../../hdl/Divider_signed/dividerSig_datapath.v
+F../../hdl/Divider_signed/dividerSig_datapath.v
+R6
+R7
+!i122 7
+R20
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+ndivider@sig_datapath
+vdividerSig_element
+R3
+R4
+!i10b 1
+!s100 hWjAlPAW?l2M7kHeUHa@U3
+IIAi>97[Wd_Yi>WM1OBd<[0
+R2
+R5
+8../../hdl/Divider_signed/dividerSig_element.v
+F../../hdl/Divider_signed/dividerSig_element.v
+R6
+R7
+!i122 7
+R17
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+ndivider@sig_element
+vdotShapping
+R3
+R4
+!i10b 1
+!s100 NgH?:H@00I=BHWFeBdj_11
+IQ8@02M4zc4_Hgg`cdjGGK3
+R2
+R5
+8../../hdl/dotShapping.v
+F../../hdl/dotShapping.v
+R6
+R7
+!i122 7
+L0 2 51
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+ndot@shapping
+vfftshift
+R3
+R4
+!i10b 1
+!s100 SPHmSa@bPoT`7BKbLaBhc2
+I;SOJG;1KKTG0GCXQRFWEo2
+R2
+R5
+8../../hdl/fftshift.v
+F../../hdl/fftshift.v
+R6
+R7
+!i122 7
+Z23 L0 2 11
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+vhalf_multiplier_D3
+R3
+R4
+!i10b 1
+!s100 SCHl`QhCibZokcIS8n@Q72
+I@Enl8AROi`_z95f^nWcG53
+R2
+R5
+8../../hdl/intpolFrac/intpol/half_multiplier_D3.v
+F../../hdl/intpolFrac/intpol/half_multiplier_D3.v
+R6
+R7
+!i122 7
+L0 3 125
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+nhalf_multiplier_@d3
+vID00001008_ILI9327Core
+R3
+R4
+!i10b 1
+!s100 S?bM1laADk?@4c8^h3Q7c1
+Ilo@=Vz]E8XU[J<kEXzRP00
+R2
+R5
+8../../hdl/00001008_Scope/ID00001008_ILI9327Core.v
+F../../hdl/00001008_Scope/ID00001008_ILI9327Core.v
+R6
+R7
+!i122 7
+L0 2 136
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+n@i@d00001008_@i@l@i9327@core
+vID00001008_TxCmd
+R3
+R4
+!i10b 1
+!s100 6ZPJj`e_BfRciflP@^7NG1
+IAE;eAnPg;gOkal7l;cFA03
+R2
+R5
+8../../hdl/00001008_Scope/ID00001008_tx_command.v
+F../../hdl/00001008_Scope/ID00001008_tx_command.v
+R6
+R7
+!i122 7
+L0 10 242
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+n@i@d00001008_@tx@cmd
+vID00001008_TxCntrl
+R3
+R4
+!i10b 1
+!s100 <BocfJf8zUCF9NT;70E?i1
+IlOY_395zP?Eg_EZ;TBJ=40
+R2
+R5
+8../../hdl/00001008_Scope/ID00001008_tx_control.v
+F../../hdl/00001008_Scope/ID00001008_tx_control.v
+R6
+R7
+!i122 7
+L0 9 192
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+n@i@d00001008_@tx@cntrl
+vID00001008_TxConfig
+R3
+R4
+!i10b 1
+!s100 RP:Ln01B5`ko58[z`STn30
+IBkBllJ]AJkM<227C>gBVA0
+R2
+R5
+8../../hdl/00001008_Scope/ID00001008_tx_config.v
+F../../hdl/00001008_Scope/ID00001008_tx_config.v
+R6
+R7
+!i122 7
+L0 10 422
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+n@i@d00001008_@tx@config
+vID00001008_TxVideo
+R3
+R4
+!i10b 1
+!s100 E_WzE6;k_YFYj;PhJ@XQ:3
+Id>8AD5^R_[ON4ZNTd?e>O3
+R2
+R5
+8../../hdl/00001008_Scope/ID00001008_tx_video.v
+F../../hdl/00001008_Scope/ID00001008_tx_video.v
+R6
+R7
+!i122 7
+L0 10 306
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+n@i@d00001008_@tx@video
+vID00001009_decim2scope_controlpath
+R3
+R4
+!i10b 1
+!s100 GgJQlV>cd=SaMi5]165Gd1
+I6O>2HQa>GC6]LDU^A?oET0
+R2
+R5
+8../../hdl/decim2scope/ID00001009_decim2scope_controlpath.v
+F../../hdl/decim2scope/ID00001009_decim2scope_controlpath.v
+R6
+R7
+!i122 7
+L0 2 201
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+n@i@d00001009_decim2scope_controlpath
+vID00001009_decim2scope_core
+R3
+R4
+!i10b 1
+!s100 =cQ^>amfnGYa@ZcX6?6VV0
+In`9=OHBPf;8W4<Q=92zzK2
+R2
+R5
+8../../hdl/decim2scope/ID00001009_decim2scope_core.v
+F../../hdl/decim2scope/ID00001009_decim2scope_core.v
+R6
+R7
+!i122 7
+R21
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+n@i@d00001009_decim2scope_core
+vID00001009_decim2scope_datapath
+R3
+R4
+!i10b 1
+!s100 G1KHIW8868T@mKoCWf:M=1
+I?427Q=nG@1NA`nJE><kZZ2
+R2
+R5
+8../../hdl/decim2scope/ID00001009_decim2scope_datapath.v
+F../../hdl/decim2scope/ID00001009_decim2scope_datapath.v
+R6
+R7
+!i122 7
+R17
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+n@i@d00001009_decim2scope_datapath
+vID0000100C_modCuad_controlpath
+R3
+R4
+!i10b 1
+!s100 Y3<TK14579H9mE9=`_B4f2
+IFY:WEamkLbV<h=J[1Tl6[1
+R2
+R5
+8../../hdl/modCuadrado/ID0000100C_aipModCuad_controlpath.v
+F../../hdl/modCuadrado/ID0000100C_aipModCuad_controlpath.v
+R6
+R7
+!i122 7
+L0 2 155
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+n@i@d0000100@c_mod@cuad_controlpath
+vID0000100C_modCuad_core
+R3
+R4
+!i10b 1
+!s100 <3Plib95TEQGiAkzK:lYm2
+I^HGzQ>EXoR3]CQQ@]QUJ=1
+R2
+R5
+8../../hdl/modCuadrado/ID0000100C_modCuad_core.v
+F../../hdl/modCuadrado/ID0000100C_modCuad_core.v
+R6
+R7
+!i122 7
+L0 2 74
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+n@i@d0000100@c_mod@cuad_core
+vID0000100C_modCuad_datapath
+R3
+R4
+!i10b 1
+!s100 Kz]V5JAZ4nc@1^cC<Wa0C1
+IW<RA`_>EWd?;EN8k<olPa3
+R2
+R5
+8../../hdl/modCuadrado/ID0000100C_aipModCuad_datapath.v
+F../../hdl/modCuadrado/ID0000100C_aipModCuad_datapath.v
+R6
+R7
+!i122 7
+L0 2 67
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+n@i@d0000100@c_mod@cuad_datapath
+vID0000100C_modCuad_power2
+R3
+R4
+!i10b 1
+!s100 ;:T`HWBUWo97CCLV;k;7@2
+IlF=bDN:3mgH=V;JkT1;Q33
+R2
+R5
+8../../hdl/modCuadrado/ID0000100C_modCuad_power2.v
+F../../hdl/modCuadrado/ID0000100C_modCuad_power2.v
+R6
+R7
+!i122 7
+R16
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+n@i@d0000100@c_mod@cuad_power2
+vID0000100D_collector2scope_controlpath
+R3
+R4
+!i10b 1
+!s100 BAklo<3R?GlbfJ0E?XAFl3
+I@Ikk[_@Zc5;_:nOzjRf722
+R2
+w1789775195
+8../../hdl/collector2scope/ID0000100D_collector2scope_controlpath.v
+F../../hdl/collector2scope/ID0000100D_collector2scope_controlpath.v
+R6
+R7
+!i122 7
+L0 2 145
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+n@i@d0000100@d_collector2scope_controlpath
+vID0000100D_collector2scope_core
+R3
+R4
+!i10b 1
+!s100 l0WAYJ<e5aB5?JoE?jeEF1
+IA1hgajb@nj>CFhE@m;06N3
+R2
+R5
+8../../hdl/collector2scope/ID0000100D_collector2scope_core.v
+F../../hdl/collector2scope/ID0000100D_collector2scope_core.v
+R6
+R7
+!i122 7
+Z24 L0 2 59
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+n@i@d0000100@d_collector2scope_core
+vID0000100D_collector2scope_datapath
+R3
+R4
+!i10b 1
+!s100 f_mZQMU:?5hkbReiISc;80
+IlWNla81O9CXoUBZB^V=[c1
+R2
+w1789775661
+8../../hdl/collector2scope/ID0000100D_collector2scope_datapath.v
+F../../hdl/collector2scope/ID0000100D_collector2scope_datapath.v
+R6
+R7
+!i122 7
+R21
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+n@i@d0000100@d_collector2scope_datapath
+vID0000100F_decim2frac_controlpath
+R3
+R4
+!i10b 1
+!s100 TFOEGSb3kWj`f9TTWiIYB1
+I5cV[deUY2]>58_3Cc7?m<3
+R2
+R5
+8../../hdl/intpolFrac/decim2frac/ID0000100F_decim2frac_controlpath.v
+F../../hdl/intpolFrac/decim2frac/ID0000100F_decim2frac_controlpath.v
+R6
+R7
+!i122 7
+R22
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+n@i@d0000100@f_decim2frac_controlpath
+vID0000100F_decim2frac_core
+R3
+R4
+!i10b 1
+!s100 [gKYV>[b0P;^VPH>C95gb0
+IEEl]<]W:8<zZka0^[kSd=3
+R2
+R5
+8../../hdl/intpolFrac/decim2frac/ID0000100F_decim2frac_core.v
+F../../hdl/intpolFrac/decim2frac/ID0000100F_decim2frac_core.v
+R6
+R7
+!i122 7
+L0 2 65
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+n@i@d0000100@f_decim2frac_core
+vID0000100F_decim2frac_datapath
+R3
+R4
+!i10b 1
+!s100 a1F6ORUeOdDM`Q_G>an2z0
+I5mPz;oiij?A_6Zb<R`Q?z1
+R2
+R5
+8../../hdl/intpolFrac/decim2frac/ID0000100F_decim2frac_datapath.v
+F../../hdl/intpolFrac/decim2frac/ID0000100F_decim2frac_datapath.v
+R6
+R7
+!i122 7
+L0 2 15
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+n@i@d0000100@f_decim2frac_datapath
+vID00001011_aipScopeNoMPU
+R3
+R4
+!i10b 1
+!s100 i?iB4HUiHDfI9hzElH7@[1
+ITe2ia2iUN7c5d9Nm35^EE2
+R2
+R5
+8../../hdl/ID00001011_aipScopeNoMPU.v
+F../../hdl/ID00001011_aipScopeNoMPU.v
+R6
+R7
+!i122 7
+L0 2 123
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+n@i@d00001011_aip@scope@no@m@p@u
+vID00001011_scopeNoMPU_aip
+R3
+R4
+!i10b 1
+!s100 [J37M1o1L@GN_R:]Y=C^72
+I63oDDb@dkTRCFikRkabYB3
+R2
+R5
+Z25 8../../hdl/ID00001011_scopeNoMPU_aip.v
+Z26 F../../hdl/ID00001011_scopeNoMPU_aip.v
+R6
+R7
+!i122 7
+L0 10 95
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+n@i@d00001011_scope@no@m@p@u_aip
+vID00001011_scopeNoMPU_aipCtrl
+R3
+R4
+!i10b 1
+!s100 JN]9RBlh^>fK]^dn5SS]a3
+Id2nXZZM9m[_cneT3?i25:1
+R2
+R5
+R25
+R26
+R6
+R7
+!i122 7
+L0 507 252
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+n@i@d00001011_scope@no@m@p@u_aip@ctrl
+vID00001011_scopeNoMPU_aipModules
+R3
+R4
+!i10b 1
+!s100 @U9kEzHmD9me5Z28mh9^G0
+IIk0Yod[^E^^@J;Yi0KZ973
+R2
+R5
+R25
+R26
+R6
+R7
+!i122 7
+L0 106 400
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+n@i@d00001011_scope@no@m@p@u_aip@modules
+vID00001011_scopeNoMPU_controlpath
+R3
+R4
+!i10b 1
+!s100 1cXXkZWDWfmm[Y>lIJ;7>2
+Iz?b0^<SBH[m^h:9N_=GdY0
+R2
+R5
+8../../hdl/ID00001011_scopeNoMPU_controlpath.v
+F../../hdl/ID00001011_scopeNoMPU_controlpath.v
+R6
+R7
+!i122 7
+L0 2 448
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+n@i@d00001011_scope@no@m@p@u_controlpath
+vID00001011_scopeNoMPU_core
+R3
+R4
+!i10b 1
+!s100 4Gh6RA4ZbL>RO@M=?e]Q_3
+I`So:iR7J^B6?MVY;jWMZ:3
+R2
+R5
+8../../hdl/ID00001011_scopeNoMPU_core.v
+F../../hdl/ID00001011_scopeNoMPU_core.v
+R6
+R7
+!i122 7
+L0 2 165
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+n@i@d00001011_scope@no@m@p@u_core
+vID00001011_scopeNoMPU_datapath
+R3
+R4
+!i10b 1
+!s100 ]Mba]9ScB2<zD9em`aT]U0
+IJj3DON08aLUKh>BOn;EK:1
+R2
+R5
+8../../hdl/ID00001011_scopeNoMPU_datapath.v
+F../../hdl/ID00001011_scopeNoMPU_datapath.v
+R6
+R7
+!i122 7
+L0 2 591
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+n@i@d00001011_scope@no@m@p@u_datapath
+vID00001012_scopeSignalMapper_controlpath
+R3
+R4
+!i10b 1
+!s100 E=JRO7GA76HOMzI2X^gU60
+Ii]XJnX8hXRR@QOiGoa_021
+R2
+R5
+8../../hdl/scopeSignalMapper/ID00001012_scopeSignalMapper_controlpath.v
+F../../hdl/scopeSignalMapper/ID00001012_scopeSignalMapper_controlpath.v
+R6
+R7
+!i122 7
+L0 2 465
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+n@i@d00001012_scope@signal@mapper_controlpath
+vID00001012_scopeSignalMapper_core
+R3
+R4
+!i10b 1
+!s100 eQ_2:8_V1Q]iBjYl4[V:^2
+IbO76fD]MiG4j;Y4:11H_51
+R2
+R5
+8../../hdl/scopeSignalMapper/ID00001012_scopeSignalMapper_core.v
+F../../hdl/scopeSignalMapper/ID00001012_scopeSignalMapper_core.v
+R6
+R7
+!i122 7
+L0 2 118
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+n@i@d00001012_scope@signal@mapper_core
+vID00001012_scopeSignalMapper_datapath
+R3
+R4
+!i10b 1
+!s100 ^IeQVge2z05Xodl7F?4;<2
+Ik7GkRS?>?8A=GRPkS2Q[G0
+R2
+R5
+8../../hdl/scopeSignalMapper/ID00001012_scopeSignalMapper_datapath.v
+F../../hdl/scopeSignalMapper/ID00001012_scopeSignalMapper_datapath.v
+R6
+R7
+!i122 7
+L0 2 157
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+n@i@d00001012_scope@signal@mapper_datapath
+vID0000204D_FFT_core
+R3
+R4
+!i10b 1
+!s100 <d7]_6DD?Pjb4YaUMIZg;3
+IT<cEm`SjJ7Whioz;fWfWM3
+R2
+R5
+8../../hdl/0000204D_FFT/ID0000204D_FFT_core.v
+F../../hdl/0000204D_FFT/ID0000204D_FFT_core.v
+R6
+R7
+!i122 7
+L0 3 1051
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+n@i@d0000204@d_@f@f@t_core
+vintpol2scope_controlpath
+R3
+R4
+!i10b 1
+!s100 UbnARZS5czC8VbSGMbjdT1
+I_iH2ciRn7AO[kGiJjSC6_0
+R2
+R5
+8../../hdl/intpolFrac/intpol/intpol2scope_controlpath.v
+F../../hdl/intpolFrac/intpol/intpol2scope_controlpath.v
+R6
+R7
+!i122 7
+L0 2 198
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+vintpol2scope_core
+R3
+R4
+!i10b 1
+!s100 3VH8UZ<lFWcPlM@BC_Sd`0
+I9n7Z0KIG0KA:V;d97eg0O0
+R2
+R5
+8../../hdl/intpolFrac/intpol/intpol2scope_core.v
+F../../hdl/intpolFrac/intpol/intpol2scope_core.v
+R6
+R7
+!i122 7
+L0 2 350
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+vintpol2scope_datapath
+R3
+R4
+!i10b 1
+!s100 Mz^dF[EC18>S=Sb32d_]93
+IeLZ]cfZdnl1WD7Ahd4;I30
+R2
+R5
+8../../hdl/intpolFrac/intpol/intpol2scope_datapath.v
+F../../hdl/intpolFrac/intpol/intpol2scope_datapath.v
+R6
+R7
+!i122 7
+R17
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+vintpol2scope_fsm
+R3
+R4
+!i10b 1
+!s100 nzm?]EA5gR_TB[;XjmXKZ1
+I3SP2MgZL;b]j5c@6>V;E52
+R2
+R5
+8../../hdl/intpolFrac/intpol/intpol2scope_fsm.v
+F../../hdl/intpolFrac/intpol/intpol2scope_fsm.v
+R6
+R7
+!i122 7
+L0 2 485
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+vintpol2scope_input_register
+R3
+R4
+!i10b 1
+!s100 ljz_FIzBT<OEjbC0QX68N2
+IZ3z2K^2<X6cofH]DG]`NG3
+R2
+R5
+8../../hdl/intpolFrac/intpol/intpol2scope_input_register.v
+F../../hdl/intpolFrac/intpol/intpol2scope_input_register.v
+R6
+R7
+!i122 7
+R24
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+vintpolFrac_controlpath
+R3
+R4
+!i10b 1
+!s100 @JVFZ@`<o^z>ll_HGfA0D1
+IS[PjN5R?JKGDi]mAgO5J51
+R2
+R5
+8../../hdl/intpolFrac/intpolFrac_controlpath.v
+F../../hdl/intpolFrac/intpolFrac_controlpath.v
+R6
+R7
+!i122 7
+R21
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+nintpol@frac_controlpath
+vintpolFrac_core
+R3
+R4
+!i10b 1
+!s100 @F7oF5eKSifoYD1i6jY2E1
+IaAnV6:U70OU:SPAMFThVc3
+R2
+R5
+8../../hdl/intpolFrac/intpolFrac_core.v
+F../../hdl/intpolFrac/intpolFrac_core.v
+R6
+R7
+!i122 7
+L0 2 85
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+nintpol@frac_core
+vintpolFrac_datapath
+R3
+R4
+!i10b 1
+!s100 7Qnh1hgFmISS;NQ6^zU@S1
+IKPI3hTM0B<CILj`2I>lFg3
+R2
+R5
+8../../hdl/intpolFrac/intpolFrac_datapath.v
+F../../hdl/intpolFrac/intpolFrac_datapath.v
+R6
+R7
+!i122 7
+L0 2 105
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+nintpol@frac_datapath
+vipm
+R3
+R4
+!i10b 1
+!s100 1z?nJEC@Bi5`Yn]`<>k5G1
+IG6:Go9_@RmoAiKAgz@HQ_3
+R2
+R5
+8../../../basicblocks/ipm/ipm.v
+F../../../basicblocks/ipm/ipm.v
+R6
+R7
+!i122 7
+L0 1 68
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+vipm_register
+R3
+R4
+!i10b 1
+!s100 5=R]SeGYBRSJ7>68hi_;b1
+I1Q;dcI9iT:G]dK_6j9aYP2
+R2
+R5
+8../../../basicblocks/ipm/ipm_register.v
+F../../../basicblocks/ipm/ipm_register.v
+R6
+R7
+!i122 7
+L0 13 134
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+vipmScopeNoMPU
+R3
+R4
+!i10b 1
+!s100 95RBdAIa0SXQ_X1[mAm7G2
+Id?m_PfUCJ>Kn?KSQQkSc22
+R2
+R5
+8../../hdl/scr/ipmScopeNoMPU.v
+F../../hdl/scr/ipmScopeNoMPU.v
+R6
+R7
+!i122 7
+R21
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+nipm@scope@no@m@p@u
+vmapper
+R3
+R4
+!i10b 1
+!s100 Q8Yd;L3>;TF[ZdcSHg3;Z3
+INaa<Id5Q;1OQ?ELE3fA[33
+R2
+R5
+8../../hdl/mapper.v
+F../../hdl/mapper.v
+R6
+R7
+!i122 7
+L0 2 171
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+vmaxFound
+R3
+R4
+!i10b 1
+!s100 ?5aN5]62@kYk@KLbDCIHz2
+IJYEH1]hS2LOLVjMc<9jcA0
+R2
+R5
+8../../hdl/maxFound.v
+F../../hdl/maxFound.v
+R6
+R7
+!i122 7
+L0 2 39
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+nmax@found
+vmux_p_xi_base_D3
+R3
+R4
+!i10b 1
+!s100 6h0=7FiBfojX>3n:[z0Rg3
+IGMf_m9<[hYh_jdcBV41mn3
+R2
+R5
+8../../hdl/intpolFrac/intpol/mux_p_xi_base_D3.v
+F../../hdl/intpolFrac/intpol/mux_p_xi_base_D3.v
+R6
+R7
+!i122 7
+L0 3 66
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+nmux_p_xi_base_@d3
+vregBitMem
+R3
+R4
+!i10b 1
+!s100 L7K2>8JFFJ>C15ICZ1AHM1
+IE_RlfkHA:QkmNCMPK3Y1k3
+R2
+R5
+8../../hdl/regBitMem.v
+F../../hdl/regBitMem.v
+R6
+R7
+!i122 7
+R17
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+nreg@bit@mem
+vscopeScaler
+R3
+R4
+!i10b 1
+!s100 DNKanYGmGHVd_:R@1fLDR1
+IY4KWC>Kl3LQl??9bN=ITW3
+R2
+R5
+8../../hdl/scopeScaler.v
+F../../hdl/scopeScaler.v
+R6
+R7
+!i122 7
+R18
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+nscope@scaler
+vshifter_D_1
+R3
+R4
+!i10b 1
+!s100 V`BhFC1hcOIadY;9j;gm42
+I34]Fj]6QC;4>TFD4IF2Jm0
+R2
+R5
+8../../hdl/intpolFrac/intpol/shifter_D_1.v
+F../../hdl/intpolFrac/intpol/shifter_D_1.v
+R6
+R7
+!i122 7
+R8
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+nshifter_@d_1
+vshifter_D_X_D3
+R3
+R4
+!i10b 1
+!s100 2FXm;jl6c73PQ`T_21Fa61
+Ib^NeZ_QiM@`FfVKYIaQ=X3
+R2
+R5
+8../../hdl/intpolFrac/intpol/shifter_D_X_D3.v
+F../../hdl/intpolFrac/intpol/shifter_D_X_D3.v
+R6
+R7
+!i122 7
+L0 2 14
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+nshifter_@d_@x_@d3
+vshifter_I_1
+R3
+R4
+!i10b 1
+!s100 S29LJc8]0S1M7<QEDiO8e3
+I:9i]8BmUf@:OHHcC4d<Sf0
+R2
+R5
+8../../hdl/intpolFrac/intpol/shifter_I_1.v
+F../../hdl/intpolFrac/intpol/shifter_I_1.v
+R6
+R7
+!i122 7
+R23
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+nshifter_@i_1
+vsimple_dual_port_ram_single_clk
+R3
+R4
+!i10b 1
+!s100 IFTmF=PT:cYg73m;nJ;Y21
+IXW<L:E;nT9e5jO[B6^WnM2
+R2
+R5
+8../../../basicblocks/memories/simple_dual_port_ram_single_clk.v
+F../../../basicblocks/memories/simple_dual_port_ram_single_clk.v
+R6
+R7
+!i122 7
+L0 16 25
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+vsubstract
+R3
+R4
+!i10b 1
+!s100 ?[`DWRS^`KSz_ZDKeZAd@0
+I4lEkAFe5bF<XWgOZQ9QCQ3
+R2
+R5
+8../../hdl/intpolFrac/intpol/substract.v
+F../../hdl/intpolFrac/intpol/substract.v
+R6
+R7
+!i122 7
+R8
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+vtoogleButtonControl
+R3
+R4
+!i10b 1
+!s100 ]<H>E=YVLno6U<F`Zk<:=1
+IX9W=<H7;PKmWTX[3QZEjn1
+R2
+R5
+8../../hdl/toogleButtonControl.v
+F../../hdl/toogleButtonControl.v
+R6
+R7
+!i122 7
+R22
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15
+ntoogle@button@control
+vtrue_dual_port_ram_single_clock
+R3
+R4
+!i10b 1
+!s100 A<GVZ5=cBIzYE]D8eIF8C1
+I02:KWg_?mSS=]2=SW^Un81
+R2
+R5
+8../../hdl/0000204D_FFT/true_dual_port_ram_single_clock.v
+F../../hdl/0000204D_FFT/true_dual_port_ram_single_clock.v
+R6
+R7
+!i122 7
+L0 21 40
+R9
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R15

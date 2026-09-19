@@ -1,0 +1,1768 @@
+m255
+K4
+z2
+!s11f vlog 2025.2 2025.05, May 31 2025
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/manue/Documents/GitHub/scopeNoMPU/simulation/questa
+vadder
+2C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/intpol/adder.v
+Z1 !s110 1789775685
+!i10b 1
+!s100 S?Pi27PCFTM>20`TI>;2W3
+Io?RdT7nFB]`SEAQMc8:d>0
+R0
+Z2 w1782330607
+8C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/intpol/adder.v
+FC:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/intpol/adder.v
+!i122 46
+Z3 L0 2 12
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2025.2;82
+r1
+!s85 0
+31
+Z6 !s108 1789775684.000000
+!s107 C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/intpol/adder.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/intpol|C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/intpol/adder.v|
+!i113 0
+Z7 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z8 !s92 -work work +incdir+C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/intpol -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z9 tCvgOpt 0 defaultOptions 1085333592
+vaipConfigurationRegister
+2C:/Users/manue/Documents/GitHub/basicblocks/aip/aipConfigurationRegister.v
+Z10 !s110 1789775681
+!i10b 1
+!s100 j9gnD<QEm>U`H:5ZNF<Rd0
+I:?F5Wj_`]DMARlV342ag>0
+R0
+Z11 w1782331050
+8C:/Users/manue/Documents/GitHub/basicblocks/aip/aipConfigurationRegister.v
+FC:/Users/manue/Documents/GitHub/basicblocks/aip/aipConfigurationRegister.v
+!i122 23
+L0 2 54
+R4
+R5
+r1
+!s85 0
+31
+Z12 !s108 1789775681.000000
+!s107 C:/Users/manue/Documents/GitHub/basicblocks/aip/aipConfigurationRegister.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/manue/Documents/GitHub/basicblocks/aip|C:/Users/manue/Documents/GitHub/basicblocks/aip/aipConfigurationRegister.v|
+!i113 0
+R7
+Z13 !s92 -work work +incdir+C:/Users/manue/Documents/GitHub/basicblocks/aip -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R9
+naip@configuration@register
+vaipId
+2C:/Users/manue/Documents/GitHub/basicblocks/aip/aipId.v
+R10
+!i10b 1
+!s100 oI^>3ANZLW082cjPC=<HV0
+I0A4;TDn7K2H5n;A?MeaPC3
+R0
+R11
+8C:/Users/manue/Documents/GitHub/basicblocks/aip/aipId.v
+FC:/Users/manue/Documents/GitHub/basicblocks/aip/aipId.v
+!i122 22
+L0 2 17
+R4
+R5
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/manue/Documents/GitHub/basicblocks/aip/aipId.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/manue/Documents/GitHub/basicblocks/aip|C:/Users/manue/Documents/GitHub/basicblocks/aip/aipId.v|
+!i113 0
+R7
+R13
+R9
+naip@id
+vaipParametricMux
+2C:/Users/manue/Documents/GitHub/basicblocks/aip/aipParametricMux.v
+R10
+!i10b 1
+!s100 lB@C?M<Gj6K5SViO9<TnX1
+I0NWioZhhJG8[AdT7F>Y_k2
+R0
+R11
+8C:/Users/manue/Documents/GitHub/basicblocks/aip/aipParametricMux.v
+FC:/Users/manue/Documents/GitHub/basicblocks/aip/aipParametricMux.v
+!i122 21
+L0 2 27
+R4
+R5
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/manue/Documents/GitHub/basicblocks/aip/aipParametricMux.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/manue/Documents/GitHub/basicblocks/aip|C:/Users/manue/Documents/GitHub/basicblocks/aip/aipParametricMux.v|
+!i113 0
+R7
+R13
+R9
+naip@parametric@mux
+vaipStatus
+2C:/Users/manue/Documents/GitHub/basicblocks/aip/aipStatus.v
+R10
+!i10b 1
+!s100 OOj7Gd@MCFiDfH8KCb;lR0
+I7f]IfmH<IJCkZe:aWGB800
+R0
+R11
+8C:/Users/manue/Documents/GitHub/basicblocks/aip/aipStatus.v
+FC:/Users/manue/Documents/GitHub/basicblocks/aip/aipStatus.v
+!i122 20
+L0 17 69
+R4
+R5
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/manue/Documents/GitHub/basicblocks/aip/aipStatus.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/manue/Documents/GitHub/basicblocks/aip|C:/Users/manue/Documents/GitHub/basicblocks/aip/aipStatus.v|
+!i113 0
+R7
+R13
+R9
+naip@status
+vaverage
+2C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/average.v
+Z14 !s110 1789775683
+!i10b 1
+!s100 kcGl=6hETF6eK9C60zVd82
+IS[ZJF^9Eel[dRRzL1l_D_0
+R0
+R2
+8C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/average.v
+FC:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/average.v
+!i122 32
+Z15 L0 2 38
+R4
+R5
+r1
+!s85 0
+31
+Z16 !s108 1789775682.000000
+!s107 C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/average.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl|C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/average.v|
+!i113 0
+R7
+Z17 !s92 -work work +incdir+C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R9
+vbackgroundMem
+2C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/backgroundMem.v
+Z18 !s110 1789775688
+!i10b 1
+!s100 Z=O;[gP:QiCICDY^eom3z3
+IP9P<bR1dQG8]fhL0K5oK<2
+R0
+w1789435845
+8C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/backgroundMem.v
+FC:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/backgroundMem.v
+!i122 68
+Z19 L0 2 34
+R4
+R5
+r1
+!s85 0
+31
+Z20 !s108 1789775688.000000
+!s107 C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/backgroundMem.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl|C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/backgroundMem.v|
+!i113 0
+R7
+R17
+R9
+nbackground@mem
+vbackgroundValuesMem
+2C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/backgroundValuesMem.v
+Z21 !s110 1789775679
+!i10b 1
+!s100 U5fBJ0MSXlkFgRlc88=Gd1
+IOe?>:O3nV=PX8FTVbF:<90
+R0
+w1789435869
+8C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/backgroundValuesMem.v
+FC:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/backgroundValuesMem.v
+!i122 10
+Z22 L0 2 60
+R4
+R5
+r1
+!s85 0
+31
+Z23 !s108 1789775679.000000
+!s107 C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/backgroundValuesMem.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl|C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/backgroundValuesMem.v|
+!i113 0
+R7
+R17
+R9
+nbackground@values@mem
+vbooth_controlpath
+2C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/Booth/booth_controlpath.v
+Z24 !s110 1789775687
+!i10b 1
+!s100 zfZITB`3U`l<AeSfX:XHO0
+I_Vkl2oYNjW>ag9S[3PbbQ2
+R0
+R2
+8C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/Booth/booth_controlpath.v
+FC:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/Booth/booth_controlpath.v
+!i122 60
+Z25 L0 2 121
+R4
+R5
+r1
+!s85 0
+31
+Z26 !s108 1789775687.000000
+!s107 C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/Booth/booth_controlpath.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/Booth|C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/Booth/booth_controlpath.v|
+!i113 0
+R7
+Z27 !s92 -work work +incdir+C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/Booth -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R9
+vbooth_core
+2C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/Booth/booth_core.v
+Z28 !s110 1789775686
+!i10b 1
+!s100 G2?08gzm:Lk]dOz_mS1Fz2
+Ik4cBe:z=P?hHlZVY273`h3
+R0
+R2
+8C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/Booth/booth_core.v
+FC:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/Booth/booth_core.v
+!i122 59
+L0 2 53
+R4
+R5
+r1
+!s85 0
+31
+Z29 !s108 1789775686.000000
+!s107 C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/Booth/booth_core.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/Booth|C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/Booth/booth_core.v|
+!i113 0
+R7
+R27
+R9
+vbooth_datapath
+2C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/Booth/booth_datapath.v
+R28
+!i10b 1
+!s100 bje7a<5^lO_ocnniSJ8K13
+II5`47g4@O9JU;Pz40L2?U2
+R0
+R2
+8C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/Booth/booth_datapath.v
+FC:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/Booth/booth_datapath.v
+!i122 58
+Z30 L0 2 80
+R4
+R5
+r1
+!s85 0
+31
+R29
+!s107 C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/Booth/booth_datapath.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/Booth|C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/Booth/booth_datapath.v|
+!i113 0
+R7
+R27
+R9
+vbooth_element
+2C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/Booth/booth_element.v
+R28
+!i10b 1
+!s100 ]LnOR6CUe?i<XDcXR=l^<2
+IE`6=5balK1:gnXF[0RKGJ0
+R0
+R2
+8C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/Booth/booth_element.v
+FC:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/Booth/booth_element.v
+!i122 57
+L0 2 30
+R4
+R5
+r1
+!s85 0
+31
+R29
+!s107 C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/Booth/booth_element.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/Booth|C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/Booth/booth_element.v|
+!i113 0
+R7
+R27
+R9
+vcoefficient_handler
+2C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/intpol/coefficient_handler.v
+Z31 !s110 1789775684
+!i10b 1
+!s100 ;k3?f=l]V8f>K`OTKNU?<3
+ID>X8bM6=DfezLV@kW2XSb1
+R0
+R2
+8C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/intpol/coefficient_handler.v
+FC:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/intpol/coefficient_handler.v
+!i122 45
+L0 2 48
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/intpol/coefficient_handler.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/intpol|C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/intpol/coefficient_handler.v|
+!i113 0
+R7
+R8
+R9
+vcoeficient_math
+2C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/intpol/coeficient_math.v
+R31
+!i10b 1
+!s100 @;[3nHeJ2RC37S>dm56Z12
+I3@Vcf?<en9]bee_g@6cH12
+R0
+R2
+8C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/intpol/coeficient_math.v
+FC:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/intpol/coeficient_math.v
+!i122 44
+Z32 L0 2 104
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/intpol/coeficient_math.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/intpol|C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/intpol/coeficient_math.v|
+!i113 0
+R7
+R8
+R9
+vdecoder_D3
+2C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/intpol/decoder_D3.v
+R31
+!i10b 1
+!s100 UaPPO=2DWM9aFKWN]b58g0
+Iebc]dJMaWz1M>R0QQ`hXa0
+R0
+R2
+8C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/intpol/decoder_D3.v
+FC:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/intpol/decoder_D3.v
+!i122 43
+L0 2 92
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/intpol/decoder_D3.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/intpol|C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/intpol/decoder_D3.v|
+!i113 0
+R7
+R8
+R9
+ndecoder_@d3
+vdividerSig_controlpath
+2C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/Divider_signed/dividerSig_controlpath.v
+R24
+!i10b 1
+!s100 0znL3W7fhXJEmDYnC=E^i0
+IPQzT4hkgSMAG`F`]Ie>;H1
+R0
+R2
+8C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/Divider_signed/dividerSig_controlpath.v
+FC:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/Divider_signed/dividerSig_controlpath.v
+!i122 64
+R25
+R4
+R5
+r1
+!s85 0
+31
+R26
+!s107 C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/Divider_signed/dividerSig_controlpath.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/Divider_signed|C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/Divider_signed/dividerSig_controlpath.v|
+!i113 0
+R7
+Z33 !s92 -work work +incdir+C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/Divider_signed -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R9
+ndivider@sig_controlpath
+vdividerSig_core
+2C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/Divider_signed/dividerSig_core.v
+R24
+!i10b 1
+!s100 G]:33oS@dAY2480^XC_WV1
+In0^ChMjKP0]i]7BO1Ob581
+R0
+R2
+8C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/Divider_signed/dividerSig_core.v
+FC:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/Divider_signed/dividerSig_core.v
+!i122 61
+R22
+R4
+R5
+r1
+!s85 0
+31
+R26
+!s107 C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/Divider_signed/dividerSig_core.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/Divider_signed|C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/Divider_signed/dividerSig_core.v|
+!i113 0
+R7
+R33
+R9
+ndivider@sig_core
+vdividerSig_datapath
+2C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/Divider_signed/dividerSig_datapath.v
+R24
+!i10b 1
+!s100 LPz?DX`a;>i6UgVzaMHK62
+Ie^G^XI_4lCJ`GbjTANlia2
+R0
+R2
+8C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/Divider_signed/dividerSig_datapath.v
+FC:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/Divider_signed/dividerSig_datapath.v
+!i122 63
+R30
+R4
+R5
+r1
+!s85 0
+31
+R26
+!s107 C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/Divider_signed/dividerSig_datapath.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/Divider_signed|C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/Divider_signed/dividerSig_datapath.v|
+!i113 0
+R7
+R33
+R9
+ndivider@sig_datapath
+vdividerSig_element
+2C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/Divider_signed/dividerSig_element.v
+R24
+!i10b 1
+!s100 <XmTMejUNn1U[d`AjZWAQ0
+INMlO@MNBGZ:lDdQ@XWb^>1
+R0
+R2
+8C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/Divider_signed/dividerSig_element.v
+FC:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/Divider_signed/dividerSig_element.v
+!i122 62
+R19
+R4
+R5
+r1
+!s85 0
+31
+R26
+!s107 C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/Divider_signed/dividerSig_element.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/Divider_signed|C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/Divider_signed/dividerSig_element.v|
+!i113 0
+R7
+R33
+R9
+ndivider@sig_element
+vfftshift
+2C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/fftshift.v
+Z34 !s110 1789775682
+!i10b 1
+!s100 k:cbJLlcYfJ7ZBe1eJadG0
+IO6Hh<EJC>M944a4=SKSC[0
+R0
+R2
+8C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/fftshift.v
+FC:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/fftshift.v
+!i122 31
+Z35 L0 2 11
+R4
+R5
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/fftshift.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl|C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/fftshift.v|
+!i113 0
+R7
+R17
+R9
+vhalf_multiplier_D3
+2C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/intpol/half_multiplier_D3.v
+R31
+!i10b 1
+!s100 PkeK2m6@C_6fVA]1CH4FG1
+IW8h5RNDTc8SO_PiAGa:Oh2
+R0
+R2
+8C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/intpol/half_multiplier_D3.v
+FC:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/intpol/half_multiplier_D3.v
+!i122 42
+L0 3 125
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/intpol/half_multiplier_D3.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/intpol|C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/intpol/half_multiplier_D3.v|
+!i113 0
+R7
+R8
+R9
+nhalf_multiplier_@d3
+vID00001008_ILI9327Core
+2C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/00001008_Scope/ID00001008_ILI9327Core.v
+R21
+!i10b 1
+!s100 ;5?Mj1d]E6]kd?E:LW?C71
+INKjbzWUk]H^E0UAH6SHA22
+R0
+R2
+8C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/00001008_Scope/ID00001008_ILI9327Core.v
+FC:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/00001008_Scope/ID00001008_ILI9327Core.v
+!i122 8
+L0 2 136
+R4
+R5
+r1
+!s85 0
+31
+R23
+!s107 C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/00001008_Scope/ID00001008_ILI9327Core.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/00001008_Scope|C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/00001008_Scope/ID00001008_ILI9327Core.v|
+!i113 0
+R7
+Z36 !s92 -work work +incdir+C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/00001008_Scope -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R9
+n@i@d00001008_@i@l@i9327@core
+vID00001008_TxCmd
+2C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/00001008_Scope/ID00001008_tx_command.v
+R21
+!i10b 1
+!s100 jk^LM51b:a0R6XN3BiU]01
+ImiUOXAU_NoP8j`MX]8NgW3
+R0
+R2
+8C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/00001008_Scope/ID00001008_tx_command.v
+FC:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/00001008_Scope/ID00001008_tx_command.v
+!i122 7
+L0 10 242
+R4
+R5
+r1
+!s85 0
+31
+R23
+!s107 C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/00001008_Scope/ID00001008_tx_command.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/00001008_Scope|C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/00001008_Scope/ID00001008_tx_command.v|
+!i113 0
+R7
+R36
+R9
+n@i@d00001008_@tx@cmd
+vID00001008_TxCntrl
+2C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/00001008_Scope/ID00001008_tx_control.v
+R21
+!i10b 1
+!s100 Ec:Z5ZXJif20McO0bd1Qk0
+IPKP:3WOD4Pc;n4XH`T=NB2
+R0
+R2
+8C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/00001008_Scope/ID00001008_tx_control.v
+FC:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/00001008_Scope/ID00001008_tx_control.v
+!i122 5
+L0 9 192
+R4
+R5
+r1
+!s85 0
+31
+R23
+!s107 C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/00001008_Scope/ID00001008_tx_control.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/00001008_Scope|C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/00001008_Scope/ID00001008_tx_control.v|
+!i113 0
+R7
+R36
+R9
+n@i@d00001008_@tx@cntrl
+vID00001008_TxConfig
+2C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/00001008_Scope/ID00001008_tx_config.v
+R21
+!i10b 1
+!s100 Pl_K0N_;EaCFY8mcC_AH<2
+I2g6flo7_IK0M2mDPm?_>I2
+R0
+R2
+8C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/00001008_Scope/ID00001008_tx_config.v
+FC:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/00001008_Scope/ID00001008_tx_config.v
+!i122 6
+L0 10 422
+R4
+R5
+r1
+!s85 0
+31
+R23
+!s107 C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/00001008_Scope/ID00001008_tx_config.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/00001008_Scope|C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/00001008_Scope/ID00001008_tx_config.v|
+!i113 0
+R7
+R36
+R9
+n@i@d00001008_@tx@config
+vID00001008_TxVideo
+2C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/00001008_Scope/ID00001008_tx_video.v
+R21
+!i10b 1
+!s100 `L8>0ZZcfigd2K0bJ2WZ31
+ITNdD^zB4HZCF@UQ>L2h2X2
+R0
+R2
+8C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/00001008_Scope/ID00001008_tx_video.v
+FC:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/00001008_Scope/ID00001008_tx_video.v
+!i122 4
+L0 10 306
+R4
+R5
+r1
+!s85 0
+31
+R23
+!s107 C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/00001008_Scope/ID00001008_tx_video.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/00001008_Scope|C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/00001008_Scope/ID00001008_tx_video.v|
+!i113 0
+R7
+R36
+R9
+n@i@d00001008_@tx@video
+vID00001009_decim2scope_controlpath
+2C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/decim2scope/ID00001009_decim2scope_controlpath.v
+Z37 !s110 1789775678
+!i10b 1
+!s100 ?78K94Vbi^4mhDz7^>3ZD1
+I365lg;?H0>eNKk_D?F=>K1
+R0
+R2
+8C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/decim2scope/ID00001009_decim2scope_controlpath.v
+FC:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/decim2scope/ID00001009_decim2scope_controlpath.v
+!i122 3
+L0 2 201
+R4
+R5
+r1
+!s85 0
+31
+Z38 !s108 1789775678.000000
+!s107 C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/decim2scope/ID00001009_decim2scope_controlpath.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/decim2scope|C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/decim2scope/ID00001009_decim2scope_controlpath.v|
+!i113 0
+R7
+Z39 !s92 -work work +incdir+C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/decim2scope -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R9
+n@i@d00001009_decim2scope_controlpath
+vID00001009_decim2scope_core
+2C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/decim2scope/ID00001009_decim2scope_core.v
+R37
+!i10b 1
+!s100 ZnS<DC6X3n<`n>niV`[9V3
+I=]0S[M80F_nloZH]S1>^Z0
+R0
+R2
+8C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/decim2scope/ID00001009_decim2scope_core.v
+FC:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/decim2scope/ID00001009_decim2scope_core.v
+!i122 2
+R32
+R4
+R5
+r1
+!s85 0
+31
+R38
+!s107 C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/decim2scope/ID00001009_decim2scope_core.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/decim2scope|C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/decim2scope/ID00001009_decim2scope_core.v|
+!i113 0
+R7
+R39
+R9
+n@i@d00001009_decim2scope_core
+vID00001009_decim2scope_datapath
+2C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/decim2scope/ID00001009_decim2scope_datapath.v
+R37
+!i10b 1
+!s100 Jh4mHaba:HIYJdm;N3W5_3
+I7LoWez>lK=f6<LKkN2ofC3
+R0
+R2
+8C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/decim2scope/ID00001009_decim2scope_datapath.v
+FC:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/decim2scope/ID00001009_decim2scope_datapath.v
+!i122 1
+R19
+R4
+R5
+r1
+!s85 0
+31
+R38
+!s107 C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/decim2scope/ID00001009_decim2scope_datapath.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/decim2scope|C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/decim2scope/ID00001009_decim2scope_datapath.v|
+!i113 0
+R7
+R39
+R9
+n@i@d00001009_decim2scope_datapath
+vID0000100C_modCuad_controlpath
+2C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/modCuadrado/ID0000100C_aipModCuad_controlpath.v
+R28
+!i10b 1
+!s100 RG>>jB]0VCBFVR3?oZz6b3
+I84H5kmkgHWcX5ajZPESbc0
+R0
+R2
+8C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/modCuadrado/ID0000100C_aipModCuad_controlpath.v
+FC:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/modCuadrado/ID0000100C_aipModCuad_controlpath.v
+!i122 56
+L0 2 155
+R4
+R5
+r1
+!s85 0
+31
+R29
+!s107 C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/modCuadrado/ID0000100C_aipModCuad_controlpath.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/modCuadrado|C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/modCuadrado/ID0000100C_aipModCuad_controlpath.v|
+!i113 0
+R7
+Z40 !s92 -work work +incdir+C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/modCuadrado -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R9
+n@i@d0000100@c_mod@cuad_controlpath
+vID0000100C_modCuad_core
+2C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/modCuadrado/ID0000100C_modCuad_core.v
+R28
+!i10b 1
+!s100 zeGoK@gm>h2?]<AUFnC_Q3
+IM54^TI0QL89m:2LV0>7f60
+R0
+w1789438731
+8C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/modCuadrado/ID0000100C_modCuad_core.v
+FC:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/modCuadrado/ID0000100C_modCuad_core.v
+!i122 54
+L0 2 74
+R4
+R5
+r1
+!s85 0
+31
+R29
+!s107 C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/modCuadrado/ID0000100C_modCuad_core.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/modCuadrado|C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/modCuadrado/ID0000100C_modCuad_core.v|
+!i113 0
+R7
+R40
+R9
+n@i@d0000100@c_mod@cuad_core
+vID0000100C_modCuad_datapath
+2C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/modCuadrado/ID0000100C_aipModCuad_datapath.v
+R28
+!i10b 1
+!s100 ?MCUY[:]jl80jB4;?V[5b0
+IliN5Vb8f6fKaCoSkTA[id1
+R0
+R2
+8C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/modCuadrado/ID0000100C_aipModCuad_datapath.v
+FC:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/modCuadrado/ID0000100C_aipModCuad_datapath.v
+!i122 55
+L0 2 67
+R4
+R5
+r1
+!s85 0
+31
+R29
+!s107 C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/modCuadrado/ID0000100C_aipModCuad_datapath.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/modCuadrado|C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/modCuadrado/ID0000100C_aipModCuad_datapath.v|
+!i113 0
+R7
+R40
+R9
+n@i@d0000100@c_mod@cuad_datapath
+vID0000100C_modCuad_power2
+2C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/modCuadrado/ID0000100C_modCuad_power2.v
+R28
+!i10b 1
+!s100 YeGOoUAgm`JGDPV88LA>`2
+IhJdWMO7L;nj=[LQlJWm]i2
+R0
+R2
+8C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/modCuadrado/ID0000100C_modCuad_power2.v
+FC:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/modCuadrado/ID0000100C_modCuad_power2.v
+!i122 53
+R15
+R4
+R5
+r1
+!s85 0
+31
+Z41 !s108 1789775685.000000
+!s107 C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/modCuadrado/ID0000100C_modCuad_power2.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/modCuadrado|C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/modCuadrado/ID0000100C_modCuad_power2.v|
+!i113 0
+R7
+R40
+R9
+n@i@d0000100@c_mod@cuad_power2
+vID0000100D_collector2scope_controlpath
+2C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/collector2scope/ID0000100D_collector2scope_controlpath.v
+R24
+!i10b 1
+!s100 Di>EW=AHmzOk:BBA^F:ZD0
+Ih>kkFBPHoN7[Jlb^G3Q2N3
+R0
+w1789775195
+8C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/collector2scope/ID0000100D_collector2scope_controlpath.v
+FC:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/collector2scope/ID0000100D_collector2scope_controlpath.v
+!i122 66
+L0 2 145
+R4
+R5
+r1
+!s85 0
+31
+R26
+!s107 C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/collector2scope/ID0000100D_collector2scope_controlpath.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/collector2scope|C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/collector2scope/ID0000100D_collector2scope_controlpath.v|
+!i113 0
+R7
+Z42 !s92 -work work +incdir+C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/collector2scope -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R9
+n@i@d0000100@d_collector2scope_controlpath
+vID0000100D_collector2scope_core
+2C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/collector2scope/ID0000100D_collector2scope_core.v
+R24
+!i10b 1
+!s100 ?ESL3IzSOfc<M91F9<2[H0
+IL^a[^29@PEPekmaiHS>]M0
+R0
+w1789610584
+8C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/collector2scope/ID0000100D_collector2scope_core.v
+FC:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/collector2scope/ID0000100D_collector2scope_core.v
+!i122 65
+Z43 L0 2 59
+R4
+R5
+r1
+!s85 0
+31
+R26
+!s107 C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/collector2scope/ID0000100D_collector2scope_core.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/collector2scope|C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/collector2scope/ID0000100D_collector2scope_core.v|
+!i113 0
+R7
+R42
+R9
+n@i@d0000100@d_collector2scope_core
+vID0000100D_collector2scope_datapath
+2C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/collector2scope/ID0000100D_collector2scope_datapath.v
+R18
+!i10b 1
+!s100 JAXnl6N@77bT_3UY]P0HJ2
+IoYi9<BzSV:6J]jg2XAWiU3
+R0
+w1789775661
+8C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/collector2scope/ID0000100D_collector2scope_datapath.v
+FC:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/collector2scope/ID0000100D_collector2scope_datapath.v
+!i122 67
+R32
+R4
+R5
+r1
+!s85 0
+31
+R20
+!s107 C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/collector2scope/ID0000100D_collector2scope_datapath.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/collector2scope|C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/collector2scope/ID0000100D_collector2scope_datapath.v|
+!i113 0
+R7
+R42
+R9
+n@i@d0000100@d_collector2scope_datapath
+vID0000100F_decim2frac_controlpath
+2C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/decim2frac/ID0000100F_decim2frac_controlpath.v
+R1
+!i10b 1
+!s100 U@GeRzh_YCZ0hOVFk`bk]3
+I4kUa>4=GiBT;oGhQ<83l51
+R0
+R2
+8C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/decim2frac/ID0000100F_decim2frac_controlpath.v
+FC:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/decim2frac/ID0000100F_decim2frac_controlpath.v
+!i122 49
+Z44 L0 2 147
+R4
+R5
+r1
+!s85 0
+31
+R41
+!s107 C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/decim2frac/ID0000100F_decim2frac_controlpath.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/decim2frac|C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/decim2frac/ID0000100F_decim2frac_controlpath.v|
+!i113 0
+R7
+Z45 !s92 -work work +incdir+C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/decim2frac -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R9
+n@i@d0000100@f_decim2frac_controlpath
+vID0000100F_decim2frac_core
+2C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/decim2frac/ID0000100F_decim2frac_core.v
+R1
+!i10b 1
+!s100 4VE4bOmY9K`4CLzojMZYO0
+IEaM8`hYUTlTYai7RYl=BS1
+R0
+R2
+8C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/decim2frac/ID0000100F_decim2frac_core.v
+FC:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/decim2frac/ID0000100F_decim2frac_core.v
+!i122 48
+L0 2 65
+R4
+R5
+r1
+!s85 0
+31
+R41
+!s107 C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/decim2frac/ID0000100F_decim2frac_core.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/decim2frac|C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/decim2frac/ID0000100F_decim2frac_core.v|
+!i113 0
+R7
+R45
+R9
+n@i@d0000100@f_decim2frac_core
+vID0000100F_decim2frac_datapath
+2C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/decim2frac/ID0000100F_decim2frac_datapath.v
+R1
+!i10b 1
+!s100 <akO7C>EkN6EREN7KYz5<0
+IVl_fOMWYn;ggl8UXEJ[hU1
+R0
+R2
+8C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/decim2frac/ID0000100F_decim2frac_datapath.v
+FC:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/decim2frac/ID0000100F_decim2frac_datapath.v
+!i122 47
+L0 2 15
+R4
+R5
+r1
+!s85 0
+31
+R41
+!s107 C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/decim2frac/ID0000100F_decim2frac_datapath.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/decim2frac|C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/decim2frac/ID0000100F_decim2frac_datapath.v|
+!i113 0
+R7
+R45
+R9
+n@i@d0000100@f_decim2frac_datapath
+vID00001011_aipScopeNoMPU
+2C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/ID00001011_aipScopeNoMPU.v
+Z46 !s110 1789775680
+!i10b 1
+!s100 @:@UCO@C>l:E>j<Q5`zbN1
+Il_Wm`Ik3mR?zkL>VK3;WE1
+R0
+w1789613965
+8C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/ID00001011_aipScopeNoMPU.v
+FC:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/ID00001011_aipScopeNoMPU.v
+!i122 15
+L0 2 123
+R4
+R5
+r1
+!s85 0
+31
+Z47 !s108 1789775680.000000
+!s107 C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/ID00001011_aipScopeNoMPU.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl|C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/ID00001011_aipScopeNoMPU.v|
+!i113 0
+R7
+R17
+R9
+n@i@d00001011_aip@scope@no@m@p@u
+vID00001011_scopeNoMPU_aip
+Z48 2C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/ID00001011_scopeNoMPU_aip.v
+R46
+!i10b 1
+!s100 fL]1X9[0n^2_C?1bBZ@GD0
+IZf`1K>Z;gMWz9EXJWk4QR0
+R0
+R2
+Z49 8C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/ID00001011_scopeNoMPU_aip.v
+Z50 FC:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/ID00001011_scopeNoMPU_aip.v
+!i122 14
+L0 10 95
+R4
+R5
+r1
+!s85 0
+31
+R47
+Z51 !s107 C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/ID00001011_scopeNoMPU_aip.v|
+Z52 !s90 -reportprogress|300|-work|work|+incdir+C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl|C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/ID00001011_scopeNoMPU_aip.v|
+!i113 0
+R7
+R17
+R9
+n@i@d00001011_scope@no@m@p@u_aip
+vID00001011_scopeNoMPU_aipCtrl
+R48
+R46
+!i10b 1
+!s100 TElbN]dRekMUC;FbkV7L`0
+IP2TWT=CMidSoCZIUmY__K0
+R0
+R2
+R49
+R50
+!i122 14
+L0 507 252
+R4
+R5
+r1
+!s85 0
+31
+R47
+R51
+R52
+!i113 0
+R7
+R17
+R9
+n@i@d00001011_scope@no@m@p@u_aip@ctrl
+vID00001011_scopeNoMPU_aipModules
+R48
+R46
+!i10b 1
+!s100 ]BkeibKF63Z1i3onA<icJ1
+IZ1d9BA44:<lZfLSCa8hKW2
+R0
+R2
+R49
+R50
+!i122 14
+L0 106 400
+R4
+R5
+r1
+!s85 0
+31
+R47
+R51
+R52
+!i113 0
+R7
+R17
+R9
+n@i@d00001011_scope@no@m@p@u_aip@modules
+vID00001011_scopeNoMPU_controlpath
+2C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/ID00001011_scopeNoMPU_controlpath.v
+R46
+!i10b 1
+!s100 ?9X7zLl9R8MN`mQ2Q9U2O2
+I3:bEi;AH?2:m1]z;LA]@b2
+R0
+w1789770055
+8C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/ID00001011_scopeNoMPU_controlpath.v
+FC:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/ID00001011_scopeNoMPU_controlpath.v
+!i122 13
+L0 2 448
+R4
+R5
+r1
+!s85 0
+31
+R47
+!s107 C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/ID00001011_scopeNoMPU_controlpath.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl|C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/ID00001011_scopeNoMPU_controlpath.v|
+!i113 0
+R7
+R17
+R9
+n@i@d00001011_scope@no@m@p@u_controlpath
+vID00001011_scopeNoMPU_core
+2C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/ID00001011_scopeNoMPU_core.v
+R46
+!i10b 1
+!s100 ZZ@8e753MX`];FTPaje[m0
+I^8R5[GS5OS>dWBQEGAm<j2
+R0
+w1789611702
+8C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/ID00001011_scopeNoMPU_core.v
+FC:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/ID00001011_scopeNoMPU_core.v
+!i122 12
+L0 2 165
+R4
+R5
+r1
+!s85 0
+31
+R47
+!s107 C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/ID00001011_scopeNoMPU_core.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl|C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/ID00001011_scopeNoMPU_core.v|
+!i113 0
+R7
+R17
+R9
+n@i@d00001011_scope@no@m@p@u_core
+vID00001011_scopeNoMPU_datapath
+2C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/ID00001011_scopeNoMPU_datapath.v
+R46
+!i10b 1
+!s100 Ehn^GNhO<ikFb3`h::R?F0
+IGbn1zVZlIf<5EnKUAYZ5l2
+R0
+w1789769381
+8C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/ID00001011_scopeNoMPU_datapath.v
+FC:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/ID00001011_scopeNoMPU_datapath.v
+!i122 11
+L0 2 591
+R4
+R5
+r1
+!s85 0
+31
+R47
+!s107 C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/ID00001011_scopeNoMPU_datapath.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl|C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/ID00001011_scopeNoMPU_datapath.v|
+!i113 0
+R7
+R17
+R9
+n@i@d00001011_scope@no@m@p@u_datapath
+vID00001012_scopeSignalMapper_controlpath
+2C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/scopeSignalMapper/ID00001012_scopeSignalMapper_controlpath.v
+R34
+!i10b 1
+!s100 V0AQO?J9]92PcY[Y3B9cY2
+IlW7dVDm455>fl3g^5eIGo3
+R0
+R2
+8C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/scopeSignalMapper/ID00001012_scopeSignalMapper_controlpath.v
+FC:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/scopeSignalMapper/ID00001012_scopeSignalMapper_controlpath.v
+!i122 26
+L0 2 465
+R4
+R5
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/scopeSignalMapper/ID00001012_scopeSignalMapper_controlpath.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/scopeSignalMapper|C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/scopeSignalMapper/ID00001012_scopeSignalMapper_controlpath.v|
+!i113 0
+R7
+Z53 !s92 -work work +incdir+C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/scopeSignalMapper -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R9
+n@i@d00001012_scope@signal@mapper_controlpath
+vID00001012_scopeSignalMapper_core
+2C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/scopeSignalMapper/ID00001012_scopeSignalMapper_core.v
+R10
+!i10b 1
+!s100 ^3G@UjmOOO>Q=B30:eoOJ0
+IHI[7XETb4zcGPGOJ3f4>C3
+R0
+R2
+8C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/scopeSignalMapper/ID00001012_scopeSignalMapper_core.v
+FC:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/scopeSignalMapper/ID00001012_scopeSignalMapper_core.v
+!i122 24
+L0 2 118
+R4
+R5
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/scopeSignalMapper/ID00001012_scopeSignalMapper_core.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/scopeSignalMapper|C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/scopeSignalMapper/ID00001012_scopeSignalMapper_core.v|
+!i113 0
+R7
+R53
+R9
+n@i@d00001012_scope@signal@mapper_core
+vID00001012_scopeSignalMapper_datapath
+2C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/scopeSignalMapper/ID00001012_scopeSignalMapper_datapath.v
+R34
+!i10b 1
+!s100 KmVF7zB?d0CnzlIaem?<F0
+IGN?LhL`VXO=l9kRJ6Nj]82
+R0
+R2
+8C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/scopeSignalMapper/ID00001012_scopeSignalMapper_datapath.v
+FC:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/scopeSignalMapper/ID00001012_scopeSignalMapper_datapath.v
+!i122 25
+L0 2 157
+R4
+R5
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/scopeSignalMapper/ID00001012_scopeSignalMapper_datapath.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/scopeSignalMapper|C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/scopeSignalMapper/ID00001012_scopeSignalMapper_datapath.v|
+!i113 0
+R7
+R53
+R9
+n@i@d00001012_scope@signal@mapper_datapath
+vID0000204D_FFT_core
+2C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/0000204D_FFT/ID0000204D_FFT_core.v
+R21
+!i10b 1
+!s100 ShJiN;WAoL@@0l]R4bNX11
+I3igjlNf:6^Jgo8e<KQV7Q3
+R0
+R2
+8C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/0000204D_FFT/ID0000204D_FFT_core.v
+FC:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/0000204D_FFT/ID0000204D_FFT_core.v
+!i122 9
+L0 3 1051
+R4
+R5
+r1
+!s85 0
+31
+R23
+!s107 C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/0000204D_FFT/ID0000204D_FFT_core.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/0000204D_FFT|C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/0000204D_FFT/ID0000204D_FFT_core.v|
+!i113 0
+R7
+Z54 !s92 -work work +incdir+C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/0000204D_FFT -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R9
+n@i@d0000204@d_@f@f@t_core
+vintpol2scope_core
+2C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/intpol/intpol2scope_core.v
+R31
+!i10b 1
+!s100 eLP=F0DJBhgFzOmI=8Vh?3
+I27GPhl^gYmzVbWfV]mAYj2
+R0
+R2
+8C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/intpol/intpol2scope_core.v
+FC:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/intpol/intpol2scope_core.v
+!i122 41
+L0 2 350
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/intpol/intpol2scope_core.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/intpol|C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/intpol/intpol2scope_core.v|
+!i113 0
+R7
+R8
+R9
+vintpol2scope_fsm
+2C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/intpol/intpol2scope_fsm.v
+R31
+!i10b 1
+!s100 RORGCfb]ZGY38_Bk9;K1n3
+ITXXACG9hf;mj?=F<KzCM80
+R0
+R2
+8C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/intpol/intpol2scope_fsm.v
+FC:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/intpol/intpol2scope_fsm.v
+!i122 40
+L0 2 485
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/intpol/intpol2scope_fsm.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/intpol|C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/intpol/intpol2scope_fsm.v|
+!i113 0
+R7
+R8
+R9
+vintpol2scope_input_register
+2C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/intpol/intpol2scope_input_register.v
+R31
+!i10b 1
+!s100 :zSV_@4A2[BfgDIi2lA4<2
+I<kXNblV=kDiD?d[M6j09I0
+R0
+R2
+8C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/intpol/intpol2scope_input_register.v
+FC:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/intpol/intpol2scope_input_register.v
+!i122 39
+R43
+R4
+R5
+r1
+!s85 0
+31
+Z55 !s108 1789775683.000000
+!s107 C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/intpol/intpol2scope_input_register.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/intpol|C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/intpol/intpol2scope_input_register.v|
+!i113 0
+R7
+R8
+R9
+vintpolFrac_controlpath
+2C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/intpolFrac_controlpath.v
+R1
+!i10b 1
+!s100 KaX7oA6VmA[D0cE^WY>R<3
+IA4>n<DNSER4SEn]jeQ<Fa2
+R0
+R2
+8C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/intpolFrac_controlpath.v
+FC:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/intpolFrac_controlpath.v
+!i122 52
+R32
+R4
+R5
+r1
+!s85 0
+31
+R41
+!s107 C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/intpolFrac_controlpath.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac|C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/intpolFrac_controlpath.v|
+!i113 0
+R7
+Z56 !s92 -work work +incdir+C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R9
+nintpol@frac_controlpath
+vintpolFrac_core
+2C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/intpolFrac_core.v
+R1
+!i10b 1
+!s100 ZUZXCX:B1RgViG9c2>Y9G3
+I6;Q`bSeI8Bl;0Bh[:JK]32
+R0
+R2
+8C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/intpolFrac_core.v
+FC:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/intpolFrac_core.v
+!i122 51
+L0 2 85
+R4
+R5
+r1
+!s85 0
+31
+R41
+!s107 C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/intpolFrac_core.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac|C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/intpolFrac_core.v|
+!i113 0
+R7
+R56
+R9
+nintpol@frac_core
+vintpolFrac_datapath
+2C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/intpolFrac_datapath.v
+R1
+!i10b 1
+!s100 @ZMIMDd6DPeUEiZ?K73_[1
+I]j2FlZHBT;792b7f9g2472
+R0
+R2
+8C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/intpolFrac_datapath.v
+FC:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/intpolFrac_datapath.v
+!i122 50
+L0 2 105
+R4
+R5
+r1
+!s85 0
+31
+R41
+!s107 C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/intpolFrac_datapath.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac|C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/intpolFrac_datapath.v|
+!i113 0
+R7
+R56
+R9
+nintpol@frac_datapath
+vipm
+2C:/Users/manue/Documents/GitHub/basicblocks/ipm/ipm.v
+R10
+!i10b 1
+!s100 k6d>VS0MY251Q:zC2_beZ0
+IM1?UQR[]JK[?JC1>3njg^2
+R0
+R11
+8C:/Users/manue/Documents/GitHub/basicblocks/ipm/ipm.v
+FC:/Users/manue/Documents/GitHub/basicblocks/ipm/ipm.v
+!i122 18
+L0 1 68
+R4
+R5
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/manue/Documents/GitHub/basicblocks/ipm/ipm.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/manue/Documents/GitHub/basicblocks/ipm|C:/Users/manue/Documents/GitHub/basicblocks/ipm/ipm.v|
+!i113 0
+R7
+Z57 !s92 -work work +incdir+C:/Users/manue/Documents/GitHub/basicblocks/ipm -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R9
+vipm_register
+2C:/Users/manue/Documents/GitHub/basicblocks/ipm/ipm_register.v
+R46
+!i10b 1
+!s100 h:l8GQ2PzROkb_;>1?;3J2
+ISI<0^SeBnNhlaCMk4kKlI0
+R0
+R11
+8C:/Users/manue/Documents/GitHub/basicblocks/ipm/ipm_register.v
+FC:/Users/manue/Documents/GitHub/basicblocks/ipm/ipm_register.v
+!i122 17
+L0 13 134
+R4
+R5
+r1
+!s85 0
+31
+R47
+!s107 C:/Users/manue/Documents/GitHub/basicblocks/ipm/ipm_register.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/manue/Documents/GitHub/basicblocks/ipm|C:/Users/manue/Documents/GitHub/basicblocks/ipm/ipm_register.v|
+!i113 0
+R7
+R57
+R9
+vipmScopeNoMPU
+2C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/scr/ipmScopeNoMPU.v
+R46
+!i10b 1
+!s100 oCI@8Hz7zo8CheRn@MgjR0
+I]b89GdiH<KFI@=kh8gQ9^1
+R0
+w1789610339
+8C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/scr/ipmScopeNoMPU.v
+FC:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/scr/ipmScopeNoMPU.v
+!i122 16
+R32
+R4
+R5
+r1
+!s85 0
+31
+R47
+!s107 C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/scr/ipmScopeNoMPU.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/scr|C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/scr/ipmScopeNoMPU.v|
+!i113 0
+R7
+!s92 -work work +incdir+C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/scr -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R9
+nipm@scope@no@m@p@u
+vmapper
+2C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/mapper.v
+R34
+!i10b 1
+!s100 L_MD0@Q[9Og`ba22H@PL@0
+IzGTO^m:<F;HPNmZ:IeZ`V2
+R0
+R2
+8C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/mapper.v
+FC:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/mapper.v
+!i122 29
+L0 2 171
+R4
+R5
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/mapper.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl|C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/mapper.v|
+!i113 0
+R7
+R17
+R9
+vmaxFound
+2C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/maxFound.v
+R34
+!i10b 1
+!s100 zQ`KQ4aaYz6bTa5THTL[T0
+IYzcM=6jm04K;bd7KAZ3O:0
+R0
+R2
+8C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/maxFound.v
+FC:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/maxFound.v
+!i122 27
+L0 2 39
+R4
+R5
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/maxFound.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl|C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/maxFound.v|
+!i113 0
+R7
+R17
+R9
+nmax@found
+vmux_p_xi_base_D3
+2C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/intpol/mux_p_xi_base_D3.v
+R14
+!i10b 1
+!s100 T6@zPS[E<EYlzjPB:7^_J0
+IhI0[2JW^d0;ac461L9QHG0
+R0
+R2
+8C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/intpol/mux_p_xi_base_D3.v
+FC:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/intpol/mux_p_xi_base_D3.v
+!i122 38
+L0 3 66
+R4
+R5
+r1
+!s85 0
+31
+R55
+!s107 C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/intpol/mux_p_xi_base_D3.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/intpol|C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/intpol/mux_p_xi_base_D3.v|
+!i113 0
+R7
+R8
+R9
+nmux_p_xi_base_@d3
+vregBitMem
+2C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/regBitMem.v
+R34
+!i10b 1
+!s100 _^OOd_<Zd0kd[^:=UQ9`T1
+I9]2N>V5L=`NFAIAOF;^j20
+R0
+R2
+8C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/regBitMem.v
+FC:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/regBitMem.v
+!i122 30
+R19
+R4
+R5
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/regBitMem.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl|C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/regBitMem.v|
+!i113 0
+R7
+R17
+R9
+nreg@bit@mem
+vscopeScaler
+2C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/scopeScaler.v
+R34
+!i10b 1
+!s100 YT8:5CS4lMCaa8_=>@d4P2
+IL<Lo^kP`<<3U;>`OPnhm92
+R0
+R2
+8C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/scopeScaler.v
+FC:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/scopeScaler.v
+!i122 28
+R22
+R4
+R5
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/scopeScaler.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl|C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/scopeScaler.v|
+!i113 0
+R7
+R17
+R9
+nscope@scaler
+vshifter_D_1
+2C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/intpol/shifter_D_1.v
+R14
+!i10b 1
+!s100 UKa>W2;WP6S^ID1EJN[Ma3
+IB3MOOG?6QS0GHBTLgTXm<1
+R0
+R2
+8C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/intpol/shifter_D_1.v
+FC:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/intpol/shifter_D_1.v
+!i122 37
+R3
+R4
+R5
+r1
+!s85 0
+31
+R55
+!s107 C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/intpol/shifter_D_1.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/intpol|C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/intpol/shifter_D_1.v|
+!i113 0
+R7
+R8
+R9
+nshifter_@d_1
+vshifter_D_X_D3
+2C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/intpol/shifter_D_X_D3.v
+R14
+!i10b 1
+!s100 YIhYURjLj;Hh4THVhj>J^0
+I<6S7P_WE>U8M4EQJPl6I@2
+R0
+R2
+8C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/intpol/shifter_D_X_D3.v
+FC:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/intpol/shifter_D_X_D3.v
+!i122 36
+L0 2 14
+R4
+R5
+r1
+!s85 0
+31
+R55
+!s107 C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/intpol/shifter_D_X_D3.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/intpol|C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/intpol/shifter_D_X_D3.v|
+!i113 0
+R7
+R8
+R9
+nshifter_@d_@x_@d3
+vshifter_I_1
+2C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/intpol/shifter_I_1.v
+R14
+!i10b 1
+!s100 j;>h^1>4>9G]Uk?761>4U3
+I]b20MeaQ[L5RAYdP7LXn53
+R0
+R2
+8C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/intpol/shifter_I_1.v
+FC:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/intpol/shifter_I_1.v
+!i122 35
+R35
+R4
+R5
+r1
+!s85 0
+31
+R55
+!s107 C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/intpol/shifter_I_1.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/intpol|C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/intpol/shifter_I_1.v|
+!i113 0
+R7
+R8
+R9
+nshifter_@i_1
+vsimple_dual_port_ram_single_clk
+2C:/Users/manue/Documents/GitHub/basicblocks/memories/simple_dual_port_ram_single_clk.v
+R10
+!i10b 1
+!s100 dX1FdkFVK]6RGYBM6mDeC2
+IgUh`G9@ehED[Pl2NL^;f:3
+R0
+R11
+8C:/Users/manue/Documents/GitHub/basicblocks/memories/simple_dual_port_ram_single_clk.v
+FC:/Users/manue/Documents/GitHub/basicblocks/memories/simple_dual_port_ram_single_clk.v
+!i122 19
+L0 16 25
+R4
+R5
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/manue/Documents/GitHub/basicblocks/memories/simple_dual_port_ram_single_clk.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/manue/Documents/GitHub/basicblocks/memories|C:/Users/manue/Documents/GitHub/basicblocks/memories/simple_dual_port_ram_single_clk.v|
+!i113 0
+R7
+!s92 -work work +incdir+C:/Users/manue/Documents/GitHub/basicblocks/memories -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R9
+vsubstract
+2C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/intpol/substract.v
+R14
+!i10b 1
+!s100 @BWA5eU8G7;_]zF^7?Z4G3
+I[M7RR9MTgYm`ihQmg3`KS0
+R0
+R2
+8C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/intpol/substract.v
+FC:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/intpol/substract.v
+!i122 34
+R3
+R4
+R5
+r1
+!s85 0
+31
+R55
+!s107 C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/intpol/substract.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/intpol|C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/intpolFrac/intpol/substract.v|
+!i113 0
+R7
+R8
+R9
+vtoogleButtonControl
+2C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/toogleButtonControl.v
+R14
+!i10b 1
+!s100 WQ_8UK30ZM>czTndL=6E>3
+IiKHm`>HRa0XPIS0m@nge`2
+R0
+R2
+8C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/toogleButtonControl.v
+FC:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/toogleButtonControl.v
+!i122 33
+R44
+R4
+R5
+r1
+!s85 0
+31
+R55
+!s107 C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/toogleButtonControl.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl|C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/toogleButtonControl.v|
+!i113 0
+R7
+R17
+R9
+ntoogle@button@control
+vtrue_dual_port_ram_single_clock
+2C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/0000204D_FFT/true_dual_port_ram_single_clock.v
+R37
+!i10b 1
+!s100 TSkVRQm0mCPl2DBZckABZ2
+IGcC4z6DQ@H5Dh@^LnlG7z2
+R0
+R2
+8C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/0000204D_FFT/true_dual_port_ram_single_clock.v
+FC:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/0000204D_FFT/true_dual_port_ram_single_clock.v
+!i122 0
+L0 21 40
+R4
+R5
+r1
+!s85 0
+31
+R38
+!s107 C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/0000204D_FFT/true_dual_port_ram_single_clock.v|
+!s90 -reportprogress|300|-work|work|+incdir+C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/0000204D_FFT|C:/Users/manue/Documents/GitHub/scopeNoMPU/hdl/0000204D_FFT/true_dual_port_ram_single_clock.v|
+!i113 0
+R7
+R54
+R9

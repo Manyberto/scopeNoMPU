@@ -20,7 +20,7 @@ localparam  SIZE2INTPOL_WIDTH	= 8;
 
 reg[DATA_WIDTH*2-1:0]		data2Interp;
 
-reg[DATA_WIDTH*2-1:0]		dataCollect[0:LOCAL_MEM_SIZE**2-1];
+reg[DATA_WIDTH*2-1:0]		dataCollect[0:2**LOCAL_MEM_SIZE-1];
 
 wire[15:0]						read_addr_local_mem;
 wire[15:0]						read_addr_local_mem_imag;

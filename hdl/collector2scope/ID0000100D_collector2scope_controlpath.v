@@ -20,7 +20,6 @@ localparam	DONE 		= 3'd4;
 
 localparam						CNT_WIDTH = 5;
 localparam[CNT_WIDTH-1:0]	CNT_LIMIT = 31;
-localparam[CNT_WIDTH-1:0]	CNT_LIMIT_MINUS = 30;
 localparam						ADDR_WIDTH = 16;
 
 reg[2:0] state_reg;
@@ -52,7 +51,7 @@ always@(posedge clk, negedge rstn)begin
 		end
 		
 		else if(cnt_collect_on == 1'd1)begin
-			if(cnt_collect < CNT_LIMIT_MINUS)begin
+			if(cnt_collect < CNT_LIMIT)begin
 				cnt_collect <= cnt_collect + 1'd1;
 			end
 		end

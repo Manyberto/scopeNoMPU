@@ -70,6 +70,10 @@ reg [DATAWIDTH-1:0] ID00001011_input_imagData [ID00001011_SIZE_MEM_IN-1:0];
 //reg [DATAWIDTH-1:0] ID00001011_datalocalmem[2**ID00001011_ADDR_WIDTH-1:0];
 reg [DATAWIDTH-1:0] ID00001011_data_in;	
 
+reg sync;
+reg valid_data;
+
+
 wire[(ID00001011_CONFIG_REG_WORD_WIDTH*ID00001011_CONFIG_REG_WORDS)-1:0]	ID00001011_config_reg;
 wire[ID00001011_CONFIG_REG_WORD_WIDTH-1:0]											ID00001011_config_reg_0;
 wire[ID00001011_CONFIG_REG_WORD_WIDTH-1:0]											ID00001011_config_reg_1;
@@ -77,10 +81,20 @@ wire[ID00001011_CONFIG_REG_WORD_WIDTH-1:0]											ID00001011_config_reg_2;
 wire[ID00001011_CONFIG_REG_WORD_WIDTH-1:0]											ID00001011_config_reg_3;
 
 
-assign ID00001011_config_reg_0[ID00001011_CONFIG_REG_WORD_WIDTH-1:0]		= 'd2;
-assign ID00001011_config_reg_1[ID00001011_CONFIG_REG_WORD_WIDTH-1:0]		= 'd0;							
-assign ID00001011_config_reg_2														= 'd0;									
-assign ID00001011_config_reg_3														= 'd0;									
+assign ID00001011_config_reg_0[15:0]		= 'd2;	// AVG
+assign ID00001011_config_reg_0[19:16]		= 'd4;	// Upper DotWidth
+assign ID00001011_config_reg_0[23:20]		= 'd4;	// Lower DotWidth
+assign ID00001011_config_reg_0[31:14]		= 'd0;	// NA
+assign ID00001011_config_reg_1[2:0]			= 'd0;	// Background sel cfg								
+assign ID00001011_config_reg_1[5:3]			= 'd0;	//	Background init								
+assign ID00001011_config_reg_1[29:6]		= 'd0;	//	NA								
+assign ID00001011_config_reg_1[30]			= 'd1;	//	time_frec_mode								
+assign ID00001011_config_reg_1[31]			= 'd1;	//	streaming_mode
+assign ID00001011_config_reg_2[3:0]			= 'd4;	// intpol - selinterp							
+assign ID00001011_config_reg_2[5:4]			= 'd0;	// intpol - opmode							
+assign ID00001011_config_reg_2[13:6]		= 'd128;	// intpol - size2interp							
+assign ID00001011_config_reg_3[12:0]		= 'd11;	// decim	- factor							
+assign ID00001011_config_reg_3[25:13]		= 'd4096;	// decim	- size							
 
 assign ID00001011_config_reg 	= {ID00001011_config_reg_3, ID00001011_config_reg_2, ID00001011_config_reg_1, ID00001011_config_reg_0};
 
@@ -91,20 +105,26 @@ always #(CYCLE/2) clk = !clk;
 //DUT instance
 ID00001011_aipScopeNoMPU ID00001011(
 		.clk						(clk),				 // Señal de reloj	
-		.rstn						(rst_a),            // Reset en bajo	
+		.rstn						(rst_a), 			 // Reset en bajo	
+		.sync						(sync),
+		.valid_data				(valid_data),
+		.zoomButton				(~zoomButton),
+		.scopeFreeze			(scopeFreeze),
+		.dataStream				(dataStream),
+		.nRST						(nRST),		
+		.SDA	               (SDA),	
+		.SCL	               (SCL),	
+		.nCS	               (nCS),		
+		.BL	               (BL),
+		
 		.start					(startAIP),
 		.int_req					(intAIP),
 		.read						(readAIP),
 		.write					(writeAIP),
 		.datain					(dataInAIP),				
 		.config_dbus			(configAIP),
-		.dataout					(dataOutAIP),
-		.dataStream				(dataStream),
-		.nRST						(nRST),		
-		.SDA	               (SDA),	
-		.SCL	               (SCL),	
-		.nCS	               (nCS),		
-		.BL	               (BL)		
+		.dataout					(dataOutAIP)
+				
 );                            
 
 //Testbench stimulus
@@ -132,6 +152,8 @@ begin
 	dataInAIP= 32'd0;
    
 	dataStream = 32'd0;
+	sync = 1'd0;
+	valid_data = 1'd0;
 	
 	rst_a		= 1'b0;	// reset is active
 	#3 rst_a	= 1'b1;	// at time #n release reset
@@ -158,19 +180,19 @@ begin
 	//         ID00001011_dataSet[i] = $urandom%100;          
 	//     end     
 		  
-		  //****CONVERTION TO A SINGLE ARRAY
-		  for (i = 0; i < (ID00001011_SIZE_MEM_IN) ; i=i+1) begin 
-				ID00001011_dataSet_packed[DATAWIDTH*i+:DATAWIDTH] = ID00001011_input_realData[i]; 
-		  end        
-		  
-		  writeMem(ID00001011_MMEMIN_0, ID00001011_dataSet_packed, ID00001011_SIZE_MEM_IN, 0);
-		  
-		   //****CONVERTION TO A SINGLE ARRAY
-		  for (i = 0; i < (ID00001011_SIZE_MEM_IN) ; i=i+1) begin 
-				ID00001011_dataSet_packed[DATAWIDTH*i+:DATAWIDTH] = ID00001011_input_imagData[i]; 
-		  end        
-		  
-		  writeMem(ID00001011_MMEMIN_1, ID00001011_dataSet_packed, ID00001011_SIZE_MEM_IN, 0);
+//		  //****CONVERTION TO A SINGLE ARRAY
+//		  for (i = 0; i < (ID00001011_SIZE_MEM_IN) ; i=i+1) begin 
+//				ID00001011_dataSet_packed[DATAWIDTH*i+:DATAWIDTH] = ID00001011_input_realData[i]; 
+//		  end        
+//		  
+//		  writeMem(ID00001011_MMEMIN_0, ID00001011_dataSet_packed, ID00001011_SIZE_MEM_IN, 0);
+//		  
+//		   //****CONVERTION TO A SINGLE ARRAY
+//		  for (i = 0; i < (ID00001011_SIZE_MEM_IN) ; i=i+1) begin 
+//				ID00001011_dataSet_packed[DATAWIDTH*i+:DATAWIDTH] = ID00001011_input_imagData[i]; 
+//		  end        
+//		  
+//		  writeMem(ID00001011_MMEMIN_1, ID00001011_dataSet_packed, ID00001011_SIZE_MEM_IN, 0);
      
 		  //CONFIGURATION  
 		  writeConfReg(ID00001011_CCONFREG, ID00001011_config_reg , ID00001011_CONFIG_REG_WORDS, 0);
@@ -188,6 +210,33 @@ begin
 	//         #(CYCLE*10);
 	//     end 
 		  //(WITHOUT INTERRUPTIONS)
+		  
+		  while(ID00001011.SCOPENOMPU_CORE.doneScope == 1'd0)begin
+			#(CYCLE*10);
+		  end
+		  
+		  $display("%7T Reset Scope Done!", $time);
+		  #3;
+		  $stop;
+		  
+		  sync = 1'd1;
+		  #(CYCLE);
+		  sync = 1'd0;
+		  
+		  for(jj = 0; jj < 3; jj = jj + 1)begin
+		  
+			  for(i = 0; i < 32; i = i + 1)begin
+				dataStream = i;
+				valid_data = 1'd1;
+				#(CYCLE);
+			  end
+			  
+			  dataStream = 'd0;
+			  valid_data = 1'd0;
+			  
+			  #(CYCLE);
+		  
+		  end
 		  
 		  // (INTERRUPTIONS) 
 		  // WAIT FOR DONE FLAG WITH INTERRUPTIONS ENABLED     

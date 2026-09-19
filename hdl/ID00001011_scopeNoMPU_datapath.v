@@ -235,7 +235,7 @@ ID0000100D_COLLECTOR_CORE (
 	.done							(doneColl)
 );
 
-// Memoria intermedia entre Colector de entrad y el multirate -------
+// Memoria intermedia entre Colector de entrad y el ModCuad -------
 
 always@(posedge clk)begin
 	
