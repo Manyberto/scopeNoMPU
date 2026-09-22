@@ -14,7 +14,7 @@ input		wire						sync,					// Reset en bajo
 input		wire						valid_data,			// Reset en bajo
 input		wire[31:0]				dataStream,
 input		wire						scopeFreeze,
-input		wire						zoomButton,
+//input		wire						zoomButton,
 output	wire						busy,
 output 	wire						nRST,					// Reset to display
 output 	wire						SDA,					// Serial data to/from the display.
@@ -83,7 +83,7 @@ ID00001011_aipScopeNoMPU ID00001011(
 		.sync						(sync),
 		.valid_data				(valid_data),
 		.dataStream				(dataStream),
-		.zoomButton				(~zoomButton),
+//		.zoomButton				(~zoomButton),
 		.scopeFreeze			(scopeFreeze),
 		.busy						(busy),
 		.nRST						(nRST),		

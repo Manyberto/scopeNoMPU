@@ -11,7 +11,7 @@ input		wire									clk,						// Señal de reloj
 input		wire									rstn,						// Reset en bajo
 input		wire									start,
 input		wire									sync,
-input		wire									zoomButton,
+//input		wire									zoomButton,
 input		wire									valid_data,
 input		wire									scopeFreeze,
 input		wire[DATA_WIDTH_IFC-1:0]		data_MemInReal,			// Datos de la memoria de entrada de la interfaz
@@ -127,7 +127,7 @@ SCOPENOMPU_DP(
 		.start                  (start),
 		.sync	                  (sync),
 		.time_frec_mode         (time_frec_mode),
-		.zoomButton             (zoomButton),
+//		.zoomButton             (zoomButton),
 		.avgRound1Cmp           (avgRound1Cmp),
 		.config_upperDotWidth	(config_upperDotWidth),
 		.config_lowerDotWidth	(config_lowerDotWidth),

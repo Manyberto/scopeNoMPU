@@ -14,7 +14,7 @@ input		wire									rstn,
 input		wire									start,
 input		wire									sync,
 input		wire									time_frec_mode,
-input		wire									zoomButton,
+//input		wire									zoomButton,
 input		wire									avgRound1Cmp,
 input		wire									valid_data,
 input		wire									startDecim,
@@ -59,7 +59,7 @@ localparam	QN						 = 'd15;
 localparam	DECIMFACTORINIT	 = 'd1;
 localparam	SIZE2DECIMINIT	 	 = FFT_LENGTH;
 
-localparam	NUMBCKGRND			 = 'd6;
+localparam	NUMBCKGRND			 = 'd2;
 localparam	NUMBCKGRND_WIDTH	 = 'd3;
 
 localparam MAX_VIDEO_PAGES = 240; 		// Maximum number of video pages, each page contains 400 pixels. 
@@ -83,7 +83,7 @@ wire[DATA_WIDTH_IFC-1:0]				scopeBckGrndValues_mux;
 wire[DATA_WIDTH_IFC-1:0]				scopeBckGrndPacked[0:NUMBCKGRND-1];
 
 wire[NUMBCKGRND_WIDTH-1:0]				selBckGrnd;
-wire[NUMBCKGRND_WIDTH-1:0]				stepOrigin;
+//wire[NUMBCKGRND_WIDTH-1:0]				stepOrigin;
 wire[NUMBCKGRND_WIDTH:0]				addBckGrnd;
 wire[NUMBCKGRND_WIDTH:0]				adjBckGrnd;
 wire[NUMBCKGRND_WIDTH-1:0]				addressBckGrnd;
@@ -162,14 +162,14 @@ wire[12:0]							inputDecimFactor;
 wire[12:0]							inputDecimFactorZoom;
 wire[12:0]							sizeInputDecim;
 wire[12:0]							sizeInputDecimZoom;
-wire[NUMBCKGRND_WIDTH-1:0]		selBckGrndOrigin;
+//wire[NUMBCKGRND_WIDTH-1:0]		selBckGrndOrigin;
 
 // Intentar reducir la cantidad de memoria
 
 assign inputDecimFactor 	= DECIMFACTORINIT[12:0];
 assign sizeInputDecim 		= SIZE2DECIMINIT[12:0];
-assign selBckGrndOrigin		= config_regDecimExt[NUMBCKGRND_WIDTH-1 -:NUMBCKGRND_WIDTH];
-assign stepOrigin				= config_regDecimExt[2*NUMBCKGRND_WIDTH-1 -:NUMBCKGRND_WIDTH];
+//assign selBckGrndOrigin		= config_regDecimExt[NUMBCKGRND_WIDTH-1 -:NUMBCKGRND_WIDTH];
+//assign stepOrigin				= config_regDecimExt[2*NUMBCKGRND_WIDTH-1 -:NUMBCKGRND_WIDTH];
 
 assign selBckGrnd = { {NUMBCKGRND_WIDTH-1{1'd0}}, 1'd1};
 
@@ -191,27 +191,28 @@ assign doneFFT 		= status_regFFT[0];
 assign doneModCuad 	= status_regModCuad[0];
 assign doneMultirate = status_regMultirate[0];
 
-assign addBckGrnd = selBckGrnd + stepOrigin;
-assign adjBckGrnd = addBckGrnd-NUMBCKGRND[NUMBCKGRND_WIDTH-1:0];
+//assign addBckGrnd = selBckGrnd + stepOrigin;
+//assign adjBckGrnd = addBckGrnd-NUMBCKGRND[NUMBCKGRND_WIDTH-1:0];
 
-assign addressBckGrnd = (time_frec_mode == 1'd0) ? { {NUMBCKGRND_WIDTH-3{1'd0}}, 3'd3} : { {NUMBCKGRND_WIDTH-3{1'd0}}, 3'd4};//(addBckGrnd >= NUMBCKGRND[NUMBCKGRND_WIDTH-1:0]) ? adjBckGrnd[NUMBCKGRND_WIDTH-1:0] : addBckGrnd[NUMBCKGRND_WIDTH-1:0];
+//assign addressBckGrnd = (time_frec_mode == 1'd0) ? { {NUMBCKGRND_WIDTH-3{1'd0}}, 3'd3} : { {NUMBCKGRND_WIDTH-3{1'd0}}, 3'd4};//(addBckGrnd >= NUMBCKGRND[NUMBCKGRND_WIDTH-1:0]) ? adjBckGrnd[NUMBCKGRND_WIDTH-1:0] : addBckGrnd[NUMBCKGRND_WIDTH-1:0];
+assign addressBckGrnd = (time_frec_mode == 1'd0) ? { {NUMBCKGRND_WIDTH-3{1'd0}}, 3'd0} : { {NUMBCKGRND_WIDTH-3{1'd0}}, 3'd1};//(addBckGrnd >= NUMBCKGRND[NUMBCKGRND_WIDTH-1:0]) ? adjBckGrnd[NUMBCKGRND_WIDTH-1:0] : addBckGrnd[NUMBCKGRND_WIDTH-1:0];
 
 assign data2ScopeBckGrnd = data2Scope | scopeBckGrnd_mux;
 
 // Zoom scope ---------------------------------------------------
 		
-toogleButtonControl #(
-	.ADDR_WIDTH			(NUMBCKGRND_WIDTH),
-	.SEL_LIMIT			(NUMBCKGRND)
-)
-ZMBUTTON(
-	.clk					(clk),
-	.rstn					(rstn),
-	.start				(start),
-	.button				(zoomButton),
-	.load					(selBckGrndOrigin),
-	.selOut				()//selBckGrnd
-);
+//toogleButtonControl #(
+//	.ADDR_WIDTH			(NUMBCKGRND_WIDTH),
+//	.SEL_LIMIT			(NUMBCKGRND)
+//)
+//ZMBUTTON(
+//	.clk					(clk),
+//	.rstn					(rstn),
+//	.start				(start),
+//	.button				(zoomButton),
+//	.load					(selBckGrndOrigin),
+//	.selOut				()//selBckGrnd
+//);
 
 // Colector de ENTRADA -----------------------------------------
 

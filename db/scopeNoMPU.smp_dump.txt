@@ -170,13 +170,6 @@ state_reg.COLLECT 0 1 0 1 0
 state_reg.INTERP 1 0 0 1 0 
 state_reg.DONE 0 0 0 1 1 
 
-State Machine - |ipmScopeNoMPU|ID00001011_aipScopeNoMPU:ID00001011|ID00001011_scopeNoMPU_core:SCOPENOMPU_CORE|ID00001011_scopeNoMPU_datapath:SCOPENOMPU_DP|toogleButtonControl:ZMBUTTON|state_reg
-Name state_reg.RST state_reg.WAIT_DBC state_reg.WAIT_TOGGLE state_reg.IDLE 
-state_reg.IDLE 0 0 0 0 
-state_reg.WAIT_TOGGLE 0 0 1 1 
-state_reg.WAIT_DBC 0 1 0 1 
-state_reg.RST 1 0 0 1 
-
 State Machine - |ipmScopeNoMPU|ID00001011_aipScopeNoMPU:ID00001011|ID00001011_scopeNoMPU_core:SCOPENOMPU_CORE|ID00001011_scopeNoMPU_controlpath:SCOPENOMPU_CP|state_reg
 Name state_reg.COLLECT_BUSY state_reg.DONE state_reg.WAITWR_DONE state_reg.WRITE_SCOPE state_reg.HOLD_ON state_reg.MAPPER_BUSY state_reg.MULTIR_BUSY state_reg.MODCUAD_BUSY state_reg.FFT_BUSY state_reg.DECIM_BUSY state_reg.WAITINV_DONE state_reg.INVMODE_SCOPE state_reg.WAITRST_DONE state_reg.RESET_SCOPE state_reg.IDLE 
 state_reg.IDLE 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 

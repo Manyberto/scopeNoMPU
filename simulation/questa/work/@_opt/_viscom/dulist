@@ -14,7 +14,7 @@
 2 16 intpol2scope_fsm 4 fast 65 C:/Users/manue/Documents/GitHub/scopeNoMPU/simulation/questa/work 0 0 131072 0 769 0
 2 10 decoder_D3 4 fast 65 C:/Users/manue/Documents/GitHub/scopeNoMPU/simulation/questa/work 0 0 0 0 119 0
 2 17 intpol2scope_core 4 fast 65 C:/Users/manue/Documents/GitHub/scopeNoMPU/simulation/questa/work 0 0 0 0 743 0
-1 35 ID0000100D_collector2scope_datapath 4 fast 65 C:/Users/manue/Documents/GitHub/scopeNoMPU/simulation/questa/work 0 0 131072 0 151 0
+2 35 ID0000100D_collector2scope_datapath 4 fast 65 C:/Users/manue/Documents/GitHub/scopeNoMPU/simulation/questa/work 0 0 131072 0 151 0
 2 31 ID0000100D_collector2scope_core 4 fast 65 C:/Users/manue/Documents/GitHub/scopeNoMPU/simulation/questa/work 0 0 0 0 88 0
 2 34 ID00001009_decim2scope_controlpath 4 fast 65 C:/Users/manue/Documents/GitHub/scopeNoMPU/simulation/questa/work 0 0 131072 0 359 0
 2 31 ID00001009_decim2scope_datapath 4 fast 65 C:/Users/manue/Documents/GitHub/scopeNoMPU/simulation/questa/work 0 0 0 0 88 0
@@ -48,7 +48,7 @@
 2 30 ID0000100F_decim2frac_datapath 4 fast 65 C:/Users/manue/Documents/GitHub/scopeNoMPU/simulation/questa/work 0 0 0 0 23 0
 2 26 ID0000100F_decim2frac_core 4 fast 65 C:/Users/manue/Documents/GitHub/scopeNoMPU/simulation/questa/work 0 0 0 0 122 0
 2 19 intpolFrac_datapath 4 fast 65 C:/Users/manue/Documents/GitHub/scopeNoMPU/simulation/questa/work 0 0 0 0 185 0
-2 15 intpolFrac_core 4 fast 65 C:/Users/manue/Documents/GitHub/scopeNoMPU/simulation/questa/work 0 0 131072 0 151 0
+2 15 intpolFrac_core 4 fast 65 C:/Users/manue/Documents/GitHub/scopeNoMPU/simulation/questa/work 0 0 0 0 151 0
 2 40 ID00001012_scopeSignalMapper_controlpath 4 fast 65 C:/Users/manue/Documents/GitHub/scopeNoMPU/simulation/questa/work 0 0 131072 0 673 0
 2 8 maxFound 4 fast 65 C:/Users/manue/Documents/GitHub/scopeNoMPU/simulation/questa/work 0 0 0 0 58 0
 2 18 dividerSig_element 4 fast 65 C:/Users/manue/Documents/GitHub/scopeNoMPU/simulation/questa/work 0 0 0 0 134 0
@@ -88,4 +88,4 @@
 2 32 ID00001011_scopeNoMPU_aipModules 4 fast 65 C:/Users/manue/Documents/GitHub/scopeNoMPU/simulation/questa/work 0 0 0 0 455 0
 2 25 ID00001011_scopeNoMPU_aip 4 fast 65 C:/Users/manue/Documents/GitHub/scopeNoMPU/simulation/questa/work 0 0 131072 0 90 0
 2 24 ID00001011_aipScopeNoMPU 4 fast 65 C:/Users/manue/Documents/GitHub/scopeNoMPU/simulation/questa/work 0 0 131072 0 132 0
-2 17 AIP_scopeNoMPU_tb 4 fast 65 C:/Users/manue/Documents/GitHub/scopeNoMPU/simulation/questa/work 0 0 180224 0 797 0
+1 17 AIP_scopeNoMPU_tb 4 fast 65 C:/Users/manue/Documents/GitHub/scopeNoMPU/simulation/questa/work 0 0 180224 0 800 0

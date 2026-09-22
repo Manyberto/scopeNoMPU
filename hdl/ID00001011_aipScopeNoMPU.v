@@ -14,7 +14,7 @@ input		wire						sync,					// Conectar el done del MxVst
 input		wire						valid_data,			// 
 input		wire[31:0]				dataStream,
 input		wire						scopeFreeze,
-input		wire						zoomButton,
+//input		wire						zoomButton,
 output 	wire						busy,					// Reset to display
 output 	wire						nRST,					// Reset to display
 output 	wire						SDA,					// Serial data to/from the display.
@@ -72,7 +72,7 @@ SCOPENOMPU_CORE (
 	.rstn                	(rstn),
 	.start               	(startIPcore),	
 	.sync	               	(sync),	
-	.zoomButton            	(zoomButton),	
+//	.zoomButton            	(zoomButton),	
 	.valid_data             (valid_data),	
 	.scopeFreeze				(scopeFreeze),
 	.data_MemInReal			(data_MemInReal),	

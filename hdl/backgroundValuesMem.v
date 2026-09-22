@@ -37,23 +37,23 @@ function automatic [8*4-1:0] num2Ascii;
 
 	begin
 		if(data == 0)begin
-			num2Ascii = "4000";
-		end
-		else if(data == 1)begin
-			num2Ascii = "2000";
-		end
-		else if(data == 2)begin
-			num2Ascii = "1000";
-		end
-		else if(data == 3)begin
-			num2Ascii = "0500";
-		end
-		else if(data == 4)begin
 			num2Ascii = "0250";
 		end
-		else if(data == 5)begin
-			num2Ascii = "0125";
+		else if(data == 1)begin
+			num2Ascii = "0031";
 		end
+//		else if(data == 2)begin
+//			num2Ascii = "1000";
+//		end
+//		else if(data == 3)begin
+//			num2Ascii = "0500";
+//		end
+//		else if(data == 4)begin
+//			num2Ascii = "0250";
+//		end
+//		else if(data == 5)begin
+//			num2Ascii = "0125";
+//		end
 	end
 	
 endfunction
