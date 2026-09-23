@@ -186,7 +186,6 @@ set_location_assignment PIN_AB28 -to scopeFreeze
 set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to scopeFreeze
 set_location_assignment PIN_AC28 -to valid_data
 set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to valid_data
-set_location_assignment PIN_M23 -to zoomButton
 set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to zoomButton
 set_global_assignment -name VERILOG_FILE hdl/0000204D_FFT/true_dual_port_ram_single_clock.v
 set_global_assignment -name VERILOG_FILE hdl/decim2scope/ID00001009_decim2scope_datapath.v
@@ -262,4 +261,5 @@ set_global_assignment -name VERILOG_FILE hdl/Divider_signed/dividerSig_controlpa
 set_global_assignment -name VERILOG_FILE hdl/collector2scope/ID0000100D_collector2scope_core.v
 set_global_assignment -name VERILOG_FILE hdl/collector2scope/ID0000100D_collector2scope_controlpath.v
 set_global_assignment -name VERILOG_FILE hdl/collector2scope/ID0000100D_collector2scope_datapath.v
+set_location_assignment PIN_M23 -to sync
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

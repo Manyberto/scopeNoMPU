@@ -69,7 +69,7 @@ class scopeNoMPU:
         # logging.info("tamaño archivo %i" % dataLen)
 
     # Method to set and load the configuration registers
-    def setConfigReg(self, fs, axisMax, avg, opMode, dotUp, dotLow):
+    def setConfigReg(self, fs, axisMax, avg, opMode, dotUp, dotLow, pdp):
 
         ## Parámetros fijos:
         fsScaleMax = 8000   # Frecuencia de muestreo máxima permitida
@@ -92,7 +92,8 @@ class scopeNoMPU:
         tmp4 = (fsScaleMax//fs)-1
         tmp5 = tmp4.bit_length()
         tmp6 = tmp5 << 3
-        config_word1_field2 = tmp2 + tmp3 + tmp6
+        tmp7 = pdp << 30
+        config_word1_field2 = tmp2 + tmp3 + tmp6 + tmp7
         tmp1 = sizeIntpol << 6
         config_word1_field3 = intpolSel + tmp1
         tmp1 = sizeDecim << 13
@@ -145,7 +146,7 @@ if __name__=="__main__":
     logging.basicConfig(level=logging.DEBUG)
 
     config = "../cfg/ID00001011_config.csv"
-    port = 'COM3'
+    port = 'COM5'
     txtPathMemReal = "./input_realData.txt"
     txtPathMemImag = "./input_imagData.txt"
 
@@ -164,20 +165,21 @@ if __name__=="__main__":
         sys.exit()
 
     ## Parámetros configurables:
-    fs = 2000           # Frecuencia de muestreo de la señal a analizar
-    fs_axisMax = 250    # Valor máximo deseado del eje frecuencial
+    fs = 1           # Frecuencia de muestreo de la señal a analizar
+    fs_axisMax = 1    # Valor máximo deseado del eje frecuencial
     avg = 2            # Número de realizaciones (iteraciones) a promediar. val min = 2
     opMode = 1          # 0 = datos en mem in. 1 = datos por streaming
     dotUpperWidth = 4  # Ancho del marcador en la grafica superior. val min = 0. Even numbers
     dotLowerWidth = 4   # Ancho del marcador en la grafica inferior. val min = 0. Even numbers
+    pdp = 0
 
-    #lcd.loadMeminIntoLCD(txtPathMemReal, txtPathMemImag)
+    lcd.loadMeminIntoLCD(txtPathMemReal, txtPathMemImag)
 
-    lcd.setConfigReg(fs, fs_axisMax, avg, opMode, dotUpperWidth, dotLowerWidth)
+    lcd.setConfigReg(fs, fs_axisMax, avg, opMode, dotUpperWidth, dotLowerWidth, pdp)
     lcd.startIP()
 
-    while 1:
-        lcd.loadMeminIntoLCD(txtPathMemReal, txtPathMemImag)
+    #while 1:
+        #lcd.loadMeminIntoLCD(txtPathMemReal, txtPathMemImag)
 
     lcd.finish()
     
